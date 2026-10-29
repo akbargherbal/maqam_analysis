@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-01-walla-zaman-1998-01-meta-habibi",
+  "track_id": "Fadl Shaker/01.Walla Zaman.1998/01.Meta Habibi.mp3",
+  "artist": "Fadl Shaker",
+  "album": "01.Walla Zaman.1998",
+  "file": "01.Meta Habibi.mp3",
+  "lyric_title": "متى حبيبي متى",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/01.Walla Zaman.1998.json",
+    "transcript_track_id": "FADL_SHAKER/01.Walla Zaman.1998/01-meta-habibi",
+    "transcript_sha256": "44992e0e860add37f4aa0680acb12a3f762734f6351c0604702ef849451429e4",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/01.Walla Zaman.1998/01.Meta Habibi.mp3",
+    "audio_sha256": "032b14dc76342f396a8af0cd4af490d6e62c2f8b2670a34a850938ca7170a3aa",
+    "abc_sha256": "7297fda07a9b0545f613b28cb2fb91600806e2716885482d2ba6600ca9cbd610",
+    "abc_melody_sha256": "77c6783b93fb566261ca68a3b64eb76f3112a1cb730dfb91f311804c603000d7",
+    "duration_s": 280.007,
+    "declared_key": "Cm",
+    "tempo_bpm": 94.0
+  },
+  "evidence": {
+    "evidence_sha256": "708bfbd144002d6a55b7fb7e8f980941d6a39838b7570d642f5dbed2e48ea0aa",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.312,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "G",
+        "tool key & chords*": "C (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 700,
+        "final_share": 0.083,
+        "dur_share": 0.206
+      },
+      "total_dur": 233.0,
+      "present_pcs": [
+        [
+          "Bb",
+          0.244
+        ],
+        [
+          "C",
+          0.241
+        ],
+        [
+          "D",
+          0.206
+        ],
+        [
+          "G",
+          0.148
+        ],
+        [
+          "Ab",
+          0.138
+        ],
+        [
+          "Eb",
+          0.023
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.338,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "G",
+          "tool key & chords*": "C (key) / G (commonest chord root)"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (0.96), Bb (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 700,
+          "final_share": 0.111,
+          "dur_share": 0.252
+        },
+        "total_dur": 106.2,
+        "present_pcs": [
+          [
+            "Bb",
+            0.285
+          ],
+          [
+            "D",
+            0.252
+          ],
+          [
+            "C",
+            0.169
+          ],
+          [
+            "Ab",
+            0.165
+          ],
+          [
+            "G",
+            0.12
+          ],
+          [
+            "Eb",
+            0.009
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.96
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.96
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.355,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "G",
+          "tool key & chords*": "C (key) / G (commonest chord root)"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 300,
+          "final_share": 0.067,
+          "dur_share": 0.21
+        },
+        "total_dur": 126.2,
+        "present_pcs": [
+          [
+            "C",
+            0.303
+          ],
+          [
+            "Bb",
+            0.21
+          ],
+          [
+            "G",
+            0.172
+          ],
+          [
+            "D",
+            0.164
+          ],
+          [
+            "Ab",
+            0.117
+          ],
+          [
+            "Eb",
+            0.034
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Cm",
+      "tempo": 94.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.295,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "G",
+          "tool key & chords*": "C",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 700,
+          "final_share": 0.083,
+          "dur_share": 0.206
+        },
+        "total_dur": 233.0,
+        "present_pcs": [
+          [
+            "Bb",
+            0.244
+          ],
+          [
+            "C",
+            0.241
+          ],
+          [
+            "D",
+            0.206
+          ],
+          [
+            "G",
+            0.148
+          ],
+          [
+            "Ab",
+            0.138
+          ],
+          [
+            "Eb",
+            0.023
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.98
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-01-walla-zaman-1998-01-meta-habibi/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-01-walla-zaman-1998-01-meta-habibi",
+    "maqam": "Kurd",
+    "maqam_status": "consistent",
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Bb",
+      "C"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati"
+    ],
+    "ghammaz_candidate": "D",
+    "withheld_reason": null,
+    "rationale": "The Phrygian set fits at 0.98 in the whole piece and the melody-only analysis and at 0.96-0.98 in the verse and chorus, and the phrase endings, the commonest chord root and the other voice all rest on G with a margin of 0.312. The most-used note is Bb and the declared key is C, and C and Bb fit the pooled notes at 0.98, so both are carried as alternative tonics. The shape is stable across both sections, but the cue table is not unanimous and Bayati rounds to the same notes, keeping the name consistent at low confidence.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-012"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:15:36Z",
+    "batch_id": "batch-012",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:15:36Z",
+    "updated_at": "2026-10-29T08:15:36Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

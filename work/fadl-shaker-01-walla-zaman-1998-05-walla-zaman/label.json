@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-01-walla-zaman-1998-05-walla-zaman",
+  "track_id": "Fadl Shaker/01.Walla Zaman.1998/05.Walla Zaman.mp3",
+  "artist": "Fadl Shaker",
+  "album": "01.Walla Zaman.1998",
+  "file": "05.Walla Zaman.mp3",
+  "lyric_title": "والله زمان",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/01.Walla Zaman.1998.json",
+    "transcript_track_id": "FADL_SHAKER/01.Walla Zaman.1998/05-walla-zaman",
+    "transcript_sha256": "44992e0e860add37f4aa0680acb12a3f762734f6351c0604702ef849451429e4",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/01.Walla Zaman.1998/05.Walla Zaman.mp3",
+    "audio_sha256": "961caed0c5c73ca6b94d537bc945c29d88a3bdd52042a5d036ba9fd31d33ec35",
+    "abc_sha256": "24b61e7a6360ea39b6793c636329f3af5a91e19fff6baa2af3c2f68fe81c8f12",
+    "abc_melody_sha256": "96761f9919d72d736cf6becc8e50a310599935b4885ad7794e015aab4f1033ea",
+    "duration_s": 320.705,
+    "declared_key": "Am",
+    "tempo_bpm": 95.0
+  },
+  "evidence": {
+    "evidence_sha256": "e1cd877d82402aa70b4ddf1de10d600da472fdba535b8ffa4b074e9383007115",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.405,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "A",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "C"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.895,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.89), C (0.89), G (0.89)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.89); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": null,
+      "total_dur": 227.0,
+      "present_pcs": [
+        [
+          "C",
+          0.264
+        ],
+        [
+          "A",
+          0.218
+        ],
+        [
+          "Bb",
+          0.213
+        ],
+        [
+          "D",
+          0.21
+        ],
+        [
+          "B",
+          0.035
+        ],
+        [
+          "G",
+          0.035
+        ],
+        [
+          "E",
+          0.022
+        ],
+        [
+          "F",
+          0.002
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.895
+        },
+        {
+          "tonic": "C",
+          "fit": 0.895
+        },
+        {
+          "tonic": "G",
+          "fit": 0.895
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.503,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "A",
+          "tool key & chords*": "A (key) / A (commonest chord root)",
+          "other voice": "C"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.854,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.85), C (0.85), Bb (0.85)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.85); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 300,
+          "final_share": 0.053,
+          "dur_share": 0.282
+        },
+        "total_dur": 124.0,
+        "present_pcs": [
+          [
+            "C",
+            0.282
+          ],
+          [
+            "D",
+            0.228
+          ],
+          [
+            "Bb",
+            0.2
+          ],
+          [
+            "A",
+            0.188
+          ],
+          [
+            "B",
+            0.056
+          ],
+          [
+            "G",
+            0.032
+          ],
+          [
+            "E",
+            0.01
+          ],
+          [
+            "F",
+            0.004
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.854
+          },
+          {
+            "tonic": "C",
+            "fit": 0.854
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.854
+          }
+        ]
+      },
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.229,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "C",
+          "tool key & chords*": "A (key) / A (commonest chord root)",
+          "other voice": "A"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: G (0.98), C (0.98), D (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "G",
+          "interval_cents": 1000,
+          "final_share": 0.267,
+          "dur_share": 0.04
+        },
+        "total_dur": 99.2,
+        "present_pcs": [
+          [
+            "A",
+            0.257
+          ],
+          [
+            "C",
+            0.244
+          ],
+          [
+            "Bb",
+            0.232
+          ],
+          [
+            "D",
+            0.189
+          ],
+          [
+            "G",
+            0.04
+          ],
+          [
+            "E",
+            0.038
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "C",
+            "fit": 0.98
+          },
+          {
+            "tonic": "D",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Am",
+      "tempo": 95.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.357,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "A",
+          "tool key & chords*": "A",
+          "other voice": "C"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.895,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.89), C (0.89), Bb (0.89)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.89); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": null,
+        "total_dur": 227.0,
+        "present_pcs": [
+          [
+            "C",
+            0.264
+          ],
+          [
+            "A",
+            0.218
+          ],
+          [
+            "Bb",
+            0.213
+          ],
+          [
+            "D",
+            0.21
+          ],
+          [
+            "B",
+            0.035
+          ],
+          [
+            "G",
+            0.035
+          ],
+          [
+            "E",
+            0.022
+          ],
+          [
+            "F",
+            0.002
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.895
+          },
+          {
+            "tonic": "C",
+            "fit": 0.895
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.895
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-01-walla-zaman-1998-05-walla-zaman/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-01-walla-zaman-1998-05-walla-zaman",
+    "maqam": null,
+    "maqam_status": "withheld",
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "C",
+      "D",
+      "G"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Kurd"
+    ],
+    "ghammaz_candidate": null,
+    "withheld_reason": "The analyzer reports no single scale: the best fit is Kurd on A at only 0.895, below the 0.90 threshold, and sets name_allowed=false. The chorus reaches just 0.854 while the verse reaches 0.98, so the sections do not hold one shape, and the cues divide between C (most-used note and other voice), A (phrase endings, declared key and chord root) and the tied C/D/G readings of the same notes.",
+    "rationale": "The whole piece reaches only 0.895 for Kurd on A and only 0.854 in the chorus, with the analyzer explicitly declining a name, so the pooled pitch set is not explained by one scale. The verse is read on A at 0.98 but the chorus does not follow it, and the most-used note C and the other voice C disagree with the phrase endings and the tool key. With the shape unresolved across sections, the closest partial matches are carried as possibilities only.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-012"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:15:36Z",
+    "batch_id": "batch-012",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:15:36Z",
+    "updated_at": "2026-10-29T08:15:36Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

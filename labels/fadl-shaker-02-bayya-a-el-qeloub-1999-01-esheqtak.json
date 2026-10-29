@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-02-bayya-a-el-qeloub-1999-01-esheqtak",
+  "track_id": "Fadl Shaker/02.Bayya'a El Qeloub.1999/01.Esheqtak.mp3",
+  "artist": "Fadl Shaker",
+  "album": "02.Bayya'a El Qeloub.1999",
+  "file": "01.Esheqtak.mp3",
+  "lyric_title": "عشقتك",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/02.Bayya'a El Qeloub.1999.json",
+    "transcript_track_id": "FADL_SHAKER/02.Bayya'a El Qeloub.1999/01-esheqtak",
+    "transcript_sha256": "8a3b3256924d3ccdf71056a5cf48d6811b78cb59fcef1e8e25716a297662d655",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/02.Bayya'a El Qeloub.1999/01.Esheqtak.mp3",
+    "audio_sha256": "02b7b64baafce8a10eb5868cc6fd8fbf4b3927b317110c0b51c57f1fa96793be",
+    "abc_sha256": "08d9ffb069bf1c67808b71c0c8a784e88a4026bdd15f492fb60b67e4b8f59819",
+    "abc_melody_sha256": "ef267ced027222183f1f550c9c7c1aa4bb9294ad1b630a02e860d26798174d9a",
+    "duration_s": 312.581,
+    "declared_key": "Gm",
+    "tempo_bpm": 150.0
+  },
+  "evidence": {
+    "evidence_sha256": "1d0db75dbfa385927d1e1a235963520ae0b279c1dc32d884106004778379c0c4",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.321,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "G",
+        "tool key & chords*": "G (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Nahawand (raised 7th)",
+      "scale_id": "nahawand_h",
+      "scale_western": "harmonic minor",
+      "fit": 0.878,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [],
+      "tied_shapes": [
+        "Nahawand (raised 7th)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.88), A (0.85), C (0.88)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.88); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 700,
+        "final_share": 0.2,
+        "dur_share": 0.185
+      },
+      "total_dur": 391.5,
+      "present_pcs": [
+        [
+          "Bb",
+          0.201
+        ],
+        [
+          "A",
+          0.196
+        ],
+        [
+          "D",
+          0.185
+        ],
+        [
+          "G",
+          0.183
+        ],
+        [
+          "C",
+          0.174
+        ],
+        [
+          "B",
+          0.031
+        ],
+        [
+          "Eb",
+          0.019
+        ],
+        [
+          "F#",
+          0.01
+        ],
+        [
+          "C#",
+          0.001
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.878
+        },
+        {
+          "tonic": "A",
+          "fit": 0.849
+        },
+        {
+          "tonic": "C",
+          "fit": 0.878
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.058,
+        "cues": {
+          "most-used note": "D",
+          "phrase endings": "D",
+          "tool key & chords*": "G (key) / G (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Nahawand (raised 7th)",
+        "scale_id": "nahawand_h",
+        "scale_western": "harmonic minor",
+        "fit": 0.969,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: D (0.97), C (0.97)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 700,
+          "final_share": 0.286,
+          "dur_share": 0.243
+        },
+        "total_dur": 187.0,
+        "present_pcs": [
+          [
+            "D",
+            0.243
+          ],
+          [
+            "G",
+            0.191
+          ],
+          [
+            "A",
+            0.183
+          ],
+          [
+            "Bb",
+            0.18
+          ],
+          [
+            "C",
+            0.151
+          ],
+          [
+            "Eb",
+            0.029
+          ],
+          [
+            "F#",
+            0.011
+          ],
+          [
+            "B",
+            0.008
+          ],
+          [
+            "C#",
+            0.003
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.969
+          },
+          {
+            "tonic": "C",
+            "fit": 0.969
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.302,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "G",
+          "tool key & chords*": "G (key) / D (commonest chord root)"
+        },
+        "scale_shape": "Nahawand (raised 7th)",
+        "scale_id": "nahawand_h",
+        "scale_western": "harmonic minor",
+        "fit": 0.857,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.86), A (0.84), C (0.86)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.86); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": null,
+        "total_dur": 198.0,
+        "present_pcs": [
+          [
+            "Bb",
+            0.227
+          ],
+          [
+            "A",
+            0.215
+          ],
+          [
+            "C",
+            0.201
+          ],
+          [
+            "G",
+            0.154
+          ],
+          [
+            "D",
+            0.13
+          ],
+          [
+            "B",
+            0.053
+          ],
+          [
+            "F#",
+            0.01
+          ],
+          [
+            "Eb",
+            0.01
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.857
+          },
+          {
+            "tonic": "A",
+            "fit": 0.837
+          },
+          {
+            "tonic": "C",
+            "fit": 0.857
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Gm",
+      "tempo": 150.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.312,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "G",
+          "tool key & chords*": "G",
+          "other voice": "G"
+        },
+        "scale_shape": "Nahawand (raised 7th)",
+        "scale_id": "nahawand_h",
+        "scale_western": "harmonic minor",
+        "fit": 0.878,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.88), A (0.85), C (0.88)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.88); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 700,
+          "final_share": 0.2,
+          "dur_share": 0.185
+        },
+        "total_dur": 391.5,
+        "present_pcs": [
+          [
+            "Bb",
+            0.201
+          ],
+          [
+            "A",
+            0.196
+          ],
+          [
+            "D",
+            0.185
+          ],
+          [
+            "G",
+            0.183
+          ],
+          [
+            "C",
+            0.174
+          ],
+          [
+            "B",
+            0.031
+          ],
+          [
+            "Eb",
+            0.019
+          ],
+          [
+            "F#",
+            0.01
+          ],
+          [
+            "C#",
+            0.001
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.878
+          },
+          {
+            "tonic": "A",
+            "fit": 0.849
+          },
+          {
+            "tonic": "C",
+            "fit": 0.878
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-02-bayya-a-el-qeloub-1999-01-esheqtak/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-02-bayya-a-el-qeloub-1999-01-esheqtak",
+    "maqam": null,
+    "maqam_status": "withheld",
+    "tonic": "G",
+    "tonic_confidence": "high",
+    "tonic_alternatives": [
+      "A",
+      "C",
+      "D"
+    ],
+    "scale_family": "harmonic minor",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Nahawand",
+      "Nahawand (raised 7th)"
+    ],
+    "ghammaz_candidate": "D",
+    "withheld_reason": "The analyzer reports no single scale: the best fit is the harmonic-minor shape on G at only 0.878, below the 0.90 threshold, and sets name_allowed=false. The verse fits at 0.969 but the chorus only reaches 0.857, whose pitch set also fits D, A and C about equally, so the sections do not share one shape. The centre is settled on G, but the shape the label would name is not supported.",
+    "rationale": "The whole piece and the melody-only analysis reach only 0.878 for the harmonic-minor shape on G and the chorus only 0.857, with the analyzer declining a name. The tonic itself is firm (margin 0.321, phrase endings, key, chord root and other voice on G) and the verse fits at 0.969, but the chorus departs from the verse with D, A and C fitting equally well. The centre is therefore readable while the shape is not, so the partial match is carried as a possibility only.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-012"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:15:36Z",
+    "batch_id": "batch-012",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:15:36Z",
+    "updated_at": "2026-10-29T08:15:36Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
