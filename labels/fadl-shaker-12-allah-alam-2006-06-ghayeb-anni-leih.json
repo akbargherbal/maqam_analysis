@@ -1,0 +1,410 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-12-allah-alam-2006-06-ghayeb-anni-leih",
+  "track_id": "Fadl Shaker/12.Allah Alam.2006/06.Ghayeb Anni Leih.mp3",
+  "artist": "Fadl Shaker",
+  "album": "12.Allah Alam.2006",
+  "file": "06.Ghayeb Anni Leih.mp3",
+  "lyric_title": "غايب عني ليه",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/12.Allah Alam.2006.json",
+    "transcript_track_id": "FADL_SHAKER/12.Allah Alam.2006/06-ghayeb-anni-leih",
+    "transcript_sha256": "e40da6299ed2ae91ae3604be2b37c0a84daca99785f1913d85452cb0bc7d88c0",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/12.Allah Alam.2006/06.Ghayeb Anni Leih.mp3",
+    "audio_sha256": "2de444a6c0efff4209b6697883fddb7447c5df02512cb4afe724a2310c9448a8",
+    "abc_sha256": "63ac580e1c80181ee74a4f7e457d4dc123a7b6dbb4a745027ac6363e94efa37a",
+    "abc_melody_sha256": "3f64243371439f9b69e6e6420149a2f8f2fc813175e5cdf72f6f7f69a90aa046",
+    "duration_s": 286.537,
+    "declared_key": "Cm",
+    "tempo_bpm": 128.0
+  },
+  "evidence": {
+    "evidence_sha256": "d1c29746bc94698844f97ca69f772e5fd405b8f866fa51d929854ccb1c411f1c",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.05,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "D",
+        "tool key & chords*": "C (key) / C (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Hijaz",
+      "scale_id": "hijaz",
+      "scale_western": "",
+      "fit": 0.926,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Hijaz",
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F (0.93), C (0.93)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 700,
+        "final_share": 0.435,
+        "dur_share": 0.154
+      },
+      "total_dur": 399.0,
+      "present_pcs": [
+        [
+          "F",
+          0.255
+        ],
+        [
+          "G",
+          0.245
+        ],
+        [
+          "Eb",
+          0.17
+        ],
+        [
+          "D",
+          0.154
+        ],
+        [
+          "C",
+          0.09
+        ],
+        [
+          "Ab",
+          0.036
+        ],
+        [
+          "B",
+          0.027
+        ],
+        [
+          "Bb",
+          0.024
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.926
+        },
+        {
+          "tonic": "C",
+          "fit": 0.926
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.078,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "D",
+          "tool key & chords*": "C (key) / G (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: C (1.00), F (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 700,
+          "final_share": 0.615,
+          "dur_share": 0.079
+        },
+        "total_dur": 157.2,
+        "present_pcs": [
+          [
+            "G",
+            0.343
+          ],
+          [
+            "F",
+            0.335
+          ],
+          [
+            "Eb",
+            0.156
+          ],
+          [
+            "D",
+            0.079
+          ],
+          [
+            "C",
+            0.035
+          ],
+          [
+            "Ab",
+            0.029
+          ],
+          [
+            "Bb",
+            0.022
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 1.0
+          },
+          {
+            "tonic": "F",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.089,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "B",
+          "tool key & chords*": "C (key) / C (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Hijaz",
+        "scale_id": "hijaz",
+        "scale_western": "",
+        "fit": 0.925,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Hijaz"
+        ],
+        "flags": [
+          "tonic/dominant split: G and C (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: C (0.93), F (0.93)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "B",
+          "interval_cents": 400,
+          "final_share": 0.6,
+          "dur_share": 0.045
+        },
+        "total_dur": 240.8,
+        "present_pcs": [
+          [
+            "F",
+            0.204
+          ],
+          [
+            "D",
+            0.202
+          ],
+          [
+            "Eb",
+            0.18
+          ],
+          [
+            "G",
+            0.178
+          ],
+          [
+            "C",
+            0.126
+          ],
+          [
+            "B",
+            0.045
+          ],
+          [
+            "Ab",
+            0.042
+          ],
+          [
+            "Bb",
+            0.025
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.925
+          },
+          {
+            "tonic": "F",
+            "fit": 0.925
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Cm",
+      "tempo": 128.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.001,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "D",
+          "tool key & chords*": "C",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.817,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "tonic/dominant split: D and G (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: G (0.93), F (0.93), C (0.93)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.82); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 300,
+          "final_share": 0.261,
+          "dur_share": 0.255
+        },
+        "total_dur": 399.0,
+        "present_pcs": [
+          [
+            "F",
+            0.255
+          ],
+          [
+            "G",
+            0.245
+          ],
+          [
+            "Eb",
+            0.17
+          ],
+          [
+            "D",
+            0.154
+          ],
+          [
+            "C",
+            0.09
+          ],
+          [
+            "Ab",
+            0.036
+          ],
+          [
+            "B",
+            0.027
+          ],
+          [
+            "Bb",
+            0.024
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.926
+          },
+          {
+            "tonic": "F",
+            "fit": 0.926
+          },
+          {
+            "tonic": "C",
+            "fit": 0.926
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-12-allah-alam-2006-06-ghayeb-anni-leih/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-12-allah-alam-2006-06-ghayeb-anni-leih",
+    "maqam": "Hijaz",
+    "maqam_status": "consistent",
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "C",
+      "D",
+      "F"
+    ],
+    "scale_family": "Hijaz",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Kurd"
+    ],
+    "ghammaz_candidate": "D",
+    "withheld_reason": null,
+    "rationale": "The Hijaz set fits at 0.926 in the whole piece and 0.925 in the chorus while the verse is read as Kurd at 1.00, and the phrase endings (44%) and the melody-only centre read D against a whole-piece centre of G with a margin of only 0.05. The most-used note is F (26%), the declared Cm key and the commonest chord root read C, and F and C fit the pooled notes at 0.93, so D, C and F are carried as alternative tonics. The whole-piece fit is the weakest in this batch and the melody-only analysis drops to 0.817 for a Kurd shape on D, so the shape rating and the tonic rating are both low and the name is held at consistent only for the pooled reading.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-017"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:20:03Z",
+    "batch_id": "batch-017",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:20:03Z",
+    "updated_at": "2026-10-29T08:20:03Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

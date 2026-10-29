@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-12-allah-alam-2006-07-lahzet-lou-a",
+  "track_id": "Fadl Shaker/12.Allah Alam.2006/07.Lahzet Lou'a.mp3",
+  "artist": "Fadl Shaker",
+  "album": "12.Allah Alam.2006",
+  "file": "07.Lahzet Lou'a.mp3",
+  "lyric_title": "لحظة لقاء",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/12.Allah Alam.2006.json",
+    "transcript_track_id": "FADL_SHAKER/12.Allah Alam.2006/07-lahzet-lou-a",
+    "transcript_sha256": "e40da6299ed2ae91ae3604be2b37c0a84daca99785f1913d85452cb0bc7d88c0",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/12.Allah Alam.2006/07.Lahzet Lou'a.mp3",
+    "audio_sha256": "d369fd6fcc6618253fe217b5c5ead07d964f9da57a7e12cfcc2393f0a1bda689",
+    "abc_sha256": "71189504abb2a2a5f1fe641315d677bf173d66d826408867f7129268864f8d69",
+    "abc_melody_sha256": "1be927186d091bd2619ad0dda317e623589d542c77b2f02ad56309ebbc13a519",
+    "duration_s": 212.741,
+    "declared_key": "Em",
+    "tempo_bpm": 105.0
+  },
+  "evidence": {
+    "evidence_sha256": "3f44b44c4840c872b4c66b34ed91094431dc1298c3517ab68c139b399336d7fd",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "medium",
+      "tonic_margin": 0.027,
+      "cues": {
+        "most-used note": "G",
+        "phrase endings": "G",
+        "tool key & chords*": "E (key) / E (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (1.00), E (1.00), B (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 400,
+        "final_share": 0.111,
+        "dur_share": 0.16
+      },
+      "total_dur": 217.5,
+      "present_pcs": [
+        [
+          "G",
+          0.331
+        ],
+        [
+          "F#",
+          0.179
+        ],
+        [
+          "B",
+          0.16
+        ],
+        [
+          "A",
+          0.141
+        ],
+        [
+          "E",
+          0.121
+        ],
+        [
+          "D",
+          0.044
+        ],
+        [
+          "C",
+          0.024
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "B",
+          "fit": 1.0
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "B",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.071,
+        "cues": {
+          "most-used note": "B",
+          "phrase endings": "B",
+          "tool key & chords*": "E (key) / D (commonest chord root)",
+          "other voice": "F#"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "tonic/dominant split: B and E (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: E (1.00), G (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F#",
+          "interval_cents": 700,
+          "final_share": 0.286,
+          "dur_share": 0.21
+        },
+        "total_dur": 101.0,
+        "present_pcs": [
+          [
+            "B",
+            0.215
+          ],
+          [
+            "F#",
+            0.21
+          ],
+          [
+            "G",
+            0.203
+          ],
+          [
+            "E",
+            0.144
+          ],
+          [
+            "A",
+            0.139
+          ],
+          [
+            "D",
+            0.047
+          ],
+          [
+            "C",
+            0.042
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 1.0
+          },
+          {
+            "tonic": "G",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.225,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "A",
+          "tool key & chords*": "E (key) / E (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "dorian",
+        "scale_western": "Dorian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (0.98), G (0.98), B (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 114.0,
+        "present_pcs": [
+          [
+            "G",
+            0.439
+          ],
+          [
+            "F#",
+            0.156
+          ],
+          [
+            "A",
+            0.145
+          ],
+          [
+            "B",
+            0.112
+          ],
+          [
+            "E",
+            0.103
+          ],
+          [
+            "D",
+            0.042
+          ],
+          [
+            "C",
+            0.004
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 0.98
+          },
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "B",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Em",
+      "tempo": 105.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.039,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "G",
+          "tool key & chords*": "E",
+          "other voice": "G"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (1.00), B (1.00), E (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "B",
+          "interval_cents": 400,
+          "final_share": 0.111,
+          "dur_share": 0.16
+        },
+        "total_dur": 217.5,
+        "present_pcs": [
+          [
+            "G",
+            0.331
+          ],
+          [
+            "F#",
+            0.179
+          ],
+          [
+            "B",
+            0.16
+          ],
+          [
+            "A",
+            0.141
+          ],
+          [
+            "E",
+            0.121
+          ],
+          [
+            "D",
+            0.044
+          ],
+          [
+            "C",
+            0.024
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 1.0
+          },
+          {
+            "tonic": "B",
+            "fit": 1.0
+          },
+          {
+            "tonic": "E",
+            "fit": 1.0
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-12-allah-alam-2006-07-lahzet-lou-a/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-12-allah-alam-2006-07-lahzet-lou-a",
+    "maqam": "Ajam",
+    "maqam_status": "consistent",
+    "tonic": "G",
+    "tonic_confidence": "medium",
+    "tonic_alternatives": [
+      "A",
+      "B",
+      "E"
+    ],
+    "scale_family": "major / Ionian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Kurd",
+      "Rast"
+    ],
+    "ghammaz_candidate": "B",
+    "withheld_reason": null,
+    "rationale": "The major set fits at 1.00 in the whole piece, the verse and the melody-only analysis, and the most-used note, the phrase endings and the other voice read G with a margin of only 0.027; the set is also listed as a 12-TET shadow of Rast. The declared Em key and the commonest chord root read E, the verse is read on B as a Kurd shape with a B/E split, the chorus on A with no standard maqam, and A, E and B fit the pooled notes at 1.00, so all three are carried as alternative tonics. The shape is stable but the centre is nearly tied and both sections take other centres, so the overall rating stays low; the ABC cannot separate Ajam from Rast's raised third.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-017"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:20:03Z",
+    "batch_id": "batch-017",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:20:03Z",
+    "updated_at": "2026-10-29T08:20:03Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

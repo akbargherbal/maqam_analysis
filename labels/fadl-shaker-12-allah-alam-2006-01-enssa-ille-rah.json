@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-12-allah-alam-2006-01-enssa-ille-rah",
+  "track_id": "Fadl Shaker/12.Allah Alam.2006/01.Enssa Ille Rah.mp3",
+  "artist": "Fadl Shaker",
+  "album": "12.Allah Alam.2006",
+  "file": "01.Enssa Ille Rah.mp3",
+  "lyric_title": "انسى اللي راح",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/12.Allah Alam.2006.json",
+    "transcript_track_id": "FADL_SHAKER/12.Allah Alam.2006/01-enssa-ille-rah",
+    "transcript_sha256": "e40da6299ed2ae91ae3604be2b37c0a84daca99785f1913d85452cb0bc7d88c0",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/12.Allah Alam.2006/01.Enssa Ille Rah.mp3",
+    "audio_sha256": "15d72338671e08ce24f4213d397e067c4af76cdd1e808d5a85762b71019d8a52",
+    "abc_sha256": "bc3bbb5bc28c20571356c3ec978bd2ba27a47360f023bf69be420035cfa37fd8",
+    "abc_melody_sha256": "417fa8a79ca13d991ca1d503092d227872f42b06424c7686d5ab17731ca0ba9a",
+    "duration_s": 263.027,
+    "declared_key": "Am",
+    "tempo_bpm": 117.0
+  },
+  "evidence": {
+    "evidence_sha256": "ebd3b42fa06c916b76843ce3c9b21ee537c8a019ecb1b38776779ed175b3d163",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.126,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "C",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.981,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: E (0.98), C (0.98), D (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 300,
+        "final_share": 0.273,
+        "dur_share": 0.194
+      },
+      "total_dur": 251.0,
+      "present_pcs": [
+        [
+          "D",
+          0.244
+        ],
+        [
+          "E",
+          0.223
+        ],
+        [
+          "C",
+          0.194
+        ],
+        [
+          "A",
+          0.122
+        ],
+        [
+          "B",
+          0.119
+        ],
+        [
+          "F",
+          0.059
+        ],
+        [
+          "G",
+          0.021
+        ],
+        [
+          "Ab",
+          0.019
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 0.981
+        },
+        {
+          "tonic": "C",
+          "fit": 0.981
+        },
+        {
+          "tonic": "D",
+          "fit": 0.981
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.09,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "C",
+          "tool key & chords*": "A (key) / E (commonest chord root)",
+          "other voice": "E"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.928,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand",
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.93), E (0.93)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "G",
+          "interval_cents": 1000,
+          "final_share": 0.25,
+          "dur_share": 0.027
+        },
+        "total_dur": 103.2,
+        "present_pcs": [
+          [
+            "E",
+            0.252
+          ],
+          [
+            "D",
+            0.237
+          ],
+          [
+            "B",
+            0.15
+          ],
+          [
+            "C",
+            0.14
+          ],
+          [
+            "A",
+            0.133
+          ],
+          [
+            "F",
+            0.039
+          ],
+          [
+            "G",
+            0.027
+          ],
+          [
+            "Ab",
+            0.022
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.928
+          },
+          {
+            "tonic": "E",
+            "fit": 0.928
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "C",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.049,
+        "cues": {
+          "most-used note": "D",
+          "phrase endings": "C",
+          "tool key & chords*": "A (key) / A (commonest chord root)",
+          "other voice": "D"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 0.961,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (0.98), E (0.98), D (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 400,
+          "final_share": 0.333,
+          "dur_share": 0.21
+        },
+        "total_dur": 131.0,
+        "present_pcs": [
+          [
+            "D",
+            0.261
+          ],
+          [
+            "C",
+            0.237
+          ],
+          [
+            "E",
+            0.21
+          ],
+          [
+            "A",
+            0.099
+          ],
+          [
+            "B",
+            0.097
+          ],
+          [
+            "F",
+            0.076
+          ],
+          [
+            "Ab",
+            0.019
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 0.98
+          },
+          {
+            "tonic": "E",
+            "fit": 0.98
+          },
+          {
+            "tonic": "D",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Am",
+      "tempo": 117.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.14,
+        "cues": {
+          "most-used note": "D",
+          "phrase endings": "C",
+          "tool key & chords*": "A",
+          "other voice": "E"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.981,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (0.98), C (0.98), D (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 300,
+          "final_share": 0.273,
+          "dur_share": 0.194
+        },
+        "total_dur": 251.0,
+        "present_pcs": [
+          [
+            "D",
+            0.244
+          ],
+          [
+            "E",
+            0.223
+          ],
+          [
+            "C",
+            0.194
+          ],
+          [
+            "A",
+            0.122
+          ],
+          [
+            "B",
+            0.119
+          ],
+          [
+            "F",
+            0.059
+          ],
+          [
+            "G",
+            0.021
+          ],
+          [
+            "Ab",
+            0.019
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 0.981
+          },
+          {
+            "tonic": "C",
+            "fit": 0.981
+          },
+          {
+            "tonic": "D",
+            "fit": 0.981
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-12-allah-alam-2006-01-enssa-ille-rah/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-12-allah-alam-2006-01-enssa-ille-rah",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "C",
+      "D",
+      "E"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Ajam",
+      "Bayati"
+    ],
+    "ghammaz_candidate": "C",
+    "withheld_reason": null,
+    "rationale": "The natural-minor set fits at 0.981 in the whole piece and the melody-only analysis, and the declared Am key and the commonest chord root read A with a margin of 0.126. The most-used note is D, the phrase endings rest on C (27%) and the other voice is E, the chorus is read on C as an Ajam shape at 0.961, and E, C and D fit the pooled notes at 0.98, so all three are carried as alternative tonics. The verse fits only 0.928 while the chorus takes another shape, keeping the name consistent at low confidence; Bayati rounds to the same notes.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-017"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:20:03Z",
+    "batch_id": "batch-017",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:20:03Z",
+    "updated_at": "2026-10-29T08:20:03Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
