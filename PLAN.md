@@ -104,7 +104,7 @@ In scope:
 - run the skill's `analyze_abc.py` on both variants;
 - have the agent adjudicate each song against the skill's rules;
 - write one validated, versioned label per song;
-- checkpoint every label to GCS and every batch to a private GitHub repo;
+- checkpoint every label to GCS and every batch to the GitHub repo;
 - resume from any disconnect without relabeling;
 - export CSV/JSONL/summary and a blind QC agreement report.
 
@@ -145,7 +145,7 @@ review.py record ──► labels/<song_id>.json ──► GCS (per label)
         │                    │
         │                    └──► state/ledger.jsonl + state/progress.json
         ▼
-backup.py flush ──► GCS mirror + private GitHub commit/push
+backup.py flush ──► GCS mirror + GitHub commit/push
         │
         ▼
 export_dataset.py ──► exports/maqam_labels.{csv,jsonl}, summary, SUMMARY.md
@@ -260,12 +260,8 @@ bash scripts/bootstrap_colab.sh
 ```
 
 Bootstrap checks Python, installs `pytest`, verifies `gcloud` and GCS access,
-sets a local git identity if missing, warns if the GitHub repo is public, and
-runs the skill analyzer on a fixture.
-
-**Decision required before first backup:** `github.com/akbargherbal/maqam_analysis`
-is currently **public**. Make it private. Until then `backup.py` refuses to
-push and GCS is the only durable backup.
+sets a local git identity if missing, and runs the skill analyzer on a synthetic
+fixture.
 
 Acceptance: `gcloud storage ls gs://akbar-december-2024-backup/TRANSCRIPTS/`
 succeeds; `python3 scripts/status.py` prints "No manifest yet".
@@ -368,7 +364,7 @@ Deliverables:
 - `exports/summary.json`, `exports/SUMMARY.md`
 - `exports/qc_report.{json,md}` (if QC run)
 - `state/ledger.jsonl`, `state/progress.json`
-- GCS checkpoint + private GitHub commit
+- GCS checkpoint + GitHub commit
 
 ---
 
@@ -381,11 +377,11 @@ Deliverables:
 | Local Colab disk | label JSON, ledger, work | every write | VM death |
 | GCS label object | `labels/<song_id>.json` | after every `record` | ~0 |
 | GCS mirror | `state/`, `labels/`, `work/`, `exports/` | after every `backup` | one batch |
-| GitHub private | text artifacts + commit history | after every `backup` | one batch |
+| GitHub | text artifacts + commit history | after every `backup` | one batch |
 | Transcript archive | ABC source of truth | pre-existing | none |
 
 GCS is the primary durable store. GitHub is the versioned, human-readable
-mirror. A blocked git push (public repo, auth failure) does not lose labels
+mirror. A failed git push (auth or network) does not lose labels
 because each label was already uploaded.
 
 ### 8.2 GCS layout
@@ -425,7 +421,6 @@ cannot erase a good remote state.
 | Disconnect mid-batch after 3 of 8 | those 3 labels are in GCS; restore merges; packet selects the other 5 (already-labeled songs are filtered) |
 | Disconnect before `backup` | per-label GCS objects survive; git may be one batch behind; restore prefers GCS |
 | GCS auth lost | git labels are the fallback; keep labeling locally; retry GCS |
-| GitHub public | push refused; GCS continues; fix visibility before handoff |
 | ABC/evidence missing | `prepare` re-extracts/analyzes only missing work; labels untouched |
 | Evidence changed | `status` lists stale labels; revise with a reason, never delete |
 
@@ -523,7 +518,6 @@ queue is resumable.
 | Risk | Likelihood | Impact | Mitigation |
 |---|---|---|---|
 | Colab disconnect loses work | high | high | per-label GCS upload + per-batch git; restore drill |
-| GitHub repo is public | **certain today** | high | make private; `backup.py` refuses push; GCS still works |
 | Labels overstate quarter-tone maqamat | medium | high | validator rejects `consistent` for quarter-tone set; packet rules |
 | Agent forces a name when `name_allowed=false` | medium | high | hard validation gate; withheld reason required |
 | Tonic ambiguity (relative modes / 5th) | high | medium | `tonic_alternatives`; low confidence; melody-only cross-check |
@@ -532,7 +526,6 @@ queue is resumable.
 | GCS auth expires mid-run | medium | medium | labels stay local; retry; git fallback |
 | Agent context bloat | medium | medium | 8-song packets, compact evidence, full report on demand |
 | Agent labels from outside knowledge | medium | high | AGENTS.md rule; evidence-only packet; rationale required |
-| Public repo leaks derived data | medium | high | private visibility guard; no ABCs/audio in git |
 
 ---
 
@@ -546,7 +539,7 @@ queue is resumable.
 - [ ] All withheld labels have a `withheld_reason`.
 - [ ] 4 `no_abc` tracks are exported with `label_status=no_abc`.
 - [ ] `bash scripts/ops.sh restore` on a fresh runtime reproduces the labeled count.
-- [ ] GCS checkpoint exists; private GitHub commit exists (or the push refusal is documented).
+- [ ] GCS checkpoint exists; GitHub commit exists.
 - [ ] `exports/maqam_labels.csv` has 167 rows; `SUMMARY.md` states the caveats.
 - [ ] `exports/qc_report.md` exists with a blind sample and agreement numbers.
 - [ ] No audio, ABC, cache, or log file is committed to git.
@@ -558,8 +551,7 @@ queue is resumable.
 - **ABC-only route.** The transcripts exist; no audio/GPU work.
 - **Hybrid evidence per song.** Full ABC (chords + other voice) and melody-only
   variant; the agent sees both.
-- **GCS + private GitHub.** GCS is primary durability; GitHub is the versioned
-  mirror.
+- **GCS + GitHub.** GCS is primary durability; GitHub is the versioned mirror.
 - **Batch size 8.** Small enough for context and fast checkpoints; 21 batches.
 - **No forced labels.** Withheld is a valid, first-class outcome.
 - **4 no_abc tracks excluded from labeling.** They remain in the export with a
@@ -567,15 +559,13 @@ queue is resumable.
 
 ## 15. Open items for the user
 
-1. **Make `github.com/akbargherbal/maqam_analysis` private** before the first
-   `backup`.
-2. Confirm the GCS backup prefix
+1. Confirm the GCS backup prefix
    `gs://akbar-december-2024-backup/MAQAM_ANALYSIS/maqam-167-v1` is acceptable
    (it is configurable in `config/config.json`).
-3. Decide whether the final deliverable should merge duplicate-title groups
+2. Decide whether the final deliverable should merge duplicate-title groups
    (e.g. original vs "Best Of" copies) or keep one label per corpus row. The
    current plan keeps one label per row and reports duplicate agreement.
-4. Optional: provide a small `truth.csv` for a handful of songs later for a
+3. Optional: provide a small `truth.csv` for a handful of songs later for a
    separate evaluation. The skill's `evaluate.py` expects ABC/MIDI inputs, not
    label JSON, so that evaluation is a different script/task. No accuracy is
    claimed now.

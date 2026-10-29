@@ -47,10 +47,6 @@ python3 scripts/status.py
 Then paste the prompt in [`COLAB_KICKSTART.md`](COLAB_KICKSTART.md) into the
 agent chat.
 
-> **Before the first backup:** make `github.com/akbargherbal/maqam_analysis`
-> **private**. It is currently public. `backup.py` refuses to push derived data
-> to a public repo; GCS remains the primary backup either way.
-
 ## The labeling loop
 
 ```bash

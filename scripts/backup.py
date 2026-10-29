@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Durable checkpoints to GCS and a private GitHub repo, plus safe restore.
+"""Durable checkpoints to GCS and GitHub, plus safe restore.
 
     python3 scripts/backup.py flush              # GCS first, then git commit/push
     python3 scripts/backup.py flush --dry-run
     python3 scripts/backup.py restore            # git pull + GCS overlay, merge labels
     python3 scripts/backup.py check              # last backup ages
 
-Safety: git push is refused when the GitHub remote is public (the ABCs and
-labels are derived from copyrighted recordings). GCS remains the real-time
-durability layer, so a blocked git push never loses a label.
+GCS is the real-time durability layer; git records the same text artifacts in
+history. If a git push fails, the GCS checkpoint still preserves the work.
 """
 from __future__ import annotations
 
@@ -27,7 +26,6 @@ from common import (  # noqa: E402
     gcs_cp,
     gcs_rsync,
     gcloud_available,
-    github_visibility,
     human_bytes,
     load_config,
     path,
@@ -162,30 +160,13 @@ def cmd_flush(args) -> int:
             elif not git_cfg.get("push", True):
                 print("git: push disabled in config")
             else:
-                private = github_visibility(url)
-                requires_private = bool(backup_cfg.get("require_private_github", True))
-                if requires_private and private is False:
-                    print(
-                        "git: PUSH REFUSED — the GitHub remote is PUBLIC. Make it private before pushing "
-                        "labels/ABC-derived data. GCS backup is still active.",
-                        file=sys.stderr,
-                    )
-                    errors.append("git push refused: public repository")
-                elif requires_private and private is None and not args.allow_unknown_visibility:
-                    print(
-                        "git: push skipped — could not verify repository visibility (set GITHUB_TOKEN or "
-                        "pass --allow-unknown-visibility). GCS backup is still active.",
-                        file=sys.stderr,
-                    )
-                    errors.append("git push skipped: visibility unknown")
+                proc = git("push", remote, branch, check=False, timeout=300)
+                if proc.returncode == 0:
+                    pushed = True
+                    print(f"git: pushed {commit_hash} -> {remote}/{branch}")
                 else:
-                    proc = git("push", remote, branch, check=False, timeout=300)
-                    if proc.returncode == 0:
-                        pushed = True
-                        print(f"git: pushed {commit_hash} -> {remote}/{branch}")
-                    else:
-                        errors.append(f"git push: {(proc.stderr or proc.stdout).strip()[:500]}")
-                        print(f"git: push FAILED: {(proc.stderr or proc.stdout).strip()}", file=sys.stderr)
+                    errors.append(f"git push: {(proc.stderr or proc.stdout).strip()[:500]}")
+                    print(f"git: push FAILED: {(proc.stderr or proc.stdout).strip()}", file=sys.stderr)
             report["last_git"] = {
                 "at": now,
                 "ok": True,
@@ -358,7 +339,6 @@ def main() -> int:
     f.add_argument("--no-gcs", action="store_true")
     f.add_argument("--no-git", action="store_true")
     f.add_argument("--force", action="store_true", help="commit even when git sees no changes")
-    f.add_argument("--allow-unknown-visibility", action="store_true")
     f.add_argument("--dry-run", action="store_true")
     f.add_argument("--quiet", action="store_true")
     f.set_defaults(func=cmd_flush)

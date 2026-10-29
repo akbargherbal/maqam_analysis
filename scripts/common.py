@@ -16,8 +16,6 @@ import subprocess
 import sys
 import tempfile
 import unicodedata
-import urllib.error
-import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
@@ -314,36 +312,6 @@ def gcs_exists(uri: str) -> bool:
         return False
     proc = run_cmd(["gcloud", "storage", "ls", uri], check=False, timeout=60)
     return proc.returncode == 0
-
-
-# ------------------------------------------------------------------------- github
-def github_slug(remote_url: str) -> tuple[str, str] | None:
-    m = re.search(r"github\.com[:/]+([^/]+)/([^/]+?)(?:\.git)?/?$", remote_url.strip())
-    if not m:
-        return None
-    owner, repo = m.group(1), m.group(2)
-    return owner, repo
-
-
-def github_visibility(remote_url: str, timeout: float = 10) -> bool | None:
-    """True if private, False if public, None if unknown."""
-    slug = github_slug(remote_url)
-    if not slug:
-        return None
-    owner, repo = slug
-    req = urllib.request.Request(
-        f"https://api.github.com/repos/{owner}/{repo}",
-        headers={"User-Agent": "maqam-analysis-pipeline", "Accept": "application/vnd.github+json"},
-    )
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        req.add_header("Authorization", f"Bearer {token}")
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        return bool(data.get("private"))
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError):
-        return None
 
 
 # -------------------------------------------------------------------------- misc

@@ -4,20 +4,18 @@ All commands run from the repository root (`/content/maqam_analysis` in
 Colab). The `ops.sh` wrapper starts long jobs in the background and returns
 immediately. Never use `sleep` or `tail -f`.
 
-## 0. Private GitHub
+## 0. GitHub push credentials
 
-The repository must be **private** before the first backup: the labels and ABC
-evidence are derived from copyrighted recordings. Set a token so the backup can
-verify visibility and push:
+`backup.py` commits text artifacts locally and pushes them to `origin`. In
+Colab, configure git credentials once so the push does not prompt:
 
 ```bash
-export GITHUB_TOKEN=ghp_...          # repo scope
-# or clone/push with a token URL
+git config --global credential.helper store
+git push origin main     # enter a personal access token when prompted
 ```
 
-If `GITHUB_TOKEN` is absent, `backup.py` cannot verify visibility and skips the
-push (GCS continues). If the repo is public, push is refused. Do not work
-around either guard by making the repo public.
+GCS backs up every label regardless of git credentials. If a push fails, the
+GCS checkpoint still preserves the work.
 
 ## 1. First session
 
@@ -157,7 +155,7 @@ Outputs:
 | validator: confidence too high | rule violation | lower it |
 | `record` says "already labeled" | duplicate attempt | skip, or `--revise --reason` |
 | GCS upload warning | network/auth | label is local; retry `ops.sh backup`; report if persistent |
-| git push refused (public repo) | visibility guard | make the repo private; GCS still works |
+| git push fails | credentials or network | GCS still has the labels; retry `ops.sh backup` after fixing credentials |
 | two prepares running | double start | `ops.sh jobs`, `ops.sh stop prepare`, restart |
 | status shows stale labels | evidence hash changed | revise with a reason; do not delete |
 

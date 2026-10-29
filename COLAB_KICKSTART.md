@@ -9,15 +9,15 @@
 %cd /content/maqam_analysis
 ```
 
-If the repository is private, clone with a token instead:
+To let `backup.py` push checkpoints from Colab, configure GitHub credentials
+once (a personal access token with repo write access):
 
 ```bash
-git clone https://x-access-token:${GITHUB_TOKEN}@github.com/akbargherbal/maqam_analysis.git
+git config --global credential.helper store
+git push origin main     # enter the token when prompted; it is cached
 ```
 
-Set `GITHUB_TOKEN` in the Colab environment before `backup.py flush` so it can
-verify that the remote is private and push. Without it, GCS still backs up
-every label, but git push is skipped until visibility can be verified.
+GCS backs up every label even if git push is not configured.
 
 ```python
 # Cell 2 — authenticate Google Cloud Storage
@@ -30,11 +30,6 @@ auth.authenticate_user()
 # Cell 3 — install/check everything and run a smoke test
 !bash scripts/bootstrap_colab.sh
 ```
-
-> **Do this before the first backup:** make
-> `github.com/akbargherbal/maqam_analysis` **private**. It is currently public.
-> The backup script refuses to push label data to a public repository; GCS will
-> still work, but GitHub history will not.
 
 You do **not** need to download `DISCOGRAPHY/` or any audio. The 23 existing
 SheetSage2 album JSONs are the input.
@@ -77,8 +72,6 @@ Operating rules:
    `scripts/review.py record`, which validates, versions and backs them up.
 5. Never reprocess a song that already has a label. If status reports a stale
    label, revise it with a reason; do not delete it.
-6. If the GitHub remote is public, do not push. Keep going with GCS and tell me
-   to make the repository private.
 
 Start now:
 - Run `bash scripts/ops.sh restore` first (safe even on a fresh run), then

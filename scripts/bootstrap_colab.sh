@@ -48,33 +48,15 @@ if ! git config user.email >/dev/null 2>&1; then
   echo "set local git user.email=maqam-agent@localhost"
 fi
 
-echo "== repository visibility =="
-python3 - <<'PY'
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path("scripts").resolve()))
-from backup import remote_url
-from common import github_visibility
-url = remote_url("origin")
-if not url:
-    print("WARNING: no git remote 'origin'")
-else:
-    private = github_visibility(url)
-    if private is False:
-        print("WARNING: the GitHub remote is PUBLIC. git push will be refused.")
-        print("         Make it private before relying on GitHub as a backup.")
-    elif private is True:
-        print("github: private (ok)")
-    else:
-        print("github: visibility unknown (API limit or no network); GCS is still the primary backup")
-PY
+echo "== git remote =="
+git remote -v || true
 
 echo "== directory layout =="
 mkdir -p cache state labels work logs exports data/abc data/abc_melody
 
 echo "== local smoke test (skill analyzer) =="
 python3 skills/maqam-analysis/scripts/analyze_abc.py \
-  tests/fixtures/elissa-baddy-doub.abc --voice Vocal --brief --no-sections >/tmp/maqam_smoke.txt
+  tests/fixtures/synthetic-nahawand.abc --voice Vocal --brief --no-sections >/tmp/maqam_smoke.txt
 head -n 8 /tmp/maqam_smoke.txt
 
 echo ""
