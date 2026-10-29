@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2000-wakherta-maak-06-wahyatt-el-hob",
+  "track_id": "Elissa/Elissa - 2000 Wakherta Maak/06.Wahyatt El Hob.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2000 Wakherta Maak",
+  "file": "06.Wahyatt El Hob.mp3",
+  "lyric_title": "وحياة الحب",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2000 Wakherta Maak.json",
+    "transcript_track_id": "ELISSA/Elissa - 2000 Wakherta Maak/06-wahyatt-el-hob",
+    "transcript_sha256": "f4d47bc88be95ce346589f16ec461019c141bf1b0a40cb7b671de5607c0a76bd",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2000 Wakherta Maak/06.Wahyatt El Hob.mp3",
+    "audio_sha256": "2303fd7e8f6f71ae2712968fed78cb940b23168fea7ac3424294e85ce05212f0",
+    "abc_sha256": "41802e0fb028fb7e3bf09f4f63c4e55206ec27f49b1c5ec7b95fb1c278c69161",
+    "abc_melody_sha256": "37d3fc253cd2d0ba460ff316cd3556a74a804d9052043000ebb64af3241db58e",
+    "duration_s": 270.005,
+    "declared_key": "Dm",
+    "tempo_bpm": 104.0
+  },
+  "evidence": {
+    "evidence_sha256": "2fb013cbca16a2048c091387b21a9e50a335dd6cbf06d3762c3786342a7fd762",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "C",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.196,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "C",
+        "tool key & chords*": "C (key) / C (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.809,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: F (0.81), Bb (0.81)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.81); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 500,
+        "final_share": 0.5,
+        "dur_share": 0.205
+      },
+      "total_dur": 262.5,
+      "present_pcs": [
+        [
+          "F",
+          0.205
+        ],
+        [
+          "C",
+          0.194
+        ],
+        [
+          "G",
+          0.16
+        ],
+        [
+          "Eb",
+          0.149
+        ],
+        [
+          "C#",
+          0.101
+        ],
+        [
+          "Bb",
+          0.058
+        ],
+        [
+          "D",
+          0.046
+        ],
+        [
+          "Ab",
+          0.042
+        ],
+        [
+          "E",
+          0.03
+        ],
+        [
+          "A",
+          0.015
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.809
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.809
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "C",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.154,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "C",
+          "tool key & chords*": "C (key) / C (commonest chord root)"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: F (1.00), C# (1.00), Bb (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 500,
+          "final_share": 0.667,
+          "dur_share": 0.177
+        },
+        "total_dur": 94.5,
+        "present_pcs": [
+          [
+            "C",
+            0.185
+          ],
+          [
+            "C#",
+            0.18
+          ],
+          [
+            "F",
+            0.177
+          ],
+          [
+            "G",
+            0.148
+          ],
+          [
+            "Eb",
+            0.127
+          ],
+          [
+            "Ab",
+            0.095
+          ],
+          [
+            "Bb",
+            0.087
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "F",
+            "fit": 1.0
+          },
+          {
+            "tonic": "C#",
+            "fit": 1.0
+          },
+          {
+            "tonic": "Bb",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "C",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.333,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "C",
+          "tool key & chords*": "C (key) / C (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "dorian",
+        "scale_western": "Dorian",
+        "fit": 0.784,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.78), Eb (0.78), F (0.78)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.78); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": null,
+        "total_dur": 168.0,
+        "present_pcs": [
+          [
+            "F",
+            0.22
+          ],
+          [
+            "C",
+            0.199
+          ],
+          [
+            "G",
+            0.167
+          ],
+          [
+            "Eb",
+            0.161
+          ],
+          [
+            "D",
+            0.071
+          ],
+          [
+            "C#",
+            0.057
+          ],
+          [
+            "E",
+            0.048
+          ],
+          [
+            "Bb",
+            0.042
+          ],
+          [
+            "A",
+            0.024
+          ],
+          [
+            "Ab",
+            0.012
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.784
+          },
+          {
+            "tonic": "Eb",
+            "fit": 0.784
+          },
+          {
+            "tonic": "F",
+            "fit": 0.784
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Cm",
+      "tempo": 104.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "C",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.176,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "C",
+          "tool key & chords*": "C",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.809,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: F (0.81), C# (0.81)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.81); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 500,
+          "final_share": 0.5,
+          "dur_share": 0.205
+        },
+        "total_dur": 262.5,
+        "present_pcs": [
+          [
+            "F",
+            0.205
+          ],
+          [
+            "C",
+            0.194
+          ],
+          [
+            "G",
+            0.16
+          ],
+          [
+            "Eb",
+            0.149
+          ],
+          [
+            "C#",
+            0.101
+          ],
+          [
+            "Bb",
+            0.058
+          ],
+          [
+            "D",
+            0.046
+          ],
+          [
+            "Ab",
+            0.042
+          ],
+          [
+            "E",
+            0.03
+          ],
+          [
+            "A",
+            0.015
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "F",
+            "fit": 0.809
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.809
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2000-wakherta-maak-06-wahyatt-el-hob/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2000-wakherta-maak-06-wahyatt-el-hob",
+    "maqam": null,
+    "maqam_status": "withheld",
+    "tonic": "C",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "D",
+      "F"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Kurd",
+      "Nahawand"
+    ],
+    "ghammaz_candidate": "F",
+    "withheld_reason": "No single scale explains the material (best fit 0.81, name_allowed=false): the verse fits Kurd on C at 1.00 but the chorus fits no scale at 0.784 and is read on a different centre. Both semitone neighbours of the second degree are sung (C# 10% with the natural second absent), which is the signature of a neutral degree rounded both ways or of modulation.",
+    "rationale": "The verse alone fits Kurd on C perfectly, but the chorus falls to 0.784 with no scale identified and the whole piece only reaches 0.81, so the two sections do not share one shape. The tool key Dm contradicts the melody cues, which put phrase endings and the most-used note elsewhere, and the 2nd degree is split between both semitone neighbours. No maqam name is defensible from this ABC.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-002"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:04:38Z",
+    "batch_id": "batch-002",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:04:38Z",
+    "updated_at": "2026-10-29T08:04:38Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

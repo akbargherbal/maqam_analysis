@@ -1,0 +1,384 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2000-wakherta-maak-02-daa-el-e-nwann",
+  "track_id": "Elissa/Elissa - 2000 Wakherta Maak/02.Daa El E'nwann.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2000 Wakherta Maak",
+  "file": "02.Daa El E'nwann.mp3",
+  "lyric_title": "ضاع العنوان",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2000 Wakherta Maak.json",
+    "transcript_track_id": "ELISSA/Elissa - 2000 Wakherta Maak/02-daa-el-e-nwann",
+    "transcript_sha256": "f4d47bc88be95ce346589f16ec461019c141bf1b0a40cb7b671de5607c0a76bd",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2000 Wakherta Maak/02.Daa El E'nwann.mp3",
+    "audio_sha256": "ffd78e6e69c1a2f2164f25435e4ae3af1d44b2a12a12ad692810061d95d932dd",
+    "abc_sha256": "e2fd1b5f7788d1c76a23bdc42e536fe51887d24608da63625d835bc2e2c26b64",
+    "abc_melody_sha256": "6da9d039ca93d8872f31d7b03760a0d025946c0b5e10d75c8817f642a7cf172a",
+    "duration_s": 277.92,
+    "declared_key": "Fm",
+    "tempo_bpm": 96.0
+  },
+  "evidence": {
+    "evidence_sha256": "8351cdda7fea2a61db69050456da08f27b9e29e78bbad7d2eec80c82ec52e809",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.237,
+      "cues": {
+        "most-used note": "G",
+        "phrase endings": "F",
+        "tool key & chords*": "F (key) / C (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.998,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C (1.00), C# (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 700,
+        "final_share": 0.4,
+        "dur_share": 0.15
+      },
+      "total_dur": 256.2,
+      "present_pcs": [
+        [
+          "G",
+          0.212
+        ],
+        [
+          "F",
+          0.208
+        ],
+        [
+          "C#",
+          0.174
+        ],
+        [
+          "Eb",
+          0.166
+        ],
+        [
+          "C",
+          0.15
+        ],
+        [
+          "Ab",
+          0.06
+        ],
+        [
+          "Bb",
+          0.029
+        ],
+        [
+          "E",
+          0.002
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.998
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.998
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "C",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.441,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "C",
+          "tool key & chords*": "F (key) / C (commonest chord root)",
+          "other voice": "C"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati",
+          "Saba"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd",
+          "Saba"
+        ],
+        "flags": [
+          "same notes also fit other tonics: Eb (0.96), C# (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 56.2,
+        "present_pcs": [
+          [
+            "G",
+            0.324
+          ],
+          [
+            "C",
+            0.28
+          ],
+          [
+            "Eb",
+            0.187
+          ],
+          [
+            "C#",
+            0.156
+          ],
+          [
+            "Bb",
+            0.053
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Eb",
+            "fit": 0.96
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.96
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "F",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.506,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "F",
+          "tool key & chords*": "F (key) / C (commonest chord root)"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.997,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (1.00), C (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 193.0,
+        "present_pcs": [
+          [
+            "F",
+            0.245
+          ],
+          [
+            "C#",
+            0.185
+          ],
+          [
+            "G",
+            0.181
+          ],
+          [
+            "Eb",
+            0.166
+          ],
+          [
+            "C",
+            0.118
+          ],
+          [
+            "Ab",
+            0.079
+          ],
+          [
+            "Bb",
+            0.023
+          ],
+          [
+            "E",
+            0.003
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 0.997
+          },
+          {
+            "tonic": "C",
+            "fit": 0.997
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Fm",
+      "tempo": 96.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "F",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.32,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "F",
+          "tool key & chords*": "F",
+          "other voice": "F"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.998,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (1.00), C# (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 700,
+          "final_share": 0.4,
+          "dur_share": 0.15
+        },
+        "total_dur": 256.2,
+        "present_pcs": [
+          [
+            "G",
+            0.212
+          ],
+          [
+            "F",
+            0.208
+          ],
+          [
+            "C#",
+            0.174
+          ],
+          [
+            "Eb",
+            0.166
+          ],
+          [
+            "C",
+            0.15
+          ],
+          [
+            "Ab",
+            0.06
+          ],
+          [
+            "Bb",
+            0.029
+          ],
+          [
+            "E",
+            0.002
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.998
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.998
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2000-wakherta-maak-02-daa-el-e-nwann/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2000-wakherta-maak-02-daa-el-e-nwann",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "F",
+    "tonic_confidence": "high",
+    "tonic_alternatives": [
+      "C"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "medium",
+    "alternatives": [
+      "Bayati",
+      "Kurd"
+    ],
+    "ghammaz_candidate": "C",
+    "withheld_reason": null,
+    "rationale": "Phrase endings, the declared Fm key, the chord root and the other voice all agree on F, and the natural-minor set fits at 0.998 in both the full and the melody-only analysis, which is why the tonic keeps the analyzer's high rating. The most-used note is G and the verse is read as C/Kurd, so C is kept as an alternative tonic and phrase endings rest on C in 40% of cases. Shape confidence is capped at medium by 12-TET input, so overall confidence is medium and Bayati remains an equally good 12-TET reading.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-002"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:04:37Z",
+    "batch_id": "batch-002",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:04:37Z",
+    "updated_at": "2026-10-29T08:04:37Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

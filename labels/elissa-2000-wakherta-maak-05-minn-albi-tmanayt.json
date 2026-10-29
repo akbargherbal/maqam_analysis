@@ -1,0 +1,428 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2000-wakherta-maak-05-minn-albi-tmanayt",
+  "track_id": "Elissa/Elissa - 2000 Wakherta Maak/05.Minn Albi Tmanayt.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2000 Wakherta Maak",
+  "file": "05.Minn Albi Tmanayt.mp3",
+  "lyric_title": "من قلبي غنيت",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2000 Wakherta Maak.json",
+    "transcript_track_id": "ELISSA/Elissa - 2000 Wakherta Maak/05-minn-albi-tmanayt",
+    "transcript_sha256": "f4d47bc88be95ce346589f16ec461019c141bf1b0a40cb7b671de5607c0a76bd",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2000 Wakherta Maak/05.Minn Albi Tmanayt.mp3",
+    "audio_sha256": "2d871fb47cde61b79736046475c57a290b8cd75d0a299994ba58919c0946a108",
+    "abc_sha256": "21978d6bb123f30d36049a1d4a169beddd168f36aa99743a7203f04cedfc7f1f",
+    "abc_melody_sha256": "b0274a710ddfcaface7d419b12c42832faf730b70d95f0d18fdeb1fc888cc6ab",
+    "duration_s": 178.759,
+    "declared_key": "D#m",
+    "tempo_bpm": 127.0
+  },
+  "evidence": {
+    "evidence_sha256": "5252b3722223987b268168ac023e964ec246e6840be29dcf6669feddd6dbab15",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Eb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.097,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Eb",
+        "tool key & chords*": "Eb (key) / Eb (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.969,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Bb (0.97), B (0.97), F# (0.97)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Bb",
+        "interval_cents": 700,
+        "final_share": 0.435,
+        "dur_share": 0.244
+      },
+      "total_dur": 227.2,
+      "present_pcs": [
+        [
+          "Bb",
+          0.244
+        ],
+        [
+          "F#",
+          0.191
+        ],
+        [
+          "F",
+          0.183
+        ],
+        [
+          "B",
+          0.128
+        ],
+        [
+          "Eb",
+          0.1
+        ],
+        [
+          "Ab",
+          0.09
+        ],
+        [
+          "C#",
+          0.033
+        ],
+        [
+          "D",
+          0.02
+        ],
+        [
+          "C",
+          0.011
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Bb",
+          "fit": 0.969
+        },
+        {
+          "tonic": "B",
+          "fit": 0.969
+        },
+        {
+          "tonic": "F#",
+          "fit": 0.969
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "Eb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.039,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "Bb",
+          "tool key & chords*": "Eb (key) / Eb (commonest chord root)",
+          "other voice": "Bb"
+        },
+        "scale_shape": "Nahawand (raised 7th)",
+        "scale_id": "nahawand_h",
+        "scale_western": "harmonic minor",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "tonic/dominant split: Eb and Bb (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: Bb (0.96), B (0.95), F# (0.95)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 700,
+          "final_share": 0.5,
+          "dur_share": 0.285
+        },
+        "total_dur": 87.8,
+        "present_pcs": [
+          [
+            "Bb",
+            0.285
+          ],
+          [
+            "B",
+            0.254
+          ],
+          [
+            "F",
+            0.228
+          ],
+          [
+            "F#",
+            0.108
+          ],
+          [
+            "Eb",
+            0.103
+          ],
+          [
+            "Ab",
+            0.011
+          ],
+          [
+            "D",
+            0.011
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Bb",
+            "fit": 0.96
+          },
+          {
+            "tonic": "B",
+            "fit": 0.949
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.949
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "Eb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.276,
+        "cues": {
+          "most-used note": "F#",
+          "phrase endings": "Eb",
+          "tool key & chords*": "Eb (key) / Eb (commonest chord root)",
+          "other voice": "Bb"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.909,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: Bb (0.91), F# (0.91), B (0.91)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 700,
+          "final_share": 0.286,
+          "dur_share": 0.225
+        },
+        "total_dur": 135.5,
+        "present_pcs": [
+          [
+            "F#",
+            0.244
+          ],
+          [
+            "Bb",
+            0.225
+          ],
+          [
+            "F",
+            0.151
+          ],
+          [
+            "Ab",
+            0.144
+          ],
+          [
+            "Eb",
+            0.09
+          ],
+          [
+            "C#",
+            0.055
+          ],
+          [
+            "B",
+            0.05
+          ],
+          [
+            "D",
+            0.022
+          ],
+          [
+            "C",
+            0.018
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Bb",
+            "fit": 0.909
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.909
+          },
+          {
+            "tonic": "B",
+            "fit": 0.909
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "D#m",
+      "tempo": 127.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "Eb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.089,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "Eb",
+          "tool key & chords*": "Eb",
+          "other voice": "Bb"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.969,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "tonic/dominant split: Eb and Bb (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: Bb (0.97), B (0.97), F# (0.97)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 700,
+          "final_share": 0.435,
+          "dur_share": 0.244
+        },
+        "total_dur": 227.2,
+        "present_pcs": [
+          [
+            "Bb",
+            0.244
+          ],
+          [
+            "F#",
+            0.191
+          ],
+          [
+            "F",
+            0.183
+          ],
+          [
+            "B",
+            0.128
+          ],
+          [
+            "Eb",
+            0.1
+          ],
+          [
+            "Ab",
+            0.09
+          ],
+          [
+            "C#",
+            0.033
+          ],
+          [
+            "D",
+            0.02
+          ],
+          [
+            "C",
+            0.011
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Bb",
+            "fit": 0.969
+          },
+          {
+            "tonic": "B",
+            "fit": 0.969
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.969
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2000-wakherta-maak-05-minn-albi-tmanayt/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2000-wakherta-maak-05-minn-albi-tmanayt",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "Eb",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Bb"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Nahawand (raised 7th)"
+    ],
+    "ghammaz_candidate": "Bb",
+    "withheld_reason": null,
+    "rationale": "The declared Eb key, the chord root, the phrase endings and the melody-only analysis all read Eb on a natural-minor set at 0.97, while the most-used note and the other voice sit on Bb. The verse is fitted by harmonic minor (Nahawand with a raised 7th) and shows an Eb/Bb split, so that variant is recorded as an alternative shape and Bb as an alternative tonic. The chorus fit drops to 0.909, which is why the name stays low confidence and the 12-TET Bayati reading is listed.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-002"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:04:38Z",
+    "batch_id": "batch-002",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:04:38Z",
+    "updated_at": "2026-10-29T08:04:38Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

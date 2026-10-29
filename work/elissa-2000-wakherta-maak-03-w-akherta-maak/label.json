@@ -1,0 +1,443 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2000-wakherta-maak-03-w-akherta-maak",
+  "track_id": "Elissa/Elissa - 2000 Wakherta Maak/03.W'akherta Maak.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2000 Wakherta Maak",
+  "file": "03.W'akherta Maak.mp3",
+  "lyric_title": "واخرتها معاك",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2000 Wakherta Maak.json",
+    "transcript_track_id": "ELISSA/Elissa - 2000 Wakherta Maak/03-w-akherta-maak",
+    "transcript_sha256": "f4d47bc88be95ce346589f16ec461019c141bf1b0a40cb7b671de5607c0a76bd",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2000 Wakherta Maak/03.W'akherta Maak.mp3",
+    "audio_sha256": "16335f43b9e16ee283c378bf5bf1da9b51252387135107c778c58471872e7fab",
+    "abc_sha256": "4454089c26b9f98270800effcbedc08e7c6438da6ea10bf6e541bd85ba10f9db",
+    "abc_melody_sha256": "f7af7aa3c20e0d1e568260f6736ac3d3770f284f0cbe7292c4e0a9119e9a09a8",
+    "duration_s": 337.087,
+    "declared_key": "Am",
+    "tempo_bpm": 136.0
+  },
+  "evidence": {
+    "evidence_sha256": "17ff102ab61a95080dc6badfca693a0ae23f91e55a4761257afc1642c4a4443f",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.072,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "A",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.85,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: A and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: D (0.85), E (0.85), F (0.85)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.85); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 500,
+        "final_share": 0.333,
+        "dur_share": 0.239
+      },
+      "total_dur": 383.5,
+      "present_pcs": [
+        [
+          "D",
+          0.239
+        ],
+        [
+          "E",
+          0.188
+        ],
+        [
+          "F",
+          0.147
+        ],
+        [
+          "C",
+          0.133
+        ],
+        [
+          "A",
+          0.124
+        ],
+        [
+          "G",
+          0.09
+        ],
+        [
+          "B",
+          0.03
+        ],
+        [
+          "Ab",
+          0.029
+        ],
+        [
+          "C#",
+          0.021
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.85
+        },
+        {
+          "tonic": "E",
+          "fit": 0.85
+        },
+        {
+          "tonic": "F",
+          "fit": 0.85
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.103,
+        "cues": {
+          "most-used note": "D",
+          "phrase endings": "D",
+          "tool key & chords*": "A (key) / A (commonest chord root)",
+          "other voice": "A"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "dorian",
+        "scale_western": "Dorian",
+        "fit": 0.912,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (0.91), C (0.91), E (0.91)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 1000,
+          "final_share": 0.25,
+          "dur_share": 0.215
+        },
+        "total_dur": 195.0,
+        "present_pcs": [
+          [
+            "D",
+            0.313
+          ],
+          [
+            "C",
+            0.215
+          ],
+          [
+            "E",
+            0.204
+          ],
+          [
+            "F",
+            0.097
+          ],
+          [
+            "A",
+            0.069
+          ],
+          [
+            "G",
+            0.04
+          ],
+          [
+            "Ab",
+            0.026
+          ],
+          [
+            "B",
+            0.023
+          ],
+          [
+            "C#",
+            0.013
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 0.912
+          },
+          {
+            "tonic": "C",
+            "fit": 0.912
+          },
+          {
+            "tonic": "E",
+            "fit": 0.912
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.171,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "A",
+          "tool key & chords*": "A (key) / E (commonest chord root)",
+          "other voice": "C"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.839,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (0.84), D (0.84), G (0.84)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.84); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "G",
+          "interval_cents": 1000,
+          "final_share": 0.3,
+          "dur_share": 0.142
+        },
+        "total_dur": 188.5,
+        "present_pcs": [
+          [
+            "F",
+            0.199
+          ],
+          [
+            "A",
+            0.18
+          ],
+          [
+            "E",
+            0.171
+          ],
+          [
+            "D",
+            0.162
+          ],
+          [
+            "G",
+            0.142
+          ],
+          [
+            "C",
+            0.048
+          ],
+          [
+            "B",
+            0.037
+          ],
+          [
+            "Ab",
+            0.032
+          ],
+          [
+            "C#",
+            0.029
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 0.839
+          },
+          {
+            "tonic": "D",
+            "fit": 0.839
+          },
+          {
+            "tonic": "G",
+            "fit": 0.839
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Am",
+      "tempo": 136.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.082,
+        "cues": {
+          "most-used note": "D",
+          "phrase endings": "A",
+          "tool key & chords*": "A",
+          "other voice": "A"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.85,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "tonic/dominant split: A and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: D (0.85), E (0.85), F (0.85)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.85); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 500,
+          "final_share": 0.333,
+          "dur_share": 0.239
+        },
+        "total_dur": 383.5,
+        "present_pcs": [
+          [
+            "D",
+            0.239
+          ],
+          [
+            "E",
+            0.188
+          ],
+          [
+            "F",
+            0.147
+          ],
+          [
+            "C",
+            0.133
+          ],
+          [
+            "A",
+            0.124
+          ],
+          [
+            "G",
+            0.09
+          ],
+          [
+            "B",
+            0.03
+          ],
+          [
+            "Ab",
+            0.029
+          ],
+          [
+            "C#",
+            0.021
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.85
+          },
+          {
+            "tonic": "E",
+            "fit": 0.85
+          },
+          {
+            "tonic": "F",
+            "fit": 0.85
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2000-wakherta-maak-03-w-akherta-maak/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2000-wakherta-maak-03-w-akherta-maak",
+    "maqam": null,
+    "maqam_status": "withheld",
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "D",
+      "E"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Kurd",
+      "Nahawand"
+    ],
+    "ghammaz_candidate": "D",
+    "withheld_reason": "No single scale explains the material (best fit 0.85, below the 0.90 threshold, name_allowed=false); the verse reads as a non-maqam mode on D at 0.912 while the chorus fits Nahawand on A at only 0.839, and A and D score almost equally as tonic. Modulation or quarter tones rounded both ways are likely, so no maqam is named.",
+    "rationale": "The whole piece fits Nahawand on A at only 0.85, which the analyzer reports as no single scale, and the section results disagree: the verse is read on D as a non-maqam mode while the chorus is read on A at 0.839. The tonic is also on a fourth/fifth split, with A and D almost tied and the most-used note on D rather than A. The ABC cannot resolve which section is the true centre, so the label is withheld rather than forced.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-002"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:04:37Z",
+    "batch_id": "batch-002",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:04:37Z",
+    "updated_at": "2026-10-29T08:04:37Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
