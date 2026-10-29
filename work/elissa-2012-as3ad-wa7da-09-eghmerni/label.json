@@ -1,0 +1,561 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2012-as3ad-wa7da-09-eghmerni",
+  "track_id": "Elissa/Elissa - 2012  As3ad Wa7da/09. Eghmerni.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2012  As3ad Wa7da",
+  "file": "09. Eghmerni.mp3",
+  "lyric_title": "اغمرني",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2012  As3ad Wa7da.json",
+    "transcript_track_id": "ELISSA/Elissa - 2012  As3ad Wa7da/09-eghmerni",
+    "transcript_sha256": "4995e6ca4bccd4302a0bbce8e8106088608cd84891bff8b95fde73f3ea48fe29",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2012  As3ad Wa7da/09. Eghmerni.mp3",
+    "audio_sha256": "ea0832095715d0cefa538b16a5360133a617557ac79a3620eea942b33e6969fd",
+    "abc_sha256": "71cc9827c81c3cf1b4368fe2a7e01cf4d3fd53d1884e71e06fd901fc1668aac1",
+    "abc_melody_sha256": "bd1fe9fca6fe13c356d77f06003f7b345467cf626487a612d998eb4bd38fb33c",
+    "duration_s": 310.7,
+    "declared_key": "C#m",
+    "tempo_bpm": 105.0
+  },
+  "evidence": {
+    "evidence_sha256": "a792d9144ca748a1d80f32df2ab0bf0facdc4c2eefc9db25f3a8cea0eb90c211",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.021,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "Ab",
+        "tool key & chords*": "C# (key) / C# (commonest chord root)",
+        "other voice": "Eb"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: Ab and C# (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C# (1.00), E (1.00), F# (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 800,
+        "final_share": 0.381,
+        "dur_share": 0.226
+      },
+      "total_dur": 400.5,
+      "present_pcs": [
+        [
+          "E",
+          0.226
+        ],
+        [
+          "F#",
+          0.187
+        ],
+        [
+          "Ab",
+          0.165
+        ],
+        [
+          "Eb",
+          0.136
+        ],
+        [
+          "A",
+          0.127
+        ],
+        [
+          "B",
+          0.096
+        ],
+        [
+          "C#",
+          0.064
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 1.0
+        },
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F#",
+          "fit": 1.0
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: intro",
+        "section": "intro",
+        "microtonal_input": false,
+        "tonic": "E",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.175,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "E",
+          "tool key & chords*": "C# (key) / C# (commonest chord root)",
+          "other voice": "Eb"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam"
+        ],
+        "flags": [
+          "same notes also fit other tonics: Ab (0.98), F# (0.98), B (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Ab",
+          "interval_cents": 400,
+          "final_share": 0.25,
+          "dur_share": 0.071
+        },
+        "total_dur": 52.8,
+        "present_pcs": [
+          [
+            "E",
+            0.417
+          ],
+          [
+            "F#",
+            0.341
+          ],
+          [
+            "Eb",
+            0.076
+          ],
+          [
+            "Ab",
+            0.071
+          ],
+          [
+            "A",
+            0.038
+          ],
+          [
+            "B",
+            0.038
+          ],
+          [
+            "C#",
+            0.019
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Ab",
+            "fit": 0.98
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.98
+          },
+          {
+            "tonic": "B",
+            "fit": 0.98
+          }
+        ]
+      },
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "Ab",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.114,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "Ab",
+          "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+          "other voice": "Eb"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (1.00), B (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Eb",
+          "interval_cents": 700,
+          "final_share": 0.25,
+          "dur_share": 0.185
+        },
+        "total_dur": 153.8,
+        "present_pcs": [
+          [
+            "E",
+            0.231
+          ],
+          [
+            "F#",
+            0.192
+          ],
+          [
+            "Eb",
+            0.185
+          ],
+          [
+            "C#",
+            0.124
+          ],
+          [
+            "Ab",
+            0.119
+          ],
+          [
+            "B",
+            0.081
+          ],
+          [
+            "A",
+            0.068
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 1.0
+          },
+          {
+            "tonic": "B",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "Ab",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.377,
+        "cues": {
+          "most-used note": "Ab",
+          "phrase endings": "Ab",
+          "tool key & chords*": "C# (key) / C# (commonest chord root)"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (1.00), A (1.00), F# (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 138.2,
+        "present_pcs": [
+          [
+            "Ab",
+            0.291
+          ],
+          [
+            "A",
+            0.262
+          ],
+          [
+            "B",
+            0.157
+          ],
+          [
+            "F#",
+            0.123
+          ],
+          [
+            "E",
+            0.069
+          ],
+          [
+            "Eb",
+            0.065
+          ],
+          [
+            "C#",
+            0.033
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 1.0
+          },
+          {
+            "tonic": "A",
+            "fit": 1.0
+          },
+          {
+            "tonic": "F#",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: interlude",
+        "section": "interlude",
+        "microtonal_input": false,
+        "tonic": "E",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.158,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "E",
+          "tool key & chords*": "C# (key) / C# (commonest chord root)",
+          "other voice": "Eb"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam"
+        ],
+        "flags": [
+          "same notes also fit other tonics: Ab (0.98), B (0.98), F# (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Ab",
+          "interval_cents": 400,
+          "final_share": 0.25,
+          "dur_share": 0.067
+        },
+        "total_dur": 55.8,
+        "present_pcs": [
+          [
+            "E",
+            0.422
+          ],
+          [
+            "Eb",
+            0.233
+          ],
+          [
+            "F#",
+            0.188
+          ],
+          [
+            "Ab",
+            0.067
+          ],
+          [
+            "A",
+            0.036
+          ],
+          [
+            "B",
+            0.036
+          ],
+          [
+            "C#",
+            0.018
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Ab",
+            "fit": 0.98
+          },
+          {
+            "tonic": "B",
+            "fit": 0.98
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "C#m",
+      "tempo": 105.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "Ab",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.013,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "Ab",
+          "tool key & chords*": "C#",
+          "other voice": "Eb"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (1.00), C# (1.00), F# (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 800,
+          "final_share": 0.381,
+          "dur_share": 0.226
+        },
+        "total_dur": 400.5,
+        "present_pcs": [
+          [
+            "E",
+            0.226
+          ],
+          [
+            "F#",
+            0.187
+          ],
+          [
+            "Ab",
+            0.165
+          ],
+          [
+            "Eb",
+            0.136
+          ],
+          [
+            "A",
+            0.127
+          ],
+          [
+            "B",
+            0.096
+          ],
+          [
+            "C#",
+            0.064
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 1.0
+          },
+          {
+            "tonic": "C#",
+            "fit": 1.0
+          },
+          {
+            "tonic": "F#",
+            "fit": 1.0
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2012-as3ad-wa7da-09-eghmerni/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2012-as3ad-wa7da-09-eghmerni",
+    "maqam": "Kurd",
+    "maqam_status": "consistent",
+    "tonic": "Ab",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "C#",
+      "E",
+      "Eb",
+      "F#"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Ajam",
+      "Bayati"
+    ],
+    "ghammaz_candidate": "E",
+    "withheld_reason": null,
+    "rationale": "The Phrygian set fits at 1.0 in the whole piece, the verse, the chorus and the melody-only analysis, and the phrase endings and both vocal sections rest on Ab. The margin over C# is only 0.021, the most-used note is E, the declared key and the commonest chord root are C#, the other voice is Eb, and the intro and interlude are read on E as an Ajam shape at 0.98, so C#, E, F# and Eb are carried as alternative tonics. The shape itself is single and perfect, so the name is consistent, but the centre is barely preferred and low confidence is unavoidable.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-011"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:14:57Z",
+    "batch_id": "batch-011",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:14:57Z",
+    "updated_at": "2026-10-29T08:14:57Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
