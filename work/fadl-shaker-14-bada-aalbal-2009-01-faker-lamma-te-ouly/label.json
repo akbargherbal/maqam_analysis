@@ -1,0 +1,393 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-14-bada-aalbal-2009-01-faker-lamma-te-ouly",
+  "track_id": "Fadl Shaker/14.Ba’da Aalbal.2009/01.Faker Lamma Te'ouly.mp3",
+  "artist": "Fadl Shaker",
+  "album": "14.Ba’da Aalbal.2009",
+  "file": "01.Faker Lamma Te'ouly.mp3",
+  "lyric_title": "فاكر لما تقولي",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/14.Ba’da Aalbal.2009.json",
+    "transcript_track_id": "FADL_SHAKER/14.Ba’da Aalbal.2009/01-faker-lamma-te-ouly",
+    "transcript_sha256": "4bb59dd2a6b1af4bf06b2e0b019e0a21c69dfc6be7fa7f7f5d8f309c391a374c",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/14.Ba’da Aalbal.2009/01.Faker Lamma Te'ouly.mp3",
+    "audio_sha256": "a2a8d754dba91b13c5772f6ae7714288427e5601a3dd359eb65b9fced4a29d9b",
+    "abc_sha256": "b98e9871a4e9d2da368d38a2d66200e3553f7a06ebeb3aa8714ecc0be87e0c7d",
+    "abc_melody_sha256": "e82745762d24332d8b2771b45522088b584e306cff3778d735c5997a9b104b5a",
+    "duration_s": 302.109,
+    "declared_key": "Gm",
+    "tempo_bpm": 98.0
+  },
+  "evidence": {
+    "evidence_sha256": "9925d09103dcae37b2d69e2040465e7ee22054c9b186f7fd022adf9d432419b4",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.201,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Ab",
+        "tool key & chords*": "G (key) / Ab (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (0.98), C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Bb",
+        "interval_cents": 300,
+        "final_share": 0.192,
+        "dur_share": 0.282
+      },
+      "total_dur": 286.8,
+      "present_pcs": [
+        [
+          "Bb",
+          0.282
+        ],
+        [
+          "C",
+          0.25
+        ],
+        [
+          "Ab",
+          0.189
+        ],
+        [
+          "G",
+          0.177
+        ],
+        [
+          "D",
+          0.051
+        ],
+        [
+          "Eb",
+          0.033
+        ],
+        [
+          "F",
+          0.017
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 0.98
+        },
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "Ab",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.079,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "Ab",
+          "tool key & chords*": "G (key) / Ab (commonest chord root)"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "lydian",
+        "scale_western": "Lydian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [],
+        "tied_shapes": [
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: G (1.00), Bb (1.00), C (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 208.2,
+        "present_pcs": [
+          [
+            "Bb",
+            0.27
+          ],
+          [
+            "G",
+            0.23
+          ],
+          [
+            "C",
+            0.192
+          ],
+          [
+            "Ab",
+            0.191
+          ],
+          [
+            "D",
+            0.055
+          ],
+          [
+            "Eb",
+            0.038
+          ],
+          [
+            "F",
+            0.023
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 1.0
+          },
+          {
+            "tonic": "Bb",
+            "fit": 1.0
+          },
+          {
+            "tonic": "C",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.185,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "C",
+          "tool key & chords*": "G (key) / G (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (0.96), Bb (0.96), Ab (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 500,
+          "final_share": 0.444,
+          "dur_share": 0.407
+        },
+        "total_dur": 78.0,
+        "present_pcs": [
+          [
+            "C",
+            0.407
+          ],
+          [
+            "Bb",
+            0.317
+          ],
+          [
+            "Ab",
+            0.186
+          ],
+          [
+            "D",
+            0.042
+          ],
+          [
+            "G",
+            0.029
+          ],
+          [
+            "Eb",
+            0.019
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.96
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.96
+          },
+          {
+            "tonic": "Ab",
+            "fit": 0.96
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Gm",
+      "tempo": 98.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.205,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "Ab",
+          "tool key & chords*": "G",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: Ab (0.98), C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 300,
+          "final_share": 0.192,
+          "dur_share": 0.282
+        },
+        "total_dur": 286.8,
+        "present_pcs": [
+          [
+            "Bb",
+            0.282
+          ],
+          [
+            "C",
+            0.25
+          ],
+          [
+            "Ab",
+            0.189
+          ],
+          [
+            "G",
+            0.177
+          ],
+          [
+            "D",
+            0.051
+          ],
+          [
+            "Eb",
+            0.033
+          ],
+          [
+            "F",
+            0.017
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Ab",
+            "fit": 0.98
+          },
+          {
+            "tonic": "C",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.98
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-14-bada-aalbal-2009-01-faker-lamma-te-ouly/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-14-bada-aalbal-2009-01-faker-lamma-te-ouly",
+    "maqam": "Kurd",
+    "maqam_status": "consistent",
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Ab",
+      "Bb",
+      "C"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati"
+    ],
+    "ghammaz_candidate": "Bb",
+    "withheld_reason": null,
+    "rationale": "The Phrygian set fits at 0.98 in the whole piece, the chorus and the melody-only analysis and at 1.00 in the verse, and the declared Gm key and the other voice read G with a margin of 0.201. The most-used note is Bb (28%), the phrase endings and the commonest chord root rest on Ab, and Ab, C and Bb fit the pooled notes at 0.98, so all three are carried as alternative tonics. The verse is read on Ab with no standard maqam at 1.00 while the chorus returns to G as a Kurd shape, so the pooled reading rests on the whole piece and the chorus rather than on every section; Bayati rounds to the same notes.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-018"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:21:54Z",
+    "batch_id": "batch-018",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:21:54Z",
+    "updated_at": "2026-10-29T08:21:54Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-12-allah-alam-2006-08-kent-mfakkar",
+  "track_id": "Fadl Shaker/12.Allah Alam.2006/08.Kent Mfakkar.mp3",
+  "artist": "Fadl Shaker",
+  "album": "12.Allah Alam.2006",
+  "file": "08.Kent Mfakkar.mp3",
+  "lyric_title": "كنت مفكر",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/12.Allah Alam.2006.json",
+    "transcript_track_id": "FADL_SHAKER/12.Allah Alam.2006/08-kent-mfakkar",
+    "transcript_sha256": "e40da6299ed2ae91ae3604be2b37c0a84daca99785f1913d85452cb0bc7d88c0",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/12.Allah Alam.2006/08.Kent Mfakkar.mp3",
+    "audio_sha256": "d72102d3f8b4d33b041a103fcd14d7e9f4865a4f5a1956a65740ad2f0068b902",
+    "abc_sha256": "91cfbe2073bde3f1fa630820cca7ab36a8d8061032c91fa135523438dfe5deb9",
+    "abc_melody_sha256": "8d0f1570bf515d7375d4d3f2829773d7f1183339187950a2394774c8f782094e",
+    "duration_s": 279.066,
+    "declared_key": "Am",
+    "tempo_bpm": 87.0
+  },
+  "evidence": {
+    "evidence_sha256": "fe5f9c6bd82bb5dbd380a24cbf4d0d81ca23fc6c4530c93e3769c53cf1d9abad",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "medium",
+      "tonic_margin": 0.028,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "C",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C (1.00), E (1.00), F (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 300,
+        "final_share": 0.286,
+        "dur_share": 0.16
+      },
+      "total_dur": 176.8,
+      "present_pcs": [
+        [
+          "A",
+          0.29
+        ],
+        [
+          "B",
+          0.214
+        ],
+        [
+          "C",
+          0.16
+        ],
+        [
+          "G",
+          0.141
+        ],
+        [
+          "D",
+          0.105
+        ],
+        [
+          "F",
+          0.047
+        ],
+        [
+          "E",
+          0.044
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F",
+          "fit": 1.0
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "E",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.008,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "C",
+          "tool key & chords*": "A (key) / A (commonest chord root)"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: F (0.98), G (0.98), A (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "G",
+          "interval_cents": 300,
+          "final_share": 0.2,
+          "dur_share": 0.243
+        },
+        "total_dur": 57.5,
+        "present_pcs": [
+          [
+            "A",
+            0.352
+          ],
+          [
+            "G",
+            0.243
+          ],
+          [
+            "B",
+            0.226
+          ],
+          [
+            "C",
+            0.087
+          ],
+          [
+            "F",
+            0.065
+          ],
+          [
+            "E",
+            0.026
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "F",
+            "fit": 0.98
+          },
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "A",
+            "fit": 0.98
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "C",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.344,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "C",
+          "tool key & chords*": "A (key) / G (commonest chord root)",
+          "other voice": "C"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (1.00), G (1.00), D (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 119.2,
+        "present_pcs": [
+          [
+            "A",
+            0.26
+          ],
+          [
+            "B",
+            0.208
+          ],
+          [
+            "C",
+            0.195
+          ],
+          [
+            "D",
+            0.155
+          ],
+          [
+            "G",
+            0.092
+          ],
+          [
+            "E",
+            0.052
+          ],
+          [
+            "F",
+            0.038
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 1.0
+          },
+          {
+            "tonic": "G",
+            "fit": 1.0
+          },
+          {
+            "tonic": "D",
+            "fit": 1.0
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Am",
+      "tempo": 87.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.005,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "C",
+          "tool key & chords*": "A",
+          "other voice": "A"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (1.00), F (1.00), E (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 300,
+          "final_share": 0.286,
+          "dur_share": 0.16
+        },
+        "total_dur": 176.8,
+        "present_pcs": [
+          [
+            "A",
+            0.29
+          ],
+          [
+            "B",
+            0.214
+          ],
+          [
+            "C",
+            0.16
+          ],
+          [
+            "G",
+            0.141
+          ],
+          [
+            "D",
+            0.105
+          ],
+          [
+            "F",
+            0.047
+          ],
+          [
+            "E",
+            0.044
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 1.0
+          },
+          {
+            "tonic": "F",
+            "fit": 1.0
+          },
+          {
+            "tonic": "E",
+            "fit": 1.0
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-12-allah-alam-2006-08-kent-mfakkar/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-12-allah-alam-2006-08-kent-mfakkar",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "A",
+    "tonic_confidence": "medium",
+    "tonic_alternatives": [
+      "C",
+      "E",
+      "F"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati"
+    ],
+    "ghammaz_candidate": "C",
+    "withheld_reason": null,
+    "rationale": "The natural-minor set fits at 1.00 in the whole piece and in the melody-only analysis, and the most-used note (29%), the declared Am key, the commonest chord root and the other voice all read A with a margin of 0.028. The phrase endings rest on C, the verse is read on E as a Kurd shape at 0.98 and the chorus on C as an Ajam shape at 1.00, so C, E and F fit the pooled notes at 1.00 and are carried as alternative tonics. The sections hold the same note set but place the centre elsewhere and the margin is slight, keeping the name consistent at low confidence; Bayati rounds to the same notes.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-018"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:21:54Z",
+    "batch_id": "batch-018",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:21:54Z",
+    "updated_at": "2026-10-29T08:21:54Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
