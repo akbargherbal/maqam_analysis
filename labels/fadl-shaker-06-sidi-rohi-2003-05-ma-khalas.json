@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-06-sidi-rohi-2003-05-ma-khalas",
+  "track_id": "Fadl Shaker/06.Sidi Rohi.2003/05.Ma Khalas.mp3",
+  "artist": "Fadl Shaker",
+  "album": "06.Sidi Rohi.2003",
+  "file": "05.Ma Khalas.mp3",
+  "lyric_title": "ما خلاص",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/06.Sidi Rohi.2003.json",
+    "transcript_track_id": "FADL_SHAKER/06.Sidi Rohi.2003/05-ma-khalas",
+    "transcript_sha256": "bce0385255fb837fb9ebbf488bb3a9c0ebcf5dcfdaaec69d7e27614afbfdba55",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/06.Sidi Rohi.2003/05.Ma Khalas.mp3",
+    "audio_sha256": "8f142aaafb13855d5545474fd6049560a655c695364438bc4b316442377a0c00",
+    "abc_sha256": "4dc706e9825694b707663a80d51910e7400ab6b1adaeb854e1704ed155b97a36",
+    "abc_melody_sha256": "013151fd162bbc492ddedbe79d59cf0ef2cb0f1e2dc7e817fb0d09a9e5d526ee",
+    "duration_s": 283.945,
+    "declared_key": "Cm",
+    "tempo_bpm": 169.0
+  },
+  "evidence": {
+    "evidence_sha256": "60b87711e7677a85be72c5bfb6db088642c18a24374d8130f3183a034b389d26",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.059,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "G",
+        "tool key & chords*": "C (key) / F (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: G and C (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C (0.98), Ab (0.98), Bb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Bb",
+        "interval_cents": 300,
+        "final_share": 0.235,
+        "dur_share": 0.213
+      },
+      "total_dur": 364.2,
+      "present_pcs": [
+        [
+          "Bb",
+          0.213
+        ],
+        [
+          "Ab",
+          0.199
+        ],
+        [
+          "C",
+          0.192
+        ],
+        [
+          "D",
+          0.185
+        ],
+        [
+          "G",
+          0.156
+        ],
+        [
+          "Eb",
+          0.043
+        ],
+        [
+          "F",
+          0.012
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "Bb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.016,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "G",
+          "tool key & chords*": "C (key) / F (commonest chord root)",
+          "other voice": "Bb"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "mixolydian",
+        "scale_western": "Mixolydian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: G (0.98), Ab (0.98), C (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Ab",
+          "interval_cents": 1000,
+          "final_share": 0.333,
+          "dur_share": 0.236
+        },
+        "total_dur": 142.2,
+        "present_pcs": [
+          [
+            "Bb",
+            0.239
+          ],
+          [
+            "Ab",
+            0.236
+          ],
+          [
+            "C",
+            0.158
+          ],
+          [
+            "G",
+            0.153
+          ],
+          [
+            "D",
+            0.116
+          ],
+          [
+            "Eb",
+            0.098
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Ab",
+            "fit": 0.98
+          },
+          {
+            "tonic": "C",
+            "fit": 0.98
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.187,
+        "cues": {
+          "most-used note": "D",
+          "phrase endings": "G",
+          "tool key & chords*": "C (key) / F (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (0.98), F (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 700,
+          "final_share": 0.125,
+          "dur_share": 0.227
+        },
+        "total_dur": 219.5,
+        "present_pcs": [
+          [
+            "D",
+            0.227
+          ],
+          [
+            "C",
+            0.214
+          ],
+          [
+            "Bb",
+            0.198
+          ],
+          [
+            "Ab",
+            0.178
+          ],
+          [
+            "G",
+            0.161
+          ],
+          [
+            "F",
+            0.021
+          ],
+          [
+            "Eb",
+            0.002
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.98
+          },
+          {
+            "tonic": "F",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Cm",
+      "tempo": 169.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.077,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "G",
+          "tool key & chords*": "C",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "tonic/dominant split: G and C (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: C (0.98), Ab (0.98), Bb (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 300,
+          "final_share": 0.235,
+          "dur_share": 0.213
+        },
+        "total_dur": 364.2,
+        "present_pcs": [
+          [
+            "Bb",
+            0.213
+          ],
+          [
+            "Ab",
+            0.199
+          ],
+          [
+            "C",
+            0.192
+          ],
+          [
+            "D",
+            0.185
+          ],
+          [
+            "G",
+            0.156
+          ],
+          [
+            "Eb",
+            0.043
+          ],
+          [
+            "F",
+            0.012
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Ab",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.98
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-06-sidi-rohi-2003-05-ma-khalas/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-06-sidi-rohi-2003-05-ma-khalas",
+    "maqam": "Kurd",
+    "maqam_status": "consistent",
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Bb",
+      "C",
+      "F"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati"
+    ],
+    "ghammaz_candidate": "Bb",
+    "withheld_reason": null,
+    "rationale": "The Phrygian set fits at 0.98 in the whole piece, the chorus and the melody-only analysis, and the phrase endings and the other voice read G. The most-used note is Bb, the declared Cm key and the commonest chord root F pull away from G, the analyzer flags a G/C split with a margin of only 0.059, and the verse is read on Bb with no standard maqam, so C, Bb and F are carried as alternative tonics. The shape holds in the chorus but not in the verse, keeping the name consistent at low confidence while Bayati rounds to the same notes.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-014"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:17:43Z",
+    "batch_id": "batch-014",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:17:43Z",
+    "updated_at": "2026-10-29T08:17:43Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
