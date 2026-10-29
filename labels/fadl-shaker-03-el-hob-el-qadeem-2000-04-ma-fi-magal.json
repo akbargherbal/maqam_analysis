@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-03-el-hob-el-qadeem-2000-04-ma-fi-magal",
+  "track_id": "Fadl Shaker/03.El Hob El Qadeem.2000/04.Ma Fi Magal.mp3",
+  "artist": "Fadl Shaker",
+  "album": "03.El Hob El Qadeem.2000",
+  "file": "04.Ma Fi Magal.mp3",
+  "lyric_title": "ما في مجال",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/03.El Hob El Qadeem.2000.json",
+    "transcript_track_id": "FADL_SHAKER/03.El Hob El Qadeem.2000/04-ma-fi-magal",
+    "transcript_sha256": "62238098d4d741373a72bc5159dcab3cb4c53dc5aa5fe4223ef83361fdca2ee1",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/03.El Hob El Qadeem.2000/04.Ma Fi Magal.mp3",
+    "audio_sha256": "f99c43d34c3401c6f630e769420d5ff54425fd6699b1c5804af8c8f5b8776185",
+    "abc_sha256": "6be32a83717230302673835e4eb84fc726d13f3e972c0c2911dccad0275e114b",
+    "abc_melody_sha256": "c417f704fd3def07a47052c988fffab737f53d1ca3248e916b48dbb7d7c40514",
+    "duration_s": 259.997,
+    "declared_key": "C#m",
+    "tempo_bpm": 94.0
+  },
+  "evidence": {
+    "evidence_sha256": "3baad9c616e96b404d29899dc1cca2725eae9e599213dcca9bf6d140801f174b",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "C#",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.128,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "E",
+        "tool key & chords*": "C# (key) / C# (commonest chord root)",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.976,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: E (0.98), F# (0.98), B (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 300,
+        "final_share": 0.333,
+        "dur_share": 0.112
+      },
+      "total_dur": 255.2,
+      "present_pcs": [
+        [
+          "C#",
+          0.32
+        ],
+        [
+          "B",
+          0.165
+        ],
+        [
+          "A",
+          0.131
+        ],
+        [
+          "E",
+          0.112
+        ],
+        [
+          "Ab",
+          0.085
+        ],
+        [
+          "F#",
+          0.084
+        ],
+        [
+          "Eb",
+          0.078
+        ],
+        [
+          "C",
+          0.012
+        ],
+        [
+          "G",
+          0.01
+        ],
+        [
+          "Bb",
+          0.002
+        ],
+        [
+          "F",
+          0.001
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 0.976
+        },
+        {
+          "tonic": "F#",
+          "fit": 0.976
+        },
+        {
+          "tonic": "B",
+          "fit": 0.976
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "C#",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.094,
+        "cues": {
+          "most-used note": "C#",
+          "phrase endings": "F#",
+          "tool key & chords*": "C# (key) / C# (commonest chord root)"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.982,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: F# (0.98), B (0.98), Ab (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F#",
+          "interval_cents": 500,
+          "final_share": 0.375,
+          "dur_share": 0.108
+        },
+        "total_dur": 141.0,
+        "present_pcs": [
+          [
+            "C#",
+            0.273
+          ],
+          [
+            "A",
+            0.152
+          ],
+          [
+            "B",
+            0.152
+          ],
+          [
+            "Ab",
+            0.137
+          ],
+          [
+            "F#",
+            0.108
+          ],
+          [
+            "E",
+            0.101
+          ],
+          [
+            "Eb",
+            0.059
+          ],
+          [
+            "C",
+            0.012
+          ],
+          [
+            "Bb",
+            0.004
+          ],
+          [
+            "F",
+            0.002
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "F#",
+            "fit": 0.982
+          },
+          {
+            "tonic": "B",
+            "fit": 0.982
+          },
+          {
+            "tonic": "Ab",
+            "fit": 0.982
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "E",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.022,
+        "cues": {
+          "most-used note": "C#",
+          "phrase endings": "E",
+          "tool key & chords*": "C# (key) / C# (commonest chord root)",
+          "other voice": "E"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 0.917,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (0.92), Ab (0.92), B (0.92)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C#",
+          "interval_cents": 900,
+          "final_share": 0.25,
+          "dur_share": 0.379
+        },
+        "total_dur": 114.2,
+        "present_pcs": [
+          [
+            "C#",
+            0.379
+          ],
+          [
+            "B",
+            0.179
+          ],
+          [
+            "E",
+            0.125
+          ],
+          [
+            "A",
+            0.105
+          ],
+          [
+            "Eb",
+            0.103
+          ],
+          [
+            "F#",
+            0.055
+          ],
+          [
+            "Ab",
+            0.022
+          ],
+          [
+            "G",
+            0.022
+          ],
+          [
+            "C",
+            0.011
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 0.917
+          },
+          {
+            "tonic": "Ab",
+            "fit": 0.917
+          },
+          {
+            "tonic": "B",
+            "fit": 0.917
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "C#m",
+      "tempo": 94.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "C#",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.099,
+        "cues": {
+          "most-used note": "C#",
+          "phrase endings": "E",
+          "tool key & chords*": "C#",
+          "other voice": "Ab"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.976,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (0.98), F# (0.98), B (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 300,
+          "final_share": 0.333,
+          "dur_share": 0.112
+        },
+        "total_dur": 255.2,
+        "present_pcs": [
+          [
+            "C#",
+            0.32
+          ],
+          [
+            "B",
+            0.165
+          ],
+          [
+            "A",
+            0.131
+          ],
+          [
+            "E",
+            0.112
+          ],
+          [
+            "Ab",
+            0.085
+          ],
+          [
+            "F#",
+            0.084
+          ],
+          [
+            "Eb",
+            0.078
+          ],
+          [
+            "C",
+            0.012
+          ],
+          [
+            "G",
+            0.01
+          ],
+          [
+            "Bb",
+            0.002
+          ],
+          [
+            "F",
+            0.001
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 0.976
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.976
+          },
+          {
+            "tonic": "B",
+            "fit": 0.976
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-03-el-hob-el-qadeem-2000-04-ma-fi-magal/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-03-el-hob-el-qadeem-2000-04-ma-fi-magal",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "C#",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Ab",
+      "B",
+      "E",
+      "F#"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Ajam",
+      "Bayati"
+    ],
+    "ghammaz_candidate": "E",
+    "withheld_reason": null,
+    "rationale": "The natural-minor set fits at 0.976 in the whole piece and the melody-only analysis and at 0.982 in the verse, and the most-used note (32%), the declared C#m key and the commonest chord root all read C# with a margin of 0.128. The phrase endings rest on E, the other voice is Ab, the chorus is read on E as an Ajam shape at 0.917, and E, F#, B and Ab all fit the pooled notes at 0.98, so they are carried as alternative tonics. The shape holds in both sections but the chorus departs from the verse and the cues are not unanimous, keeping the name consistent at low confidence.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-013"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:16:17Z",
+    "batch_id": "batch-013",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:16:17Z",
+    "updated_at": "2026-10-29T08:16:17Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

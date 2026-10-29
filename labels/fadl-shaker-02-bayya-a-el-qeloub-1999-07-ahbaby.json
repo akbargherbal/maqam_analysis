@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-02-bayya-a-el-qeloub-1999-07-ahbaby",
+  "track_id": "Fadl Shaker/02.Bayya'a El Qeloub.1999/07.Ahbaby.mp3",
+  "artist": "Fadl Shaker",
+  "album": "02.Bayya'a El Qeloub.1999",
+  "file": "07.Ahbaby.mp3",
+  "lyric_title": "احبابي",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/02.Bayya'a El Qeloub.1999.json",
+    "transcript_track_id": "FADL_SHAKER/02.Bayya'a El Qeloub.1999/07-ahbaby",
+    "transcript_sha256": "8a3b3256924d3ccdf71056a5cf48d6811b78cb59fcef1e8e25716a297662d655",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/02.Bayya'a El Qeloub.1999/07.Ahbaby.mp3",
+    "audio_sha256": "e95d45df83ced448a7a37f262a0f6c1eacf16de1640a51752e37b497b33c6ac4",
+    "abc_sha256": "2e704f7c65dd63f6dc84c0ccea51e838ee77dd0ef643d1d67b4ac9414b4569b9",
+    "abc_melody_sha256": "ff11d8ba08591be6b53b5a179217869b292df87b9da9ec6ba6db97b3234bec69",
+    "duration_s": 354.116,
+    "declared_key": "D#m",
+    "tempo_bpm": 83.0
+  },
+  "evidence": {
+    "evidence_sha256": "f3b32c394c16bd306a27fdc860011e1e987ee404b4e543ea000f78da0cd0ff34",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Eb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.087,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "B",
+        "tool key & chords*": "Eb (key) / Eb (commonest chord root)",
+        "other voice": "Eb"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.881,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: B (0.88), Bb (0.88)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.88); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 800,
+        "final_share": 0.208,
+        "dur_share": 0.165
+      },
+      "total_dur": 280.8,
+      "present_pcs": [
+        [
+          "C#",
+          0.219
+        ],
+        [
+          "F",
+          0.175
+        ],
+        [
+          "B",
+          0.165
+        ],
+        [
+          "Bb",
+          0.153
+        ],
+        [
+          "Eb",
+          0.106
+        ],
+        [
+          "D",
+          0.069
+        ],
+        [
+          "F#",
+          0.067
+        ],
+        [
+          "Ab",
+          0.047
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.881
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.881
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "Eb",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.144,
+        "cues": {
+          "most-used note": "Eb",
+          "phrase endings": "F",
+          "tool key & chords*": "Eb (key) / Bb (commonest chord root)",
+          "other voice": "Eb"
+        },
+        "scale_shape": "Nahawand (raised 7th)",
+        "scale_id": "nahawand_h",
+        "scale_western": "harmonic minor",
+        "fit": 0.839,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: B (0.83), C# (0.83)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.84); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "B",
+          "interval_cents": 800,
+          "final_share": 0.214,
+          "dur_share": 0.117
+        },
+        "total_dur": 94.2,
+        "present_pcs": [
+          [
+            "Eb",
+            0.247
+          ],
+          [
+            "F",
+            0.212
+          ],
+          [
+            "D",
+            0.119
+          ],
+          [
+            "B",
+            0.117
+          ],
+          [
+            "C#",
+            0.111
+          ],
+          [
+            "F#",
+            0.098
+          ],
+          [
+            "Bb",
+            0.064
+          ],
+          [
+            "Ab",
+            0.032
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "B",
+            "fit": 0.831
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.831
+          }
+        ]
+      },
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "Bb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.003,
+        "cues": {
+          "most-used note": "C#",
+          "phrase endings": "B",
+          "tool key & chords*": "Eb (key) / Eb (commonest chord root)",
+          "other voice": "Eb"
+        },
+        "scale_shape": "Saba",
+        "scale_id": "saba",
+        "scale_western": "",
+        "fit": 0.915,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Saba"
+        ],
+        "tied_shapes": [
+          "Saba"
+        ],
+        "flags": [
+          "tonic/dominant split: Bb and Eb (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: Eb (0.91), C# (0.91), B (0.91)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 700,
+          "final_share": 0.278,
+          "dur_share": 0.158
+        },
+        "total_dur": 184.0,
+        "present_pcs": [
+          [
+            "C#",
+            0.277
+          ],
+          [
+            "Bb",
+            0.196
+          ],
+          [
+            "B",
+            0.183
+          ],
+          [
+            "F",
+            0.158
+          ],
+          [
+            "Ab",
+            0.056
+          ],
+          [
+            "F#",
+            0.052
+          ],
+          [
+            "D",
+            0.043
+          ],
+          [
+            "Eb",
+            0.035
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Eb",
+            "fit": 0.907
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.915
+          },
+          {
+            "tonic": "B",
+            "fit": 0.907
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "D#m",
+      "tempo": 83.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "Eb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.061,
+        "cues": {
+          "most-used note": "C#",
+          "phrase endings": "B",
+          "tool key & chords*": "Eb",
+          "other voice": "Eb"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.881,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: B (0.88), Bb (0.88)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.88); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "B",
+          "interval_cents": 800,
+          "final_share": 0.208,
+          "dur_share": 0.165
+        },
+        "total_dur": 280.8,
+        "present_pcs": [
+          [
+            "C#",
+            0.219
+          ],
+          [
+            "F",
+            0.175
+          ],
+          [
+            "B",
+            0.165
+          ],
+          [
+            "Bb",
+            0.153
+          ],
+          [
+            "Eb",
+            0.106
+          ],
+          [
+            "D",
+            0.069
+          ],
+          [
+            "F#",
+            0.067
+          ],
+          [
+            "Ab",
+            0.047
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "B",
+            "fit": 0.881
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.881
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-02-bayya-a-el-qeloub-1999-07-ahbaby/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-02-bayya-a-el-qeloub-1999-07-ahbaby",
+    "maqam": null,
+    "maqam_status": "withheld",
+    "tonic": "Eb",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "B",
+      "Bb",
+      "C#"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "ghammaz_candidate": "B",
+    "withheld_reason": "The analyzer reports no single scale: the best fit is the natural-minor set on Eb at only 0.881, below the 0.90 threshold, and sets name_allowed=false. The chorus reaches just 0.839 while the verse is read on Bb at 0.915 under a different shape, and the analyzer flags a Bb/Eb split with a margin of 0.087, so the two sections do not share one centre or one shape. The most-used note is C#, so the cue table also disagrees with the chosen tonic.",
+    "rationale": "The whole piece and the melody-only analysis reach only 0.881 for the natural-minor shape on Eb and the chorus only 0.839, with the analyzer declining a name. The verse is read on Bb under another shape at 0.915 and the two sections are split a fourth or fifth apart, while the most-used note C# matches neither. With the shape and the centre both unresolved, the closest partial matches are carried as possibilities only.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-013"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:16:17Z",
+    "batch_id": "batch-013",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:16:17Z",
+    "updated_at": "2026-10-29T08:16:17Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

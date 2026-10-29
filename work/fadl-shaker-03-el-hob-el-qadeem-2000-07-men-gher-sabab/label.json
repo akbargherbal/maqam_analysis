@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-03-el-hob-el-qadeem-2000-07-men-gher-sabab",
+  "track_id": "Fadl Shaker/03.El Hob El Qadeem.2000/07.Men Gher Sabab.mp3",
+  "artist": "Fadl Shaker",
+  "album": "03.El Hob El Qadeem.2000",
+  "file": "07.Men Gher Sabab.mp3",
+  "lyric_title": "من غير سبب",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/03.El Hob El Qadeem.2000.json",
+    "transcript_track_id": "FADL_SHAKER/03.El Hob El Qadeem.2000/07-men-gher-sabab",
+    "transcript_sha256": "62238098d4d741373a72bc5159dcab3cb4c53dc5aa5fe4223ef83361fdca2ee1",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/03.El Hob El Qadeem.2000/07.Men Gher Sabab.mp3",
+    "audio_sha256": "ca5085994a3b0f2524daec173218f42df4251e78f7248bde636b3c79b8678912",
+    "abc_sha256": "1059754ee12ad65918a828679d32c2c99ecd5c556a181d901def154f54d8af48",
+    "abc_melody_sha256": "2b2db3edfe9b8152eca1496a152444aaa7fac94148ddd49cff054ccdf7f1a266",
+    "duration_s": 281.234,
+    "declared_key": "C#m",
+    "tempo_bpm": 85.0
+  },
+  "evidence": {
+    "evidence_sha256": "63e5eeb2b3fee4adcefc607472970bf7beab749824fd2e625a7f86cf9de338da",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.149,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 0.862,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C# (0.86), B (0.86), Ab (0.86)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.86); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 700,
+        "final_share": 0.136,
+        "dur_share": 0.062
+      },
+      "total_dur": 121.8,
+      "present_pcs": [
+        [
+          "A",
+          0.335
+        ],
+        [
+          "B",
+          0.238
+        ],
+        [
+          "C#",
+          0.105
+        ],
+        [
+          "F#",
+          0.103
+        ],
+        [
+          "Ab",
+          0.09
+        ],
+        [
+          "E",
+          0.062
+        ],
+        [
+          "C",
+          0.051
+        ],
+        [
+          "G",
+          0.016
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 0.862
+        },
+        {
+          "tonic": "B",
+          "fit": 0.862
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.862
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "B",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.152,
+        "cues": {
+          "most-used note": "B",
+          "phrase endings": "A",
+          "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+          "other voice": "Ab"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "dorian",
+        "scale_western": "Dorian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (0.98), Ab (0.98), A (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "A",
+          "interval_cents": 1000,
+          "final_share": 0.214,
+          "dur_share": 0.215
+        },
+        "total_dur": 62.8,
+        "present_pcs": [
+          [
+            "B",
+            0.446
+          ],
+          [
+            "A",
+            0.215
+          ],
+          [
+            "C#",
+            0.139
+          ],
+          [
+            "Ab",
+            0.096
+          ],
+          [
+            "F#",
+            0.072
+          ],
+          [
+            "E",
+            0.032
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Ab",
+            "fit": 0.98
+          },
+          {
+            "tonic": "A",
+            "fit": 0.98
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.269,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "A",
+          "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+          "other voice": "E"
+        },
+        "scale_shape": "Rast",
+        "scale_id": "rast",
+        "scale_western": "",
+        "fit": 0.76,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (0.88), Ab (0.88)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.76); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 700,
+          "final_share": 0.143,
+          "dur_share": 0.095
+        },
+        "total_dur": 57.8,
+        "present_pcs": [
+          [
+            "A",
+            0.472
+          ],
+          [
+            "F#",
+            0.121
+          ],
+          [
+            "C",
+            0.108
+          ],
+          [
+            "E",
+            0.095
+          ],
+          [
+            "Ab",
+            0.087
+          ],
+          [
+            "C#",
+            0.065
+          ],
+          [
+            "G",
+            0.035
+          ],
+          [
+            "B",
+            0.017
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 0.878
+          },
+          {
+            "tonic": "Ab",
+            "fit": 0.878
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "C#m",
+      "tempo": 85.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.172,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "A",
+          "tool key & chords*": "C#",
+          "other voice": "Ab"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 0.862,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (0.86), B (0.86), F# (0.86)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.86); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 700,
+          "final_share": 0.136,
+          "dur_share": 0.062
+        },
+        "total_dur": 121.8,
+        "present_pcs": [
+          [
+            "A",
+            0.335
+          ],
+          [
+            "B",
+            0.238
+          ],
+          [
+            "C#",
+            0.105
+          ],
+          [
+            "F#",
+            0.103
+          ],
+          [
+            "Ab",
+            0.09
+          ],
+          [
+            "E",
+            0.062
+          ],
+          [
+            "C",
+            0.051
+          ],
+          [
+            "G",
+            0.016
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 0.862
+          },
+          {
+            "tonic": "B",
+            "fit": 0.862
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.862
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-03-el-hob-el-qadeem-2000-07-men-gher-sabab/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-03-el-hob-el-qadeem-2000-07-men-gher-sabab",
+    "maqam": null,
+    "maqam_status": "withheld",
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Ab",
+      "B",
+      "C#"
+    ],
+    "scale_family": "major / Ionian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Ajam",
+      "Rast"
+    ],
+    "ghammaz_candidate": "E",
+    "withheld_reason": "The analyzer reports no single scale: the best fit is the major-like set on A at only 0.862, below the 0.90 threshold, and sets name_allowed=false. The verse is read on B as a non-maqam shape at 0.98 while the chorus is read on A as Rast at only 0.76, and the declared key and chord root (C#/Ab) disagree with the most-used note and phrase endings (A). With both the shape and the centre unresolved, no maqam name is supported.",
+    "rationale": "The whole piece and the melody-only analysis reach only 0.862 for the major-like set on A and the chorus only 0.76, with the analyzer declining a name. The verse is read on B at 0.98, none of the sections reaches the whole-piece name reliably, and the tool key and chord root C#/Ab contradict the A centre that the most-used note and the phrase endings give. Only the tonic is stable, and even that is shared by four candidate centres, so the closest readings are carried as possibilities only.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-013"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:16:17Z",
+    "batch_id": "batch-013",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:16:17Z",
+    "updated_at": "2026-10-29T08:16:17Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
