@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2004-ahla-donya-12-arably",
+  "track_id": "Elissa/Elissa - 2004 Ahla Donya/12.Arably.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2004 Ahla Donya",
+  "file": "12.Arably.mp3",
+  "lyric_title": "قرب لي",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2004 Ahla Donya.json",
+    "transcript_track_id": "ELISSA/Elissa - 2004 Ahla Donya/12-arably",
+    "transcript_sha256": "89f6de3c9acd554c5b117f092c6b997b405b229ffedc2554ce4c0abb748b9964",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2004 Ahla Donya/12.Arably.mp3",
+    "audio_sha256": "bd806e387d687c792311b296663f815ca1803584c50ad002aeef5febbb6927c6",
+    "abc_sha256": "31770d40a94492ef477a97f31545129c2d693a11cee0e3595d105d215d3b73a0",
+    "abc_melody_sha256": "2f56a300b3a85f0a464f12176865e82c9125b697dbafe936ac472e53e4861c17",
+    "duration_s": 244.016,
+    "declared_key": "Em",
+    "tempo_bpm": 125.0
+  },
+  "evidence": {
+    "evidence_sha256": "9c96fc78e8e2bab5bcfb2e86117ee1650a8323e27f523144942571806faf5f68",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.279,
+      "cues": {
+        "most-used note": "G",
+        "phrase endings": "G",
+        "tool key & chords*": "G (key) / D (commonest chord root)",
+        "other voice": "F#"
+      },
+      "scale_shape": "Rast",
+      "scale_id": "rast",
+      "scale_western": "",
+      "fit": 0.799,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.79), E (0.79), A (0.80)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.80); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "Eb",
+        "interval_cents": 800,
+        "final_share": 0.143,
+        "dur_share": 0.022
+      },
+      "total_dur": 295.2,
+      "present_pcs": [
+        [
+          "G",
+          0.279
+        ],
+        [
+          "F#",
+          0.187
+        ],
+        [
+          "E",
+          0.174
+        ],
+        [
+          "A",
+          0.145
+        ],
+        [
+          "D",
+          0.132
+        ],
+        [
+          "F",
+          0.03
+        ],
+        [
+          "Eb",
+          0.022
+        ],
+        [
+          "Bb",
+          0.019
+        ],
+        [
+          "B",
+          0.008
+        ],
+        [
+          "C",
+          0.003
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.789
+        },
+        {
+          "tonic": "E",
+          "fit": 0.789
+        },
+        {
+          "tonic": "A",
+          "fit": 0.796
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.586,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "G",
+          "tool key & chords*": "E (key) / E (commonest chord root)",
+          "other voice": "E"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (0.96), D (0.96), F# (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 154.0,
+        "present_pcs": [
+          [
+            "G",
+            0.289
+          ],
+          [
+            "F#",
+            0.274
+          ],
+          [
+            "E",
+            0.231
+          ],
+          [
+            "D",
+            0.149
+          ],
+          [
+            "A",
+            0.041
+          ],
+          [
+            "B",
+            0.016
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 0.96
+          },
+          {
+            "tonic": "D",
+            "fit": 0.96
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.96
+          }
+        ]
+      },
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.134,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "F#",
+          "tool key & chords*": "G (key) / D (commonest chord root)"
+        },
+        "scale_shape": "Rast",
+        "scale_id": "rast",
+        "scale_western": "",
+        "fit": 0.765,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (0.76), D (0.75)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.77); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "Eb",
+          "interval_cents": 800,
+          "final_share": 0.25,
+          "dur_share": 0.048
+        },
+        "total_dur": 135.2,
+        "present_pcs": [
+          [
+            "A",
+            0.27
+          ],
+          [
+            "G",
+            0.268
+          ],
+          [
+            "E",
+            0.111
+          ],
+          [
+            "D",
+            0.104
+          ],
+          [
+            "F#",
+            0.085
+          ],
+          [
+            "F",
+            0.067
+          ],
+          [
+            "Eb",
+            0.048
+          ],
+          [
+            "Bb",
+            0.041
+          ],
+          [
+            "C",
+            0.007
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 0.758
+          },
+          {
+            "tonic": "D",
+            "fit": 0.747
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Em",
+      "tempo": 125.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.367,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "G",
+          "tool key & chords*": "G",
+          "other voice": "F#"
+        },
+        "scale_shape": "Rast",
+        "scale_id": "rast",
+        "scale_western": "",
+        "fit": 0.799,
+        "shape_confidence": "low",
+        "name_allowed": false,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (0.79), A (0.80), D (0.79)  -> relative-mode ambiguity",
+          "no single scale explains this material (best fit 0.80); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+        ],
+        "ghammaz": {
+          "note": "Eb",
+          "interval_cents": 800,
+          "final_share": 0.143,
+          "dur_share": 0.022
+        },
+        "total_dur": 295.2,
+        "present_pcs": [
+          [
+            "G",
+            0.279
+          ],
+          [
+            "F#",
+            0.187
+          ],
+          [
+            "E",
+            0.174
+          ],
+          [
+            "A",
+            0.145
+          ],
+          [
+            "D",
+            0.132
+          ],
+          [
+            "F",
+            0.03
+          ],
+          [
+            "Eb",
+            0.022
+          ],
+          [
+            "Bb",
+            0.019
+          ],
+          [
+            "B",
+            0.008
+          ],
+          [
+            "C",
+            0.003
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 0.789
+          },
+          {
+            "tonic": "A",
+            "fit": 0.796
+          },
+          {
+            "tonic": "D",
+            "fit": 0.789
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2004-ahla-donya-12-arably/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2004-ahla-donya-12-arably",
+    "maqam": null,
+    "maqam_status": "withheld",
+    "tonic": "G",
+    "tonic_confidence": "high",
+    "tonic_alternatives": [
+      "A",
+      "D",
+      "E"
+    ],
+    "scale_family": "",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Ajam",
+      "Rast"
+    ],
+    "ghammaz_candidate": "Eb",
+    "withheld_reason": "No single scale explains the material: the best fit is Rast on G at 0.799, below the 0.90 threshold, and the analyzer sets name_allowed=false. The chorus fits Ajam on G at 0.96 while the verse reaches only 0.765 on Rast, and the same notes also fit D, E and A almost as well, so the sections share neither one shape nor one clear centre; modulation or quarter tones rounded both ways are the likeliest reading.",
+    "rationale": "The whole piece reaches only 0.799 for Rast on G and the analyzer explicitly reports no single scale and withholds a name. The most-used note, the phrase endings and the tool key all point at G, but the commonest chord root is D and the other voice is F#, and D, E and A fit the pooled notes almost equally. The chorus is a clean Ajam at 0.96 against a verse at 0.765, so the two sections do not hold one shape; nothing here supports a single maqam, and the closest partial matches are left as possibilities only.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-006"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:10:43Z",
+    "batch_id": "batch-006",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:10:43Z",
+    "updated_at": "2026-10-29T08:10:43Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
