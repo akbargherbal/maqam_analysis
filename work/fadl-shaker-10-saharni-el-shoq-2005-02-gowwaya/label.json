@@ -1,0 +1,380 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-10-saharni-el-shoq-2005-02-gowwaya",
+  "track_id": "Fadl Shaker/10.Saharni El Shoq.2005/02.Gowwaya.mp3",
+  "artist": "Fadl Shaker",
+  "album": "10.Saharni El Shoq.2005",
+  "file": "02.Gowwaya.mp3",
+  "lyric_title": "جوايا",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/10.Saharni El Shoq.2005.json",
+    "transcript_track_id": "FADL_SHAKER/10.Saharni El Shoq.2005/02-gowwaya",
+    "transcript_sha256": "d1db5b1a5055945ec427c3a7a3b59f0ec86c3e79fe8405bd3264dc0307a2dda3",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/10.Saharni El Shoq.2005/02.Gowwaya.mp3",
+    "audio_sha256": "8a4d3856b61a5f3a039fc1fdc66358c3168df66375756353c7f117fe681efeaf",
+    "abc_sha256": "0c73a070cdd67fb497e14bcaee707784eb85c75b036962901f83c682ad5860c1",
+    "abc_melody_sha256": "d7da5ce45e03333b9e81a2d5363c17503926d9fa3527b5de5f7419eddcfb49a9",
+    "duration_s": 284.238,
+    "declared_key": "Bbm",
+    "tempo_bpm": 133.0
+  },
+  "evidence": {
+    "evidence_sha256": "8d374f1a59b0b941b234214c0c3c259e9de6ea4c4f3dbb523bff70013d4a587a",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.296,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Bb (key) / F (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.99,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: F (0.99), C# (0.99)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 420.8,
+      "present_pcs": [
+        [
+          "C#",
+          0.265
+        ],
+        [
+          "C",
+          0.24
+        ],
+        [
+          "Bb",
+          0.201
+        ],
+        [
+          "Eb",
+          0.122
+        ],
+        [
+          "F",
+          0.077
+        ],
+        [
+          "Ab",
+          0.062
+        ],
+        [
+          "F#",
+          0.023
+        ],
+        [
+          "A",
+          0.01
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.99
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.99
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "Bb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.119,
+        "cues": {
+          "most-used note": "C#",
+          "phrase endings": "C",
+          "tool key & chords*": "Bb (key) / F (commonest chord root)"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast",
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Bayati",
+          "Nahawand",
+          "Nahawand (raised 7th)",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (0.96), F (0.96), Eb (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 118.2,
+        "present_pcs": [
+          [
+            "C#",
+            0.423
+          ],
+          [
+            "C",
+            0.29
+          ],
+          [
+            "Eb",
+            0.186
+          ],
+          [
+            "Bb",
+            0.059
+          ],
+          [
+            "F",
+            0.042
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.96
+          },
+          {
+            "tonic": "F",
+            "fit": 0.96
+          },
+          {
+            "tonic": "Eb",
+            "fit": 0.96
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "Bb",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.202,
+        "cues": {
+          "most-used note": "Bb",
+          "phrase endings": "C",
+          "tool key & chords*": "Bb (key) / F (commonest chord root)"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.987,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: F (0.99), C# (0.99)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 299.5,
+        "present_pcs": [
+          [
+            "Bb",
+            0.255
+          ],
+          [
+            "C",
+            0.223
+          ],
+          [
+            "C#",
+            0.204
+          ],
+          [
+            "Eb",
+            0.095
+          ],
+          [
+            "F",
+            0.09
+          ],
+          [
+            "Ab",
+            0.087
+          ],
+          [
+            "F#",
+            0.033
+          ],
+          [
+            "A",
+            0.013
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "F",
+            "fit": 0.987
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.987
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Bbm",
+      "tempo": 133.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "Bb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.319,
+        "cues": {
+          "most-used note": "C#",
+          "phrase endings": "Bb",
+          "tool key & chords*": "Bb",
+          "other voice": "F"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.99,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: F (0.99), C# (0.99)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 420.8,
+        "present_pcs": [
+          [
+            "C#",
+            0.265
+          ],
+          [
+            "C",
+            0.24
+          ],
+          [
+            "Bb",
+            0.201
+          ],
+          [
+            "Eb",
+            0.122
+          ],
+          [
+            "F",
+            0.077
+          ],
+          [
+            "Ab",
+            0.062
+          ],
+          [
+            "F#",
+            0.023
+          ],
+          [
+            "A",
+            0.01
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "F",
+            "fit": 0.99
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.99
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-10-saharni-el-shoq-2005-02-gowwaya/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-10-saharni-el-shoq-2005-02-gowwaya",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "Bb",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "C#",
+      "Eb",
+      "F"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati"
+    ],
+    "ghammaz_candidate": null,
+    "withheld_reason": null,
+    "rationale": "The natural-minor set fits at 0.99 in the whole piece and the melody-only analysis and at 0.96-0.987 in the verse and chorus, and the phrase endings and the declared Bbm key read Bb with a margin of 0.296. The most-used note is C# (26%) with C close behind (24%), the commonest chord root and the other voice rest on F, and F, C# and Eb fit the pooled notes at 0.99, so all three are carried as alternative tonics. Both sections hold the shape on Bb but the analyzer rates the tonic low, keeping the name consistent at low confidence; the ABC cannot show whether the C/C# pair reflects a quarter-tone inflection.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-016"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:19:14Z",
+    "batch_id": "batch-016",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:19:14Z",
+    "updated_at": "2026-10-29T08:19:14Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
