@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2002-aayshalak-06-million-ahibbak",
+  "track_id": "Elissa/Elissa - 2002 Aayshalak/06. Million Ahibbak.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2002 Aayshalak",
+  "file": "06. Million Ahibbak.mp3",
+  "lyric_title": "مليون احبك",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2002 Aayshalak.json",
+    "transcript_track_id": "ELISSA/Elissa - 2002 Aayshalak/06-million-ahibbak",
+    "transcript_sha256": "02ce2c17b104fe963aec5e2aa0fa6b305d3f8429bed33578ac2097950714bd12",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2002 Aayshalak/06. Million Ahibbak.mp3",
+    "audio_sha256": "87d7853431c31f445610f0f233830f5e17f52e27915d2c46847575fd0c608ecd",
+    "abc_sha256": "8a2bdcc88b7088153b43b4c77a4f5f798e22296a2d309428435a96c9eac14e17",
+    "abc_melody_sha256": "e14334d2daf22a30f06b022a34656ddd78c0cc0c9acd2b2439dcd2dfcf23c684",
+    "duration_s": 359.997,
+    "declared_key": "Am",
+    "tempo_bpm": 135.0
+  },
+  "evidence": {
+    "evidence_sha256": "b250a55a0989143234b90c95aaaa7659e1a9ae5ea096bdb50bcf0c82e2e44919",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.001,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "E",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.965,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: E and A (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: A (0.98), D (0.98), G (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 1000,
+        "final_share": 0.257,
+        "dur_share": 0.182
+      },
+      "total_dur": 340.5,
+      "present_pcs": [
+        [
+          "E",
+          0.383
+        ],
+        [
+          "F",
+          0.186
+        ],
+        [
+          "D",
+          0.182
+        ],
+        [
+          "G",
+          0.117
+        ],
+        [
+          "A",
+          0.071
+        ],
+        [
+          "C",
+          0.046
+        ],
+        [
+          "Bb",
+          0.015
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.98
+        },
+        {
+          "tonic": "D",
+          "fit": 0.98
+        },
+        {
+          "tonic": "G",
+          "fit": 0.98
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "E",
+        "tonic_confidence": "high",
+        "tonic_margin": 0.084,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "E",
+          "tool key & chords*": "A (key) / A (commonest chord root)",
+          "other voice": "E"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.96), G (0.96), F (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 1000,
+          "final_share": 0.5,
+          "dur_share": 0.27
+        },
+        "total_dur": 194.8,
+        "present_pcs": [
+          [
+            "E",
+            0.469
+          ],
+          [
+            "D",
+            0.27
+          ],
+          [
+            "F",
+            0.155
+          ],
+          [
+            "C",
+            0.067
+          ],
+          [
+            "G",
+            0.035
+          ],
+          [
+            "A",
+            0.005
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.96
+          },
+          {
+            "tonic": "G",
+            "fit": 0.96
+          },
+          {
+            "tonic": "F",
+            "fit": 0.96
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.132,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "A",
+          "tool key & chords*": "A (key) / A (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: G (0.98), F (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 700,
+          "final_share": 0.333,
+          "dur_share": 0.264
+        },
+        "total_dur": 140.0,
+        "present_pcs": [
+          [
+            "E",
+            0.264
+          ],
+          [
+            "G",
+            0.237
+          ],
+          [
+            "F",
+            0.232
+          ],
+          [
+            "A",
+            0.166
+          ],
+          [
+            "D",
+            0.05
+          ],
+          [
+            "Bb",
+            0.036
+          ],
+          [
+            "C",
+            0.014
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "F",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Am",
+      "tempo": 135.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "E",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.072,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "E",
+          "tool key & chords*": "A",
+          "other voice": "E"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.965,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: D (0.98), A (0.98), G (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "D",
+          "interval_cents": 1000,
+          "final_share": 0.257,
+          "dur_share": 0.182
+        },
+        "total_dur": 340.5,
+        "present_pcs": [
+          [
+            "E",
+            0.383
+          ],
+          [
+            "F",
+            0.186
+          ],
+          [
+            "D",
+            0.182
+          ],
+          [
+            "G",
+            0.117
+          ],
+          [
+            "A",
+            0.071
+          ],
+          [
+            "C",
+            0.046
+          ],
+          [
+            "Bb",
+            0.015
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.98
+          },
+          {
+            "tonic": "A",
+            "fit": 0.98
+          },
+          {
+            "tonic": "G",
+            "fit": 0.98
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2002-aayshalak-06-million-ahibbak/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2002-aayshalak-06-million-ahibbak",
+    "maqam": "Kurd",
+    "maqam_status": "possible",
+    "tonic": "E",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "A",
+      "D",
+      "G"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "ghammaz_candidate": "D",
+    "withheld_reason": null,
+    "rationale": "The whole piece fits Kurd on E at 0.965 and the verse and the melody-only analysis agree at the same tonic, but the tonic margin is 0.001 because the declared Am key and the commonest chord root pull to A. The sections split the way the cues do: the verse reads E at 0.96 while the chorus reads A at 0.98, and the analyzer reports E and A as a fourth-fifth tie with D and G also fitting. The pitch set itself is stable, so the shape is usable, but which note is the qarar cannot be settled from these notes; Bayati rounds to the same set, so the name is only possible at low confidence.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-004"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:08:18Z",
+    "batch_id": "batch-004",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:08:18Z",
+    "updated_at": "2026-10-29T08:08:18Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

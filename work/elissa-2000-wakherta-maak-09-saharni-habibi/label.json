@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2000-wakherta-maak-09-saharni-habibi",
+  "track_id": "Elissa/Elissa - 2000 Wakherta Maak/09.Saharni Habibi.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2000 Wakherta Maak",
+  "file": "09.Saharni Habibi.mp3",
+  "lyric_title": "سهرني حبيبي",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2000 Wakherta Maak.json",
+    "transcript_track_id": "ELISSA/Elissa - 2000 Wakherta Maak/09-saharni-habibi",
+    "transcript_sha256": "f4d47bc88be95ce346589f16ec461019c141bf1b0a40cb7b671de5607c0a76bd",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2000 Wakherta Maak/09.Saharni Habibi.mp3",
+    "audio_sha256": "0d9f026099d04d030ce2eda2247fcc822b5a7996e57549ade42a72f7f866a945",
+    "abc_sha256": "310ed372faca6d66dec416364d3dd90a820bae99c77c98211801cdcc23050b2d",
+    "abc_melody_sha256": "513a2f4e5bcea24c53946feca3a1df089499a07678c5c854b9a7adfa4ead4599",
+    "duration_s": 275.491,
+    "declared_key": "G#m",
+    "tempo_bpm": 131.0
+  },
+  "evidence": {
+    "evidence_sha256": "b8c47b9e208af63d27050463397c051740a2496792b77746cab459f638aecacb",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.057,
+      "cues": {
+        "most-used note": "Eb",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Ab (key) / Ab (commonest chord root)",
+        "other voice": "C#"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.901,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: Ab and Eb (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: Eb (0.90), C# (0.90)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C#",
+        "interval_cents": 500,
+        "final_share": 0.217,
+        "dur_share": 0.197
+      },
+      "total_dur": 345.2,
+      "present_pcs": [
+        [
+          "Eb",
+          0.266
+        ],
+        [
+          "C#",
+          0.197
+        ],
+        [
+          "E",
+          0.142
+        ],
+        [
+          "B",
+          0.129
+        ],
+        [
+          "Bb",
+          0.086
+        ],
+        [
+          "Ab",
+          0.068
+        ],
+        [
+          "F#",
+          0.062
+        ],
+        [
+          "G",
+          0.049
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 0.901
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.901
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "Ab",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.028,
+        "cues": {
+          "most-used note": "Eb",
+          "phrase endings": "Bb",
+          "tool key & chords*": "Ab (key) / Eb (commonest chord root)",
+          "other voice": "C#"
+        },
+        "scale_shape": "Nahawand (raised 7th)",
+        "scale_id": "nahawand_h",
+        "scale_western": "harmonic minor",
+        "fit": 0.997,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "tonic/dominant split: Ab and Eb (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: Eb (1.00), C# (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Eb",
+          "interval_cents": 700,
+          "final_share": 0.19,
+          "dur_share": 0.25
+        },
+        "total_dur": 176.2,
+        "present_pcs": [
+          [
+            "Eb",
+            0.25
+          ],
+          [
+            "Bb",
+            0.169
+          ],
+          [
+            "C#",
+            0.167
+          ],
+          [
+            "B",
+            0.148
+          ],
+          [
+            "Ab",
+            0.133
+          ],
+          [
+            "G",
+            0.096
+          ],
+          [
+            "E",
+            0.034
+          ],
+          [
+            "F#",
+            0.003
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Eb",
+            "fit": 0.997
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.997
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "B",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.041,
+        "cues": {
+          "most-used note": "Eb",
+          "phrase endings": "C#",
+          "tool key & chords*": "Ab (key) / Ab (commonest chord root)",
+          "other voice": "B"
+        },
+        "scale_shape": "Ajam",
+        "scale_id": "ajam",
+        "scale_western": "major / Ionian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Ajam",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C# (0.96), E (0.96), F# (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 169.0,
+        "present_pcs": [
+          [
+            "Eb",
+            0.284
+          ],
+          [
+            "E",
+            0.254
+          ],
+          [
+            "C#",
+            0.228
+          ],
+          [
+            "F#",
+            0.124
+          ],
+          [
+            "B",
+            0.109
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C#",
+            "fit": 0.96
+          },
+          {
+            "tonic": "E",
+            "fit": 0.96
+          },
+          {
+            "tonic": "F#",
+            "fit": 0.96
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "G#m",
+      "tempo": 131.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "Ab",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.019,
+        "cues": {
+          "most-used note": "Eb",
+          "phrase endings": "Bb",
+          "tool key & chords*": "Ab",
+          "other voice": "C#"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.901,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "tonic/dominant split: Ab and Eb (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: Eb (0.90), C# (0.90)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C#",
+          "interval_cents": 500,
+          "final_share": 0.217,
+          "dur_share": 0.197
+        },
+        "total_dur": 345.2,
+        "present_pcs": [
+          [
+            "Eb",
+            0.266
+          ],
+          [
+            "C#",
+            0.197
+          ],
+          [
+            "E",
+            0.142
+          ],
+          [
+            "B",
+            0.129
+          ],
+          [
+            "Bb",
+            0.086
+          ],
+          [
+            "Ab",
+            0.068
+          ],
+          [
+            "F#",
+            0.062
+          ],
+          [
+            "G",
+            0.049
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "Eb",
+            "fit": 0.901
+          },
+          {
+            "tonic": "C#",
+            "fit": 0.901
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2000-wakherta-maak-09-saharni-habibi/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2000-wakherta-maak-09-saharni-habibi",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "Ab",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "B",
+      "C#",
+      "Eb"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Nahawand (raised 7th)"
+    ],
+    "ghammaz_candidate": "C#",
+    "withheld_reason": null,
+    "rationale": "The declared G#m key, the commonest chord root and the verse all read Ab, and the natural-minor set fits at 0.901 in both the full and the melody-only analysis. The most-used note is Eb and the phrase endings sit on Bb, and the chorus is read on B as an Ajam shape at 0.96, so Eb, C# and B are kept as alternative tonics rather than decided away. The verse is fitted by harmonic minor, which is why that variant is listed as an alternative shape. The fit is marginal and 12-TET cannot separate this set from Bayati, so the name is consistent at low confidence only.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-003"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:07:27Z",
+    "batch_id": "batch-003",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:07:27Z",
+    "updated_at": "2026-10-29T08:07:27Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2002-aayshalak-05-shiltak-min-albi",
+  "track_id": "Elissa/Elissa - 2002 Aayshalak/05. Shiltak min Albi.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2002 Aayshalak",
+  "file": "05. Shiltak min Albi.mp3",
+  "lyric_title": "شلتك من قلبي",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2002 Aayshalak.json",
+    "transcript_track_id": "ELISSA/Elissa - 2002 Aayshalak/05-shiltak-min-albi",
+    "transcript_sha256": "02ce2c17b104fe963aec5e2aa0fa6b305d3f8429bed33578ac2097950714bd12",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2002 Aayshalak/05. Shiltak min Albi.mp3",
+    "audio_sha256": "87404332b656f1e381933c8fe4290ebc9775498b3a6e222e79540905a15eecdc",
+    "abc_sha256": "27efc359dd9dec7ca513a945b3d98c436f23173ca8505c5c9dfe9e1780382eef",
+    "abc_melody_sha256": "6c8cd012534ad65dffa96da87d1510be27305562e21f7ee03c8dde4ead863515",
+    "duration_s": 297.773,
+    "declared_key": "Dm",
+    "tempo_bpm": 126.0
+  },
+  "evidence": {
+    "evidence_sha256": "36006f95958965276776c1bafb333b7ab62d56370d6be276cbb139251f57668d",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.126,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "F",
+        "tool key & chords*": "D (key) / A (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.915,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand",
+        "Nahawand (raised 7th)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.91), F (0.91)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 300,
+        "final_share": 0.286,
+        "dur_share": 0.199
+      },
+      "total_dur": 333.5,
+      "present_pcs": [
+        [
+          "E",
+          0.261
+        ],
+        [
+          "F",
+          0.199
+        ],
+        [
+          "D",
+          0.159
+        ],
+        [
+          "G",
+          0.135
+        ],
+        [
+          "A",
+          0.134
+        ],
+        [
+          "C",
+          0.04
+        ],
+        [
+          "Bb",
+          0.037
+        ],
+        [
+          "C#",
+          0.035
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.915
+        },
+        {
+          "tonic": "F",
+          "fit": 0.915
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.293,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "C#",
+          "tool key & chords*": "D (key) / D (commonest chord root)"
+        },
+        "scale_shape": "Nahawand (raised 7th)",
+        "scale_id": "nahawand_h",
+        "scale_western": "harmonic minor",
+        "fit": 0.902,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [],
+        "tied_shapes": [
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (0.90), G (0.90)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 300,
+          "final_share": 0.333,
+          "dur_share": 0.279
+        },
+        "total_dur": 71.8,
+        "present_pcs": [
+          [
+            "F",
+            0.279
+          ],
+          [
+            "D",
+            0.209
+          ],
+          [
+            "E",
+            0.174
+          ],
+          [
+            "A",
+            0.132
+          ],
+          [
+            "G",
+            0.094
+          ],
+          [
+            "C#",
+            0.07
+          ],
+          [
+            "C",
+            0.028
+          ],
+          [
+            "Bb",
+            0.014
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 0.902
+          },
+          {
+            "tonic": "G",
+            "fit": 0.902
+          }
+        ]
+      },
+      {
+        "label": "Section: pre-chorus",
+        "section": "pre-chorus",
+        "microtonal_input": false,
+        "tonic": "Bb",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.007,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "E",
+          "tool key & chords*": "D (key) / A (commonest chord root)"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "lydian",
+        "scale_western": "Lydian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [],
+        "tied_shapes": [
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (0.98), D (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 600,
+          "final_share": 0.333,
+          "dur_share": 0.225
+        },
+        "total_dur": 40.0,
+        "present_pcs": [
+          [
+            "G",
+            0.263
+          ],
+          [
+            "A",
+            0.25
+          ],
+          [
+            "E",
+            0.225
+          ],
+          [
+            "F",
+            0.113
+          ],
+          [
+            "Bb",
+            0.1
+          ],
+          [
+            "D",
+            0.05
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 0.98
+          },
+          {
+            "tonic": "D",
+            "fit": 0.98
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.094,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "F",
+          "tool key & chords*": "D (key) / C (commonest chord root)",
+          "other voice": "A"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.924,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: F (0.92), A (0.92), C (0.92)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 300,
+          "final_share": 0.286,
+          "dur_share": 0.186
+        },
+        "total_dur": 201.2,
+        "present_pcs": [
+          [
+            "E",
+            0.284
+          ],
+          [
+            "F",
+            0.186
+          ],
+          [
+            "D",
+            0.157
+          ],
+          [
+            "G",
+            0.138
+          ],
+          [
+            "A",
+            0.12
+          ],
+          [
+            "C",
+            0.051
+          ],
+          [
+            "Bb",
+            0.037
+          ],
+          [
+            "C#",
+            0.026
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "F",
+            "fit": 0.924
+          },
+          {
+            "tonic": "A",
+            "fit": 0.924
+          },
+          {
+            "tonic": "C",
+            "fit": 0.924
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Dm",
+      "tempo": 126.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.156,
+        "cues": {
+          "most-used note": "E",
+          "phrase endings": "F",
+          "tool key & chords*": "D",
+          "other voice": "G"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.915,
+        "shape_confidence": "low",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand",
+          "Nahawand (raised 7th)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: A (0.91), F (0.91)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 300,
+          "final_share": 0.286,
+          "dur_share": 0.199
+        },
+        "total_dur": 333.5,
+        "present_pcs": [
+          [
+            "E",
+            0.261
+          ],
+          [
+            "F",
+            0.199
+          ],
+          [
+            "D",
+            0.159
+          ],
+          [
+            "G",
+            0.135
+          ],
+          [
+            "A",
+            0.134
+          ],
+          [
+            "C",
+            0.04
+          ],
+          [
+            "Bb",
+            0.037
+          ],
+          [
+            "C#",
+            0.035
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 0.915
+          },
+          {
+            "tonic": "F",
+            "fit": 0.915
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2002-aayshalak-05-shiltak-min-albi/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2002-aayshalak-05-shiltak-min-albi",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "D",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "A",
+      "Bb",
+      "F",
+      "G"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Nahawand (raised 7th)"
+    ],
+    "ghammaz_candidate": "F",
+    "withheld_reason": null,
+    "rationale": "The declared Dm key and both main sections read D, and the natural-minor set fits at 0.915 in the whole piece and the melody-only analysis, above the analyzer's name threshold. The cues disagree inside that: the most-used note is E, the phrase endings rest on F in 29% of cases, and the commonest chord root is A, so A, F, G and the pre-chorus tonic Bb are kept as alternative tonics. The verse is better fitted by harmonic minor and the pre-chorus is read as a non-maqam shape at 0.98, which points to section-level variation a single label cannot represent; Bayati shares the notes, so the name is consistent at low confidence.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-003"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:07:28Z",
+    "batch_id": "batch-003",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:07:28Z",
+    "updated_at": "2026-10-29T08:07:28Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

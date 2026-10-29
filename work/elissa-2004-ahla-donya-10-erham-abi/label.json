@@ -1,0 +1,383 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2004-ahla-donya-10-erham-abi",
+  "track_id": "Elissa/Elissa - 2004 Ahla Donya/10.Erham Abi.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2004 Ahla Donya",
+  "file": "10.Erham Abi.mp3",
+  "lyric_title": "ارحم قلبي",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2004 Ahla Donya.json",
+    "transcript_track_id": "ELISSA/Elissa - 2004 Ahla Donya/10-erham-abi",
+    "transcript_sha256": "89f6de3c9acd554c5b117f092c6b997b405b229ffedc2554ce4c0abb748b9964",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2004 Ahla Donya/10.Erham Abi.mp3",
+    "audio_sha256": "752375e68cbf220cf570aa7cd10cce8b002ab02588abb24a0a5e45266d76f483",
+    "abc_sha256": "3e3d6ce746be0246c23dac98e940dff1c015b3bb2a87640d3067a4851a9e04de",
+    "abc_melody_sha256": "6c16a3b9a72a90a527452905e6e02d2f1137e25447637e5aa674756472405298",
+    "duration_s": 237.456,
+    "declared_key": "Dm",
+    "tempo_bpm": 105.0
+  },
+  "evidence": {
+    "evidence_sha256": "7516a5c9c8f2432699b747df6d879a3b6d1199d1438288b4631348b74e9a8530",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.459,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "D",
+        "tool key & chords*": "D (key) / D (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.98), F (0.98), Eb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 254.8,
+      "present_pcs": [
+        [
+          "F",
+          0.304
+        ],
+        [
+          "G",
+          0.22
+        ],
+        [
+          "Eb",
+          0.209
+        ],
+        [
+          "D",
+          0.14
+        ],
+        [
+          "A",
+          0.075
+        ],
+        [
+          "Bb",
+          0.04
+        ],
+        [
+          "C",
+          0.012
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.98
+        },
+        {
+          "tonic": "F",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Eb",
+          "fit": 0.98
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.42,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "D",
+          "tool key & chords*": "D (key) / C (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: G (0.98), F (0.98), Eb (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 91.2,
+        "present_pcs": [
+          [
+            "F",
+            0.329
+          ],
+          [
+            "Eb",
+            0.26
+          ],
+          [
+            "G",
+            0.222
+          ],
+          [
+            "D",
+            0.118
+          ],
+          [
+            "Bb",
+            0.036
+          ],
+          [
+            "A",
+            0.036
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "F",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Eb",
+            "fit": 0.98
+          }
+        ]
+      },
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "medium",
+        "tonic_margin": 0.261,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "D",
+          "tool key & chords*": "D (key) / D (commonest chord root)"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: G (0.98), F (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 1000,
+          "final_share": 0.25,
+          "dur_share": 0.019
+        },
+        "total_dur": 162.0,
+        "present_pcs": [
+          [
+            "F",
+            0.293
+          ],
+          [
+            "G",
+            0.218
+          ],
+          [
+            "Eb",
+            0.182
+          ],
+          [
+            "D",
+            0.148
+          ],
+          [
+            "A",
+            0.097
+          ],
+          [
+            "Bb",
+            0.043
+          ],
+          [
+            "C",
+            0.019
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "F",
+            "fit": 0.98
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Dm",
+      "tempo": 105.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "D",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.483,
+        "cues": {
+          "most-used note": "F",
+          "phrase endings": "D",
+          "tool key & chords*": "D",
+          "other voice": "G"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 0.98,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "same notes also fit other tonics: G (0.98), F (0.98), Eb (0.98)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": null,
+        "total_dur": 254.8,
+        "present_pcs": [
+          [
+            "F",
+            0.304
+          ],
+          [
+            "G",
+            0.22
+          ],
+          [
+            "Eb",
+            0.209
+          ],
+          [
+            "D",
+            0.14
+          ],
+          [
+            "A",
+            0.075
+          ],
+          [
+            "Bb",
+            0.04
+          ],
+          [
+            "C",
+            0.012
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.98
+          },
+          {
+            "tonic": "F",
+            "fit": 0.98
+          },
+          {
+            "tonic": "Eb",
+            "fit": 0.98
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2004-ahla-donya-10-erham-abi/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2004-ahla-donya-10-erham-abi",
+    "maqam": "Kurd",
+    "maqam_status": "consistent",
+    "tonic": "D",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Eb",
+      "F",
+      "G"
+    ],
+    "scale_family": "Phrygian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "ghammaz_candidate": null,
+    "withheld_reason": null,
+    "rationale": "Phrase endings, the declared Dm key, the commonest chord root and both sections read D, and the D-Eb-F-G-A-Bb set fits Kurd at 0.98 in the whole piece, the verse, the chorus and the melody-only analysis. The most-used note is F and the other voice says G, with G, F and Eb all fitting the pooled notes equally, so those are carried as alternative tonics. The tonic margin is the widest in this batch but the shape is only medium confidence and Bayati rounds to the same notes, so the name stays low confidence overall.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-005"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:09:02Z",
+    "batch_id": "batch-005",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:09:02Z",
+    "updated_at": "2026-10-29T08:09:02Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

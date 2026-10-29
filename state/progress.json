@@ -1,47 +1,51 @@
 {
   "run_id": "maqam-167-v1",
   "pipeline_version": "1.0.0",
-  "updated_at": "2026-10-29T08:04:51Z",
+  "updated_at": "2026-10-29T08:09:16Z",
   "total": 167,
   "abc_ok": 163,
   "no_abc": 4,
   "missing_transcript": 0,
   "prepared": 163,
   "analyzed": 163,
-  "labeled": 16,
-  "remaining": 147,
-  "needs_human_review": 16,
+  "labeled": 40,
+  "remaining": 123,
+  "needs_human_review": 40,
   "parse_low": 0,
   "stale_labels": [],
   "confidence": {
     "high": 0,
-    "medium": 2,
-    "low": 14,
+    "medium": 6,
+    "low": 34,
     "unknown": 0
   },
   "maqam_status": {
-    "consistent": 12,
-    "possible": 1,
-    "withheld": 3
+    "consistent": 31,
+    "possible": 2,
+    "withheld": 7
   },
   "maqam_counts": {
-    "Nahawand": 9,
-    "Kurd": 4,
-    "(withheld)": 3
+    "Kurd": 16,
+    "Nahawand": 16,
+    "(withheld)": 7,
+    "Ajam": 1
   },
   "flag_counts": {
-    "same notes also fit other tonics": 16,
-    "tonic/dominant split": 6,
+    "same notes also fit other tonics": 40,
+    "tonic/dominant split": 14,
+    "no single scale explains this material (best fit 0.85); expect modulation, chrom": 2,
+    "no single scale explains this material (best fit 0.65); expect modulation, chrom": 1,
+    "no single scale explains this material (best fit 0.78); expect modulation, chrom": 1,
     "no single scale explains this material (best fit 0.81); expect modulation, chrom": 1,
-    "no single scale explains this material (best fit 0.85); expect modulation, chrom": 1
+    "no single scale explains this material (best fit 0.83); expect modulation, chrom": 1
   },
   "last_label": {
-    "song_id": "elissa-2000-wakherta-maak-04-haram",
-    "track_id": "Elissa/Elissa - 2000 Wakherta Maak/04.Haram.mp3",
-    "reviewed_at": "2026-10-29T08:04:38Z",
-    "maqam": null
+    "song_id": "elissa-2004-ahla-donya-04-khaleny-aeesh",
+    "track_id": "Elissa/Elissa - 2004 Ahla Donya/04.Khaleny Aeesh.mp3",
+    "reviewed_at": "2026-10-29T08:09:02Z",
+    "maqam": "Kurd"
   },
-  "next_batch": 3,
+  "next_batch": 6,
   "no_abc_tracks": [
     {
       "song_id": "elissa-2012-as3ad-wa7da-05-te3ebt-minnak",
