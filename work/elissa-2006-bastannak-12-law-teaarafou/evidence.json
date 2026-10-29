@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2006-bastannak-12-law-teaarafou",
+  "track_id": "Elissa/Elissa - 2006 Bastannak/12.Law Teaarafou.mp3",
+  "abc_sha256": "c10b7d735b340d9a698128ba85963a8c45f8cc90fba86ea1d2d948ebd47debcb",
+  "analyzed_at": "2026-10-29T07:53:27Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Am",
+    "tempo": 94.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "E",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.228,
+    "cues": {
+      "most-used note": "E",
+      "phrase endings": "E",
+      "tool key & chords*": "A (key) / E (commonest chord root)",
+      "other voice": "A"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: A (1.00), F (1.00), G (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": null,
+    "total_dur": 233.5,
+    "present_pcs": [
+      [
+        "E",
+        0.296
+      ],
+      [
+        "F",
+        0.223
+      ],
+      [
+        "G",
+        0.185
+      ],
+      [
+        "D",
+        0.118
+      ],
+      [
+        "A",
+        0.097
+      ],
+      [
+        "B",
+        0.044
+      ],
+      [
+        "C",
+        0.037
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 1.0
+      },
+      {
+        "tonic": "F",
+        "fit": 1.0
+      },
+      {
+        "tonic": "G",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.273,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "E",
+        "tool key & chords*": "A (key) / E (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.98), G (0.98), D (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 138.2,
+      "present_pcs": [
+        [
+          "E",
+          0.32
+        ],
+        [
+          "F",
+          0.204
+        ],
+        [
+          "G",
+          0.201
+        ],
+        [
+          "A",
+          0.118
+        ],
+        [
+          "D",
+          0.096
+        ],
+        [
+          "B",
+          0.047
+        ],
+        [
+          "C",
+          0.014
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.98
+        },
+        {
+          "tonic": "G",
+          "fit": 0.98
+        },
+        {
+          "tonic": "D",
+          "fit": 0.98
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.076,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "E",
+        "tool key & chords*": "A (key) / D (commonest chord root)"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "lydian",
+      "scale_western": "Lydian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [],
+      "tied_shapes": [
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: E (1.00), A (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 95.2,
+      "present_pcs": [
+        [
+          "E",
+          0.26
+        ],
+        [
+          "F",
+          0.249
+        ],
+        [
+          "G",
+          0.163
+        ],
+        [
+          "D",
+          0.15
+        ],
+        [
+          "C",
+          0.071
+        ],
+        [
+          "A",
+          0.068
+        ],
+        [
+          "B",
+          0.039
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Am",
+    "tempo": 94.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.269,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "E",
+        "tool key & chords*": "A",
+        "other voice": "A"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (1.00), F (1.00), G (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 233.5,
+      "present_pcs": [
+        [
+          "E",
+          0.296
+        ],
+        [
+          "F",
+          0.223
+        ],
+        [
+          "G",
+          0.185
+        ],
+        [
+          "D",
+          0.118
+        ],
+        [
+          "A",
+          0.097
+        ],
+        [
+          "B",
+          0.044
+        ],
+        [
+          "C",
+          0.037
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F",
+          "fit": 1.0
+        },
+        {
+          "tonic": "G",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2006-bastannak-12-law-teaarafou/report.md",
+  "evidence_sha256": "c4bc3e1653913a0f4109b316de70e8e0094e2af74e3a5284682e43537f9bc73b"
+}

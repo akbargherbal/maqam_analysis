@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2012-as3ad-wa7da-08-rohtelo",
+  "track_id": "Elissa/Elissa - 2012  As3ad Wa7da/08. Rohtelo.mp3",
+  "abc_sha256": "4db6e9a93d5bb1893d34c920e0bd0cc9fd0c5381aceb378ee4920127b03b2b79",
+  "analyzed_at": "2026-10-29T07:53:43Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Bbm",
+    "tempo": 88.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "Bb",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.111,
+    "cues": {
+      "most-used note": "F",
+      "phrase endings": "F",
+      "tool key & chords*": "Bb (key) / Bb (commonest chord root)",
+      "other voice": "Bb"
+    },
+    "scale_shape": "Nahawand (raised 7th)",
+    "scale_id": "nahawand_h",
+    "scale_western": "harmonic minor",
+    "fit": 0.978,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [],
+    "tied_shapes": [
+      "Nahawand (raised 7th)"
+    ],
+    "flags": [
+      "tonic/dominant split: Bb and F (a 4th/5th apart) score almost equally; the true tonic could be either",
+      "same notes also fit other tonics: F (0.98)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "F",
+      "interval_cents": 700,
+      "final_share": 0.5,
+      "dur_share": 0.218
+    },
+    "total_dur": 206.2,
+    "present_pcs": [
+      [
+        "F",
+        0.218
+      ],
+      [
+        "C",
+        0.187
+      ],
+      [
+        "Bb",
+        0.175
+      ],
+      [
+        "C#",
+        0.15
+      ],
+      [
+        "F#",
+        0.122
+      ],
+      [
+        "Eb",
+        0.095
+      ],
+      [
+        "A",
+        0.032
+      ],
+      [
+        "Ab",
+        0.017
+      ],
+      [
+        "D",
+        0.005
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "F",
+        "fit": 0.978
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.102,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "C",
+        "tool key & chords*": "Bb (key) / Bb (commonest chord root)"
+      },
+      "scale_shape": "Nahawand (raised 7th)",
+      "scale_id": "nahawand_h",
+      "scale_western": "harmonic minor",
+      "fit": 0.99,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [],
+      "tied_shapes": [
+        "Nahawand (raised 7th)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: F (0.99), Eb (0.99)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 97.0,
+      "present_pcs": [
+        [
+          "C",
+          0.229
+        ],
+        [
+          "F",
+          0.183
+        ],
+        [
+          "Bb",
+          0.173
+        ],
+        [
+          "C#",
+          0.144
+        ],
+        [
+          "Eb",
+          0.126
+        ],
+        [
+          "F#",
+          0.082
+        ],
+        [
+          "A",
+          0.052
+        ],
+        [
+          "D",
+          0.01
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.99
+        },
+        {
+          "tonic": "Eb",
+          "fit": 0.99
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.082,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "F",
+        "tool key & chords*": "Bb (key) / Bb (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.986,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: Bb and F (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F (0.99), C# (0.99), F# (0.99)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 700,
+        "final_share": 0.5,
+        "dur_share": 0.253
+      },
+      "total_dur": 107.8,
+      "present_pcs": [
+        [
+          "F",
+          0.253
+        ],
+        [
+          "Bb",
+          0.179
+        ],
+        [
+          "F#",
+          0.16
+        ],
+        [
+          "C",
+          0.148
+        ],
+        [
+          "C#",
+          0.146
+        ],
+        [
+          "Eb",
+          0.067
+        ],
+        [
+          "Ab",
+          0.032
+        ],
+        [
+          "A",
+          0.014
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.986
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.986
+        },
+        {
+          "tonic": "F#",
+          "fit": 0.986
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Bbm",
+    "tempo": 88.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.082,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "F",
+        "tool key & chords*": "Bb",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Nahawand (raised 7th)",
+      "scale_id": "nahawand_h",
+      "scale_western": "harmonic minor",
+      "fit": 0.978,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [],
+      "tied_shapes": [
+        "Nahawand (raised 7th)"
+      ],
+      "flags": [
+        "tonic/dominant split: Bb and F (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 700,
+        "final_share": 0.5,
+        "dur_share": 0.218
+      },
+      "total_dur": 206.2,
+      "present_pcs": [
+        [
+          "F",
+          0.218
+        ],
+        [
+          "C",
+          0.187
+        ],
+        [
+          "Bb",
+          0.175
+        ],
+        [
+          "C#",
+          0.15
+        ],
+        [
+          "F#",
+          0.122
+        ],
+        [
+          "Eb",
+          0.095
+        ],
+        [
+          "A",
+          0.032
+        ],
+        [
+          "Ab",
+          0.017
+        ],
+        [
+          "D",
+          0.005
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.978
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2012-as3ad-wa7da-08-rohtelo/report.md",
+  "evidence_sha256": "0d91c58eab5f024c4f8b7eeff5cb28fa106279a022b3b43b22228bf8740a1de5"
+}

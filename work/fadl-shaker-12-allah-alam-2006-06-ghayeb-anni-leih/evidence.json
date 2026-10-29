@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-12-allah-alam-2006-06-ghayeb-anni-leih",
+  "track_id": "Fadl Shaker/12.Allah Alam.2006/06.Ghayeb Anni Leih.mp3",
+  "abc_sha256": "63ac580e1c80181ee74a4f7e457d4dc123a7b6dbb4a745027ac6363e94efa37a",
+  "analyzed_at": "2026-10-29T07:54:10Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Cm",
+    "tempo": 128.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.05,
+    "cues": {
+      "most-used note": "F",
+      "phrase endings": "D",
+      "tool key & chords*": "C (key) / C (commonest chord root)",
+      "other voice": "G"
+    },
+    "scale_shape": "Hijaz",
+    "scale_id": "hijaz",
+    "scale_western": "",
+    "fit": 0.926,
+    "shape_confidence": "low",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Hijaz",
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+      "same notes also fit other tonics: F (0.93), C (0.93)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "D",
+      "interval_cents": 700,
+      "final_share": 0.435,
+      "dur_share": 0.154
+    },
+    "total_dur": 399.0,
+    "present_pcs": [
+      [
+        "F",
+        0.255
+      ],
+      [
+        "G",
+        0.245
+      ],
+      [
+        "Eb",
+        0.17
+      ],
+      [
+        "D",
+        0.154
+      ],
+      [
+        "C",
+        0.09
+      ],
+      [
+        "Ab",
+        0.036
+      ],
+      [
+        "B",
+        0.027
+      ],
+      [
+        "Bb",
+        0.024
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "F",
+        "fit": 0.926
+      },
+      {
+        "tonic": "C",
+        "fit": 0.926
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.078,
+      "cues": {
+        "most-used note": "G",
+        "phrase endings": "D",
+        "tool key & chords*": "C (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C (1.00), F (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 700,
+        "final_share": 0.615,
+        "dur_share": 0.079
+      },
+      "total_dur": 157.2,
+      "present_pcs": [
+        [
+          "G",
+          0.343
+        ],
+        [
+          "F",
+          0.335
+        ],
+        [
+          "Eb",
+          0.156
+        ],
+        [
+          "D",
+          0.079
+        ],
+        [
+          "C",
+          0.035
+        ],
+        [
+          "Ab",
+          0.029
+        ],
+        [
+          "Bb",
+          0.022
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.089,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "B",
+        "tool key & chords*": "C (key) / C (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Hijaz",
+      "scale_id": "hijaz",
+      "scale_western": "",
+      "fit": 0.925,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [],
+      "tied_shapes": [
+        "Hijaz"
+      ],
+      "flags": [
+        "tonic/dominant split: G and C (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C (0.93), F (0.93)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 400,
+        "final_share": 0.6,
+        "dur_share": 0.045
+      },
+      "total_dur": 240.8,
+      "present_pcs": [
+        [
+          "F",
+          0.204
+        ],
+        [
+          "D",
+          0.202
+        ],
+        [
+          "Eb",
+          0.18
+        ],
+        [
+          "G",
+          0.178
+        ],
+        [
+          "C",
+          0.126
+        ],
+        [
+          "B",
+          0.045
+        ],
+        [
+          "Ab",
+          0.042
+        ],
+        [
+          "Bb",
+          0.025
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.925
+        },
+        {
+          "tonic": "F",
+          "fit": 0.925
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Cm",
+    "tempo": 128.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.001,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "D",
+        "tool key & chords*": "C",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.817,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: D and G (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: G (0.93), F (0.93), C (0.93)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.82); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 300,
+        "final_share": 0.261,
+        "dur_share": 0.255
+      },
+      "total_dur": 399.0,
+      "present_pcs": [
+        [
+          "F",
+          0.255
+        ],
+        [
+          "G",
+          0.245
+        ],
+        [
+          "Eb",
+          0.17
+        ],
+        [
+          "D",
+          0.154
+        ],
+        [
+          "C",
+          0.09
+        ],
+        [
+          "Ab",
+          0.036
+        ],
+        [
+          "B",
+          0.027
+        ],
+        [
+          "Bb",
+          0.024
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.926
+        },
+        {
+          "tonic": "F",
+          "fit": 0.926
+        },
+        {
+          "tonic": "C",
+          "fit": 0.926
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-12-allah-alam-2006-06-ghayeb-anni-leih/report.md",
+  "evidence_sha256": "d1c29746bc94698844f97ca69f772e5fd405b8f866fa51d929854ccb1c411f1c"
+}

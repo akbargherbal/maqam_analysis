@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-14-bada-aalbal-2009-06-ba-da-aal-baal",
+  "track_id": "Fadl Shaker/14.Ba’da Aalbal.2009/06.Ba'da Aal Baal.mp3",
+  "abc_sha256": "ae312a351dbe50b3034839abc9106d15a1f1171b1611e49358030659d6573fdd",
+  "analyzed_at": "2026-10-29T07:54:18Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Cm",
+    "tempo": 135.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.127,
+    "cues": {
+      "most-used note": "C",
+      "phrase endings": "G",
+      "tool key & chords*": "C (key) / G (commonest chord root)",
+      "other voice": "G"
+    },
+    "scale_shape": "Hijaz",
+    "scale_id": "hijaz",
+    "scale_western": "",
+    "fit": 0.981,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [],
+    "tied_shapes": [
+      "Hijaz"
+    ],
+    "flags": [
+      "same notes also fit other tonics: C (0.98)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "D",
+      "interval_cents": 700,
+      "final_share": 0.444,
+      "dur_share": 0.209
+    },
+    "total_dur": 317.5,
+    "present_pcs": [
+      [
+        "C",
+        0.237
+      ],
+      [
+        "D",
+        0.209
+      ],
+      [
+        "G",
+        0.169
+      ],
+      [
+        "B",
+        0.112
+      ],
+      [
+        "Ab",
+        0.098
+      ],
+      [
+        "F",
+        0.084
+      ],
+      [
+        "Eb",
+        0.072
+      ],
+      [
+        "Bb",
+        0.016
+      ],
+      [
+        "E",
+        0.003
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "C",
+        "fit": 0.981
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.115,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "D",
+        "tool key & chords*": "C (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.821,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.98), C (0.98), Ab (0.98)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.82); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "Ab",
+        "interval_cents": 600,
+        "final_share": 0.4,
+        "dur_share": 0.091
+      },
+      "total_dur": 164.5,
+      "present_pcs": [
+        [
+          "D",
+          0.236
+        ],
+        [
+          "G",
+          0.22
+        ],
+        [
+          "F",
+          0.163
+        ],
+        [
+          "Eb",
+          0.138
+        ],
+        [
+          "C",
+          0.103
+        ],
+        [
+          "Ab",
+          0.091
+        ],
+        [
+          "Bb",
+          0.03
+        ],
+        [
+          "B",
+          0.012
+        ],
+        [
+          "E",
+          0.006
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.982
+        },
+        {
+          "tonic": "C",
+          "fit": 0.982
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.982
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.144,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "G",
+        "tool key & chords*": "C (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Hijaz",
+      "scale_id": "hijaz",
+      "scale_western": "",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [],
+      "tied_shapes": [
+        "Hijaz",
+        "Hijaz (Rast upper)",
+        "Hijaz Kar"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 700,
+        "final_share": 0.5,
+        "dur_share": 0.184
+      },
+      "total_dur": 150.5,
+      "present_pcs": [
+        [
+          "C",
+          0.387
+        ],
+        [
+          "B",
+          0.223
+        ],
+        [
+          "D",
+          0.184
+        ],
+        [
+          "Ab",
+          0.106
+        ],
+        [
+          "G",
+          0.1
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.96
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Cm",
+    "tempo": 135.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.047,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "G",
+        "tool key & chords*": "C",
+        "other voice": "G"
+      },
+      "scale_shape": "Hijaz",
+      "scale_id": "hijaz",
+      "scale_western": "",
+      "fit": 0.981,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [],
+      "tied_shapes": [
+        "Hijaz"
+      ],
+      "flags": [
+        "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 700,
+        "final_share": 0.444,
+        "dur_share": 0.209
+      },
+      "total_dur": 317.5,
+      "present_pcs": [
+        [
+          "C",
+          0.237
+        ],
+        [
+          "D",
+          0.209
+        ],
+        [
+          "G",
+          0.169
+        ],
+        [
+          "B",
+          0.112
+        ],
+        [
+          "Ab",
+          0.098
+        ],
+        [
+          "F",
+          0.084
+        ],
+        [
+          "Eb",
+          0.072
+        ],
+        [
+          "Bb",
+          0.016
+        ],
+        [
+          "E",
+          0.003
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.981
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-14-bada-aalbal-2009-06-ba-da-aal-baal/report.md",
+  "evidence_sha256": "a98d2bc31e8812848014073c792f523b6265d84d270bc28756f06def0ab4c553"
+}

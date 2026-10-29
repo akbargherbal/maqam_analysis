@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-08-hafla-2004-03-ma-agool",
+  "track_id": "Fadl Shaker/08.Hafla 2004/03.Ma'agool.mp3",
+  "abc_sha256": "64567eda23db3cb9b5787268dd8bc94c77944b533d3a87197d37d90b4e7f66bd",
+  "analyzed_at": "2026-10-29T07:54:02Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Am",
+    "tempo": 107.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "A",
+    "tonic_confidence": "high",
+    "tonic_margin": 0.308,
+    "cues": {
+      "most-used note": "A",
+      "phrase endings": "A",
+      "tool key & chords*": "A (key) / A (commonest chord root)",
+      "other voice": "A"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 0.981,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "same notes also fit other tonics: G (0.98), E (0.98)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": null,
+    "total_dur": 294.2,
+    "present_pcs": [
+      [
+        "A",
+        0.301
+      ],
+      [
+        "B",
+        0.284
+      ],
+      [
+        "G",
+        0.133
+      ],
+      [
+        "C",
+        0.119
+      ],
+      [
+        "D",
+        0.065
+      ],
+      [
+        "E",
+        0.048
+      ],
+      [
+        "F",
+        0.032
+      ],
+      [
+        "Ab",
+        0.019
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "G",
+        "fit": 0.981
+      },
+      {
+        "tonic": "E",
+        "fit": 0.981
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.092,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "B",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.924,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.92), C (0.92)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 209.8,
+      "present_pcs": [
+        [
+          "B",
+          0.308
+        ],
+        [
+          "A",
+          0.3
+        ],
+        [
+          "C",
+          0.112
+        ],
+        [
+          "G",
+          0.108
+        ],
+        [
+          "D",
+          0.069
+        ],
+        [
+          "E",
+          0.055
+        ],
+        [
+          "Ab",
+          0.026
+        ],
+        [
+          "F",
+          0.021
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.924
+        },
+        {
+          "tonic": "C",
+          "fit": 0.924
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.406,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "A (key) / G (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (1.00), F (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 83.0,
+      "present_pcs": [
+        [
+          "A",
+          0.307
+        ],
+        [
+          "B",
+          0.229
+        ],
+        [
+          "G",
+          0.193
+        ],
+        [
+          "C",
+          0.139
+        ],
+        [
+          "F",
+          0.06
+        ],
+        [
+          "D",
+          0.048
+        ],
+        [
+          "E",
+          0.024
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Am",
+    "tempo": 107.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.31,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "A",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.981,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.98), C (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 294.2,
+      "present_pcs": [
+        [
+          "A",
+          0.301
+        ],
+        [
+          "B",
+          0.284
+        ],
+        [
+          "G",
+          0.133
+        ],
+        [
+          "C",
+          0.119
+        ],
+        [
+          "D",
+          0.065
+        ],
+        [
+          "E",
+          0.048
+        ],
+        [
+          "F",
+          0.032
+        ],
+        [
+          "Ab",
+          0.019
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.981
+        },
+        {
+          "tonic": "C",
+          "fit": 0.981
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-08-hafla-2004-03-ma-agool/report.md",
+  "evidence_sha256": "75edb7c5ec6b7aaa325103c3320779efc852dd9f2039ac621f58af4d269b4d39"
+}

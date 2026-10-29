@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-15-the-best-of-al-rawae3-2010-10-el-am-el-gedeed",
+  "track_id": "Fadl Shaker/15.The Best Of (Al Rawae3).2010/10.El'am El Gedeed.mp3",
+  "abc_sha256": "28399a1f64919b98e0547046778dd9b23625b3f36341527825e499cb00b66342",
+  "analyzed_at": "2026-10-29T07:54:22Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "D#m",
+    "tempo": 125.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "Bb",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.19,
+    "cues": {
+      "most-used note": "F#",
+      "phrase endings": "Bb",
+      "tool key & chords*": "Eb (key) / Bb (commonest chord root)",
+      "other voice": "F"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 0.997,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: Eb (1.00), Ab (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "F",
+      "interval_cents": 700,
+      "final_share": 0.211,
+      "dur_share": 0.133
+    },
+    "total_dur": 367.5,
+    "present_pcs": [
+      [
+        "F#",
+        0.199
+      ],
+      [
+        "Bb",
+        0.195
+      ],
+      [
+        "Ab",
+        0.165
+      ],
+      [
+        "F",
+        0.133
+      ],
+      [
+        "Eb",
+        0.104
+      ],
+      [
+        "C#",
+        0.103
+      ],
+      [
+        "B",
+        0.099
+      ],
+      [
+        "D",
+        0.003
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "Eb",
+        "fit": 0.997
+      },
+      {
+        "tonic": "Ab",
+        "fit": 0.997
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.204,
+      "cues": {
+        "most-used note": "F#",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Eb (key) / Bb (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.996,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Eb (1.00), F# (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 700,
+        "final_share": 0.444,
+        "dur_share": 0.184
+      },
+      "total_dur": 222.8,
+      "present_pcs": [
+        [
+          "F#",
+          0.292
+        ],
+        [
+          "Ab",
+          0.209
+        ],
+        [
+          "F",
+          0.184
+        ],
+        [
+          "Bb",
+          0.164
+        ],
+        [
+          "B",
+          0.063
+        ],
+        [
+          "C#",
+          0.049
+        ],
+        [
+          "Eb",
+          0.035
+        ],
+        [
+          "D",
+          0.004
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 0.996
+        },
+        {
+          "tonic": "F#",
+          "fit": 0.996
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.18,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Eb (key) / Bb (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Eb (1.00), Ab (1.00), C# (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Ab",
+        "interval_cents": 1000,
+        "final_share": 0.2,
+        "dur_share": 0.097
+      },
+      "total_dur": 144.8,
+      "present_pcs": [
+        [
+          "Bb",
+          0.242
+        ],
+        [
+          "Eb",
+          0.211
+        ],
+        [
+          "C#",
+          0.187
+        ],
+        [
+          "B",
+          0.154
+        ],
+        [
+          "Ab",
+          0.097
+        ],
+        [
+          "F",
+          0.055
+        ],
+        [
+          "F#",
+          0.055
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C#",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "D#m",
+    "tempo": 125.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.216,
+      "cues": {
+        "most-used note": "F#",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Eb",
+        "other voice": "F"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.997,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Eb (1.00), Ab (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 700,
+        "final_share": 0.211,
+        "dur_share": 0.133
+      },
+      "total_dur": 367.5,
+      "present_pcs": [
+        [
+          "F#",
+          0.199
+        ],
+        [
+          "Bb",
+          0.195
+        ],
+        [
+          "Ab",
+          0.165
+        ],
+        [
+          "F",
+          0.133
+        ],
+        [
+          "Eb",
+          0.104
+        ],
+        [
+          "C#",
+          0.103
+        ],
+        [
+          "B",
+          0.099
+        ],
+        [
+          "D",
+          0.003
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 0.997
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.997
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-15-the-best-of-al-rawae3-2010-10-el-am-el-gedeed/report.md",
+  "evidence_sha256": "1e0ab859799ef2ecf40617e8f7b8ee36ef48d41c634c18464772b2eac17d953d"
+}

@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-02-bayya-a-el-qeloub-1999-07-ahbaby",
+  "track_id": "Fadl Shaker/02.Bayya'a El Qeloub.1999/07.Ahbaby.mp3",
+  "abc_sha256": "2e704f7c65dd63f6dc84c0ccea51e838ee77dd0ef643d1d67b4ac9414b4569b9",
+  "analyzed_at": "2026-10-29T07:53:50Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "D#m",
+    "tempo": 83.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "Eb",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.087,
+    "cues": {
+      "most-used note": "C#",
+      "phrase endings": "B",
+      "tool key & chords*": "Eb (key) / Eb (commonest chord root)",
+      "other voice": "Eb"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 0.881,
+    "shape_confidence": "low",
+    "name_allowed": false,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "same notes also fit other tonics: B (0.88), Bb (0.88)  -> relative-mode ambiguity",
+      "no single scale explains this material (best fit 0.88); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+    ],
+    "ghammaz": {
+      "note": "B",
+      "interval_cents": 800,
+      "final_share": 0.208,
+      "dur_share": 0.165
+    },
+    "total_dur": 280.8,
+    "present_pcs": [
+      [
+        "C#",
+        0.219
+      ],
+      [
+        "F",
+        0.175
+      ],
+      [
+        "B",
+        0.165
+      ],
+      [
+        "Bb",
+        0.153
+      ],
+      [
+        "Eb",
+        0.106
+      ],
+      [
+        "D",
+        0.069
+      ],
+      [
+        "F#",
+        0.067
+      ],
+      [
+        "Ab",
+        0.047
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "B",
+        "fit": 0.881
+      },
+      {
+        "tonic": "Bb",
+        "fit": 0.881
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "Eb",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.144,
+      "cues": {
+        "most-used note": "Eb",
+        "phrase endings": "F",
+        "tool key & chords*": "Eb (key) / Bb (commonest chord root)",
+        "other voice": "Eb"
+      },
+      "scale_shape": "Nahawand (raised 7th)",
+      "scale_id": "nahawand_h",
+      "scale_western": "harmonic minor",
+      "fit": 0.839,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [],
+      "tied_shapes": [
+        "Nahawand (raised 7th)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: B (0.83), C# (0.83)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.84); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 800,
+        "final_share": 0.214,
+        "dur_share": 0.117
+      },
+      "total_dur": 94.2,
+      "present_pcs": [
+        [
+          "Eb",
+          0.247
+        ],
+        [
+          "F",
+          0.212
+        ],
+        [
+          "D",
+          0.119
+        ],
+        [
+          "B",
+          0.117
+        ],
+        [
+          "C#",
+          0.111
+        ],
+        [
+          "F#",
+          0.098
+        ],
+        [
+          "Bb",
+          0.064
+        ],
+        [
+          "Ab",
+          0.032
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.831
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.831
+        }
+      ]
+    },
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.003,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "B",
+        "tool key & chords*": "Eb (key) / Eb (commonest chord root)",
+        "other voice": "Eb"
+      },
+      "scale_shape": "Saba",
+      "scale_id": "saba",
+      "scale_western": "",
+      "fit": 0.915,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Saba"
+      ],
+      "tied_shapes": [
+        "Saba"
+      ],
+      "flags": [
+        "tonic/dominant split: Bb and Eb (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: Eb (0.91), C# (0.91), B (0.91)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 700,
+        "final_share": 0.278,
+        "dur_share": 0.158
+      },
+      "total_dur": 184.0,
+      "present_pcs": [
+        [
+          "C#",
+          0.277
+        ],
+        [
+          "Bb",
+          0.196
+        ],
+        [
+          "B",
+          0.183
+        ],
+        [
+          "F",
+          0.158
+        ],
+        [
+          "Ab",
+          0.056
+        ],
+        [
+          "F#",
+          0.052
+        ],
+        [
+          "D",
+          0.043
+        ],
+        [
+          "Eb",
+          0.035
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 0.907
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.915
+        },
+        {
+          "tonic": "B",
+          "fit": 0.907
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "D#m",
+    "tempo": 83.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Eb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.061,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "B",
+        "tool key & chords*": "Eb",
+        "other voice": "Eb"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.881,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: B (0.88), Bb (0.88)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.88); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 800,
+        "final_share": 0.208,
+        "dur_share": 0.165
+      },
+      "total_dur": 280.8,
+      "present_pcs": [
+        [
+          "C#",
+          0.219
+        ],
+        [
+          "F",
+          0.175
+        ],
+        [
+          "B",
+          0.165
+        ],
+        [
+          "Bb",
+          0.153
+        ],
+        [
+          "Eb",
+          0.106
+        ],
+        [
+          "D",
+          0.069
+        ],
+        [
+          "F#",
+          0.067
+        ],
+        [
+          "Ab",
+          0.047
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.881
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.881
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-02-bayya-a-el-qeloub-1999-07-ahbaby/report.md",
+  "evidence_sha256": "f3b32c394c16bd306a27fdc860011e1e987ee404b4e543ea000f78da0cd0ff34"
+}

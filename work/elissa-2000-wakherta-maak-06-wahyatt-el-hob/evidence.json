@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2000-wakherta-maak-06-wahyatt-el-hob",
+  "track_id": "Elissa/Elissa - 2000 Wakherta Maak/06.Wahyatt El Hob.mp3",
+  "abc_sha256": "41802e0fb028fb7e3bf09f4f63c4e55206ec27f49b1c5ec7b95fb1c278c69161",
+  "analyzed_at": "2026-10-29T07:53:05Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Cm",
+    "tempo": 104.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [
+      [
+        "Vocal",
+        372.0,
+        "Dm"
+      ],
+      [
+        "Ins",
+        372.0,
+        "Dm"
+      ],
+      [
+        "Vocal",
+        472.75,
+        "Cm"
+      ],
+      [
+        "Ins",
+        472.75,
+        "Cm"
+      ]
+    ],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "C",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.196,
+    "cues": {
+      "most-used note": "F",
+      "phrase endings": "C",
+      "tool key & chords*": "C (key) / C (commonest chord root)",
+      "other voice": "G"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 0.809,
+    "shape_confidence": "low",
+    "name_allowed": false,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: F (0.81), Bb (0.81)  -> relative-mode ambiguity",
+      "no single scale explains this material (best fit 0.81); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+    ],
+    "ghammaz": {
+      "note": "F",
+      "interval_cents": 500,
+      "final_share": 0.5,
+      "dur_share": 0.205
+    },
+    "total_dur": 262.5,
+    "present_pcs": [
+      [
+        "F",
+        0.205
+      ],
+      [
+        "C",
+        0.194
+      ],
+      [
+        "G",
+        0.16
+      ],
+      [
+        "Eb",
+        0.149
+      ],
+      [
+        "C#",
+        0.101
+      ],
+      [
+        "Bb",
+        0.058
+      ],
+      [
+        "D",
+        0.046
+      ],
+      [
+        "Ab",
+        0.042
+      ],
+      [
+        "E",
+        0.03
+      ],
+      [
+        "A",
+        0.015
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "F",
+        "fit": 0.809
+      },
+      {
+        "tonic": "Bb",
+        "fit": 0.809
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "C",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.154,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "C",
+        "tool key & chords*": "C (key) / C (commonest chord root)"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: F (1.00), C# (1.00), Bb (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 500,
+        "final_share": 0.667,
+        "dur_share": 0.177
+      },
+      "total_dur": 94.5,
+      "present_pcs": [
+        [
+          "C",
+          0.185
+        ],
+        [
+          "C#",
+          0.18
+        ],
+        [
+          "F",
+          0.177
+        ],
+        [
+          "G",
+          0.148
+        ],
+        [
+          "Eb",
+          0.127
+        ],
+        [
+          "Ab",
+          0.095
+        ],
+        [
+          "Bb",
+          0.087
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C#",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Bb",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "C",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.333,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "C",
+        "tool key & chords*": "C (key) / C (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "dorian",
+      "scale_western": "Dorian",
+      "fit": 0.784,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.78), Eb (0.78), F (0.78)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.78); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": null,
+      "total_dur": 168.0,
+      "present_pcs": [
+        [
+          "F",
+          0.22
+        ],
+        [
+          "C",
+          0.199
+        ],
+        [
+          "G",
+          0.167
+        ],
+        [
+          "Eb",
+          0.161
+        ],
+        [
+          "D",
+          0.071
+        ],
+        [
+          "C#",
+          0.057
+        ],
+        [
+          "E",
+          0.048
+        ],
+        [
+          "Bb",
+          0.042
+        ],
+        [
+          "A",
+          0.024
+        ],
+        [
+          "Ab",
+          0.012
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.784
+        },
+        {
+          "tonic": "Eb",
+          "fit": 0.784
+        },
+        {
+          "tonic": "F",
+          "fit": 0.784
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Cm",
+    "tempo": 104.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "C",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.176,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "C",
+        "tool key & chords*": "C",
+        "other voice": "G"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.809,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: F (0.81), C# (0.81)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.81); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 500,
+        "final_share": 0.5,
+        "dur_share": 0.205
+      },
+      "total_dur": 262.5,
+      "present_pcs": [
+        [
+          "F",
+          0.205
+        ],
+        [
+          "C",
+          0.194
+        ],
+        [
+          "G",
+          0.16
+        ],
+        [
+          "Eb",
+          0.149
+        ],
+        [
+          "C#",
+          0.101
+        ],
+        [
+          "Bb",
+          0.058
+        ],
+        [
+          "D",
+          0.046
+        ],
+        [
+          "Ab",
+          0.042
+        ],
+        [
+          "E",
+          0.03
+        ],
+        [
+          "A",
+          0.015
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.809
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.809
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2000-wakherta-maak-06-wahyatt-el-hob/report.md",
+  "evidence_sha256": "2fb013cbca16a2048c091387b21a9e50a335dd6cbf06d3762c3786342a7fd762"
+}

@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-14-bada-aalbal-2009-08-we-eftara-na",
+  "track_id": "Fadl Shaker/14.Ba’da Aalbal.2009/08.We Eftara'na.mp3",
+  "abc_sha256": "0f1bde722c9f1e0102ef0be7774e7adecd2e065d753aefc2945f8f84f80e8ecb",
+  "analyzed_at": "2026-10-29T07:54:19Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Bm",
+    "tempo": 90.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "B",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.01,
+    "cues": {
+      "most-used note": "B",
+      "phrase endings": "F#",
+      "tool key & chords*": "B (key) / F# (commonest chord root)",
+      "other voice": "F#"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 0.918,
+    "shape_confidence": "low",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "tonic/dominant split: B and F# (a 4th/5th apart) score almost equally; the true tonic could be either",
+      "same notes also fit other tonics: F# (0.92), G (0.92)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "F#",
+      "interval_cents": 700,
+      "final_share": 0.375,
+      "dur_share": 0.134
+    },
+    "total_dur": 308.2,
+    "present_pcs": [
+      [
+        "B",
+        0.26
+      ],
+      [
+        "A",
+        0.191
+      ],
+      [
+        "C#",
+        0.159
+      ],
+      [
+        "F#",
+        0.134
+      ],
+      [
+        "G",
+        0.121
+      ],
+      [
+        "D",
+        0.064
+      ],
+      [
+        "E",
+        0.039
+      ],
+      [
+        "Bb",
+        0.023
+      ],
+      [
+        "Eb",
+        0.005
+      ],
+      [
+        "Ab",
+        0.005
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "F#",
+        "fit": 0.918
+      },
+      {
+        "tonic": "G",
+        "fit": 0.918
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.081,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "F#",
+        "tool key & chords*": "B (key) / B (commonest chord root)",
+        "other voice": "F#"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.906,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: B and F# (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F# (0.91), G (0.91), E (0.91)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F#",
+        "interval_cents": 700,
+        "final_share": 0.444,
+        "dur_share": 0.151
+      },
+      "total_dur": 216.8,
+      "present_pcs": [
+        [
+          "B",
+          0.253
+        ],
+        [
+          "A",
+          0.203
+        ],
+        [
+          "F#",
+          0.151
+        ],
+        [
+          "G",
+          0.142
+        ],
+        [
+          "C#",
+          0.1
+        ],
+        [
+          "E",
+          0.055
+        ],
+        [
+          "D",
+          0.052
+        ],
+        [
+          "Bb",
+          0.03
+        ],
+        [
+          "Eb",
+          0.007
+        ],
+        [
+          "Ab",
+          0.007
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F#",
+          "fit": 0.906
+        },
+        {
+          "tonic": "G",
+          "fit": 0.906
+        },
+        {
+          "tonic": "E",
+          "fit": 0.906
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.119,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "G",
+        "tool key & chords*": "B (key) / F# (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.974,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati",
+        "Saba"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand",
+        "Saba"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.97), F# (0.97)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F#",
+        "interval_cents": 700,
+        "final_share": 0.231,
+        "dur_share": 0.062
+      },
+      "total_dur": 88.0,
+      "present_pcs": [
+        [
+          "C#",
+          0.31
+        ],
+        [
+          "B",
+          0.287
+        ],
+        [
+          "A",
+          0.17
+        ],
+        [
+          "D",
+          0.097
+        ],
+        [
+          "G",
+          0.068
+        ],
+        [
+          "F#",
+          0.062
+        ],
+        [
+          "Bb",
+          0.006
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.974
+        },
+        {
+          "tonic": "F#",
+          "fit": 0.974
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Bm",
+    "tempo": 90.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.024,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "F#",
+        "tool key & chords*": "B",
+        "other voice": "F#"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.918,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: B and F# (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F# (0.92), G (0.92)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F#",
+        "interval_cents": 700,
+        "final_share": 0.375,
+        "dur_share": 0.134
+      },
+      "total_dur": 308.2,
+      "present_pcs": [
+        [
+          "B",
+          0.26
+        ],
+        [
+          "A",
+          0.191
+        ],
+        [
+          "C#",
+          0.159
+        ],
+        [
+          "F#",
+          0.134
+        ],
+        [
+          "G",
+          0.121
+        ],
+        [
+          "D",
+          0.064
+        ],
+        [
+          "E",
+          0.039
+        ],
+        [
+          "Bb",
+          0.023
+        ],
+        [
+          "Eb",
+          0.005
+        ],
+        [
+          "Ab",
+          0.005
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F#",
+          "fit": 0.918
+        },
+        {
+          "tonic": "G",
+          "fit": 0.918
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-14-bada-aalbal-2009-08-we-eftara-na/report.md",
+  "evidence_sha256": "d19aa21a0120681958e6d4b9b72de4432c1919f9a2a8a47229f39c57c1714e47"
+}

@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-06-sidi-rohi-2003-04-law-faker",
+  "track_id": "Fadl Shaker/06.Sidi Rohi.2003/04.Law Faker.mp3",
+  "abc_sha256": "f6c3679e3acad1f81f6814eb5bd8da3b833047e3c134803279e59285d2b844a0",
+  "analyzed_at": "2026-10-29T07:53:57Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Gm",
+    "tempo": 103.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.398,
+    "cues": {
+      "most-used note": "Bb",
+      "phrase endings": "G",
+      "tool key & chords*": "G (key) / G (commonest chord root)",
+      "other voice": "Bb"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: Ab (1.00), Bb (1.00), C (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": null,
+    "total_dur": 209.8,
+    "present_pcs": [
+      [
+        "Bb",
+        0.256
+      ],
+      [
+        "Ab",
+        0.186
+      ],
+      [
+        "G",
+        0.178
+      ],
+      [
+        "C",
+        0.168
+      ],
+      [
+        "D",
+        0.136
+      ],
+      [
+        "F",
+        0.046
+      ],
+      [
+        "Eb",
+        0.03
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "Ab",
+        "fit": 1.0
+      },
+      {
+        "tonic": "Bb",
+        "fit": 1.0
+      },
+      {
+        "tonic": "C",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.51,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "G",
+        "tool key & chords*": "G (key) / C (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Bb (1.00), C (1.00), Ab (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 151.0,
+      "present_pcs": [
+        [
+          "Bb",
+          0.242
+        ],
+        [
+          "G",
+          0.215
+        ],
+        [
+          "Ab",
+          0.184
+        ],
+        [
+          "C",
+          0.151
+        ],
+        [
+          "D",
+          0.116
+        ],
+        [
+          "F",
+          0.065
+        ],
+        [
+          "Eb",
+          0.028
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Bb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.146,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Ab",
+        "tool key & chords*": "G (key) / G (commonest chord root)"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "lydian",
+      "scale_western": "Lydian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [],
+      "tied_shapes": [
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.98), Bb (0.98), C (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 57.8,
+      "present_pcs": [
+        [
+          "Bb",
+          0.299
+        ],
+        [
+          "C",
+          0.216
+        ],
+        [
+          "Ab",
+          0.195
+        ],
+        [
+          "D",
+          0.19
+        ],
+        [
+          "G",
+          0.065
+        ],
+        [
+          "Eb",
+          0.035
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        },
+        {
+          "tonic": "C",
+          "fit": 0.98
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Gm",
+    "tempo": 103.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.434,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "G",
+        "tool key & chords*": "G",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (1.00), Bb (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 209.8,
+      "present_pcs": [
+        [
+          "Bb",
+          0.256
+        ],
+        [
+          "Ab",
+          0.186
+        ],
+        [
+          "G",
+          0.178
+        ],
+        [
+          "C",
+          0.168
+        ],
+        [
+          "D",
+          0.136
+        ],
+        [
+          "F",
+          0.046
+        ],
+        [
+          "Eb",
+          0.03
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Bb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-06-sidi-rohi-2003-04-law-faker/report.md",
+  "evidence_sha256": "30353d82b803098caca61355d7cc02f858215b350c61dad9dfd21426c4951903"
+}

@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-07-fadl-shaker-2003-08-elli-rahou",
+  "track_id": "Fadl Shaker/07.Fadl Shaker.2003/08.Elli Rahou.mp3",
+  "abc_sha256": "054b139ee9f4bb5d75feb91adb3b491fd89de6311c78ff8047116fe43b9da0af",
+  "analyzed_at": "2026-10-29T07:54:00Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Gm",
+    "tempo": 90.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.069,
+    "cues": {
+      "most-used note": "D",
+      "phrase endings": "A",
+      "tool key & chords*": "G (key) / G (commonest chord root)",
+      "other voice": "G"
+    },
+    "scale_shape": "(no standard maqam)",
+    "scale_id": "mixolydian",
+    "scale_western": "Mixolydian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Rast",
+      "(no standard maqam)"
+    ],
+    "flags": [
+      "same notes also fit other tonics: A (1.00), C (1.00), D (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "C",
+      "interval_cents": 500,
+      "final_share": 0.333,
+      "dur_share": 0.259
+    },
+    "total_dur": 190.5,
+    "present_pcs": [
+      [
+        "D",
+        0.281
+      ],
+      [
+        "C",
+        0.259
+      ],
+      [
+        "A",
+        0.159
+      ],
+      [
+        "B",
+        0.15
+      ],
+      [
+        "G",
+        0.094
+      ],
+      [
+        "F",
+        0.037
+      ],
+      [
+        "E",
+        0.021
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 1.0
+      },
+      {
+        "tonic": "C",
+        "fit": 1.0
+      },
+      {
+        "tonic": "D",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.038,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "A",
+        "tool key & chords*": "G (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (1.00), D (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 300,
+        "final_share": 0.111,
+        "dur_share": 0.264
+      },
+      "total_dur": 96.5,
+      "present_pcs": [
+        [
+          "C",
+          0.264
+        ],
+        [
+          "D",
+          0.244
+        ],
+        [
+          "A",
+          0.184
+        ],
+        [
+          "B",
+          0.158
+        ],
+        [
+          "G",
+          0.093
+        ],
+        [
+          "F",
+          0.036
+        ],
+        [
+          "E",
+          0.021
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.039,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "C",
+        "tool key & chords*": "G (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "mixolydian",
+      "scale_western": "Mixolydian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "tonic/dominant split: G and C (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C (1.00), A (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 500,
+        "final_share": 0.5,
+        "dur_share": 0.253
+      },
+      "total_dur": 94.0,
+      "present_pcs": [
+        [
+          "D",
+          0.319
+        ],
+        [
+          "C",
+          0.253
+        ],
+        [
+          "B",
+          0.141
+        ],
+        [
+          "A",
+          0.133
+        ],
+        [
+          "G",
+          0.096
+        ],
+        [
+          "F",
+          0.037
+        ],
+        [
+          "E",
+          0.021
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Gm",
+    "tempo": 90.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.055,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "A",
+        "tool key & chords*": "G",
+        "other voice": "G"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C (1.00), G (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 300,
+        "final_share": 0.333,
+        "dur_share": 0.259
+      },
+      "total_dur": 190.5,
+      "present_pcs": [
+        [
+          "D",
+          0.281
+        ],
+        [
+          "C",
+          0.259
+        ],
+        [
+          "A",
+          0.159
+        ],
+        [
+          "B",
+          0.15
+        ],
+        [
+          "G",
+          0.094
+        ],
+        [
+          "F",
+          0.037
+        ],
+        [
+          "E",
+          0.021
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "G",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-07-fadl-shaker-2003-08-elli-rahou/report.md",
+  "evidence_sha256": "20cb833b8641057e568a4dd7166ebb34f31963700f88891ad55a79d4fa7feb34"
+}

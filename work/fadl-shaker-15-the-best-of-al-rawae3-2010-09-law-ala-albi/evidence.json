@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-15-the-best-of-al-rawae3-2010-09-law-ala-albi",
+  "track_id": "Fadl Shaker/15.The Best Of (Al Rawae3).2010/09.Law Ala Albi.mp3",
+  "abc_sha256": "7ab48bf0167315ead13ea438dd054a78d61bd29f74be86004a6c29f650c6e730",
+  "analyzed_at": "2026-10-29T07:54:22Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Dm",
+    "tempo": 106.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.176,
+    "cues": {
+      "most-used note": "A",
+      "phrase endings": "A",
+      "tool key & chords*": "D (key) / D (commonest chord root)",
+      "other voice": "D"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 0.998,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: D (1.00), G (1.00), C (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": null,
+    "total_dur": 290.2,
+    "present_pcs": [
+      [
+        "A",
+        0.21
+      ],
+      [
+        "G",
+        0.187
+      ],
+      [
+        "F",
+        0.171
+      ],
+      [
+        "E",
+        0.154
+      ],
+      [
+        "D",
+        0.112
+      ],
+      [
+        "C",
+        0.084
+      ],
+      [
+        "Bb",
+        0.081
+      ],
+      [
+        "C#",
+        0.002
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "D",
+        "fit": 0.998
+      },
+      {
+        "tonic": "G",
+        "fit": 0.998
+      },
+      {
+        "tonic": "C",
+        "fit": 0.998
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.288,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "D (key) / A (commonest chord root)",
+        "other voice": "D"
+      },
+      "scale_shape": "Hijaz",
+      "scale_id": "hijaz",
+      "scale_western": "",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Hijaz",
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.98), G (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 145.0,
+      "present_pcs": [
+        [
+          "A",
+          0.245
+        ],
+        [
+          "G",
+          0.24
+        ],
+        [
+          "F",
+          0.229
+        ],
+        [
+          "E",
+          0.166
+        ],
+        [
+          "D",
+          0.083
+        ],
+        [
+          "Bb",
+          0.034
+        ],
+        [
+          "C#",
+          0.003
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.98
+        },
+        {
+          "tonic": "G",
+          "fit": 0.98
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.055,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "G",
+        "tool key & chords*": "D (key) / D (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: D and G (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: G (1.00), C (1.00), A (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 144.8,
+      "present_pcs": [
+        [
+          "A",
+          0.173
+        ],
+        [
+          "C",
+          0.168
+        ],
+        [
+          "E",
+          0.143
+        ],
+        [
+          "D",
+          0.142
+        ],
+        [
+          "G",
+          0.135
+        ],
+        [
+          "Bb",
+          0.128
+        ],
+        [
+          "F",
+          0.112
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "A",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Dm",
+    "tempo": 106.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.235,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "D",
+        "other voice": "D"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.998,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (1.00), G (1.00), F (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 290.2,
+      "present_pcs": [
+        [
+          "A",
+          0.21
+        ],
+        [
+          "G",
+          0.187
+        ],
+        [
+          "F",
+          0.171
+        ],
+        [
+          "E",
+          0.154
+        ],
+        [
+          "D",
+          0.112
+        ],
+        [
+          "C",
+          0.084
+        ],
+        [
+          "Bb",
+          0.081
+        ],
+        [
+          "C#",
+          0.002
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.998
+        },
+        {
+          "tonic": "G",
+          "fit": 0.998
+        },
+        {
+          "tonic": "F",
+          "fit": 0.998
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-15-the-best-of-al-rawae3-2010-09-law-ala-albi/report.md",
+  "evidence_sha256": "44f928b1ed12cc355ac77eef4bbc1c1844d00c8305363e5d8e870ed3cd0895bb"
+}

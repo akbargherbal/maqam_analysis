@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-1998-baddy-doub-10-helm-alahlam-mix",
+  "track_id": "Elissa/Elissa - 1998 Baddy Doub/10. Helm Alahlam Mix.mp3",
+  "abc_sha256": "7f83a6e3e0273253b40fc7c10b4da3c7169edb86cdeac1ce4b8329f7d2f64362",
+  "analyzed_at": "2026-10-29T07:53:02Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Dm",
+    "tempo": 94.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "D",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.31,
+    "cues": {
+      "most-used note": "E",
+      "phrase endings": "D",
+      "tool key & chords*": "D (key) / C (commonest chord root)",
+      "other voice": "A"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "same notes also fit other tonics: A (1.00), C (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "A",
+      "interval_cents": 700,
+      "final_share": 0.211,
+      "dur_share": 0.072
+    },
+    "total_dur": 242.0,
+    "present_pcs": [
+      [
+        "E",
+        0.237
+      ],
+      [
+        "D",
+        0.206
+      ],
+      [
+        "F",
+        0.19
+      ],
+      [
+        "C",
+        0.167
+      ],
+      [
+        "Bb",
+        0.073
+      ],
+      [
+        "A",
+        0.072
+      ],
+      [
+        "G",
+        0.055
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 1.0
+      },
+      {
+        "tonic": "C",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "medium",
+      "tonic_margin": 0.283,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "D",
+        "tool key & chords*": "D (key) / C (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "A",
+        "interval_cents": 700,
+        "final_share": 0.2,
+        "dur_share": 0.083
+      },
+      "total_dur": 135.2,
+      "present_pcs": [
+        [
+          "C",
+          0.227
+        ],
+        [
+          "D",
+          0.19
+        ],
+        [
+          "F",
+          0.166
+        ],
+        [
+          "E",
+          0.161
+        ],
+        [
+          "Bb",
+          0.124
+        ],
+        [
+          "A",
+          0.083
+        ],
+        [
+          "G",
+          0.048
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.262,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "D",
+        "tool key & chords*": "D (key) / D (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C (0.98), A (0.98), E (0.97)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "A",
+        "interval_cents": 700,
+        "final_share": 0.286,
+        "dur_share": 0.059
+      },
+      "total_dur": 105.2,
+      "present_pcs": [
+        [
+          "E",
+          0.333
+        ],
+        [
+          "F",
+          0.223
+        ],
+        [
+          "D",
+          0.219
+        ],
+        [
+          "C",
+          0.093
+        ],
+        [
+          "G",
+          0.064
+        ],
+        [
+          "A",
+          0.059
+        ],
+        [
+          "Bb",
+          0.01
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "A",
+          "fit": 0.98
+        },
+        {
+          "tonic": "E",
+          "fit": 0.97
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Dm",
+    "tempo": 94.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.343,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "D",
+        "tool key & chords*": "D",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "A",
+        "interval_cents": 700,
+        "final_share": 0.211,
+        "dur_share": 0.072
+      },
+      "total_dur": 242.0,
+      "present_pcs": [
+        [
+          "E",
+          0.237
+        ],
+        [
+          "D",
+          0.206
+        ],
+        [
+          "F",
+          0.19
+        ],
+        [
+          "C",
+          0.167
+        ],
+        [
+          "Bb",
+          0.073
+        ],
+        [
+          "A",
+          0.072
+        ],
+        [
+          "G",
+          0.055
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-1998-baddy-doub-10-helm-alahlam-mix/report.md",
+  "evidence_sha256": "5c1b3f75b6e18f3d627f47868b1b18018bb4809553d9eb8f5d22f65ef29836f1"
+}

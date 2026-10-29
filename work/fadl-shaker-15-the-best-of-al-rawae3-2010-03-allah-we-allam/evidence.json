@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-15-the-best-of-al-rawae3-2010-03-allah-we-allam",
+  "track_id": "Fadl Shaker/15.The Best Of (Al Rawae3).2010/03.Allah We'allam.mp3",
+  "abc_sha256": "8f60cbd4ea8f5846bd7cb878631375a848619a2750ab8ccf4aaf052c3aa36d2f",
+  "analyzed_at": "2026-10-29T07:54:21Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Am",
+    "tempo": 85.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.185,
+    "cues": {
+      "most-used note": "A",
+      "phrase endings": "G",
+      "tool key & chords*": "A (key) / F (commonest chord root)",
+      "other voice": "E"
+    },
+    "scale_shape": "(no standard maqam)",
+    "scale_id": "mixolydian",
+    "scale_western": "Mixolydian",
+    "fit": 0.94,
+    "shape_confidence": "low",
+    "name_allowed": false,
+    "shadow_of": [
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Rast",
+      "(no standard maqam)"
+    ],
+    "flags": [
+      "same notes also fit other tonics: A (0.94), B (0.92), C (0.94)  -> relative-mode ambiguity",
+      "only 4 pitch classes in use: too few to identify a scale; the shape is under-determined"
+    ],
+    "ghammaz": null,
+    "total_dur": 242.0,
+    "present_pcs": [
+      [
+        "A",
+        0.388
+      ],
+      [
+        "B",
+        0.351
+      ],
+      [
+        "G",
+        0.151
+      ],
+      [
+        "C",
+        0.071
+      ],
+      [
+        "F",
+        0.015
+      ],
+      [
+        "D",
+        0.014
+      ],
+      [
+        "E",
+        0.008
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 0.94
+      },
+      {
+        "tonic": "B",
+        "fit": 0.925
+      },
+      {
+        "tonic": "C",
+        "fit": 0.94
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.052,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "G",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.96), F (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "G",
+        "interval_cents": 1000,
+        "final_share": 0.6,
+        "dur_share": 0.193
+      },
+      "total_dur": 120.5,
+      "present_pcs": [
+        [
+          "A",
+          0.475
+        ],
+        [
+          "B",
+          0.28
+        ],
+        [
+          "G",
+          0.193
+        ],
+        [
+          "C",
+          0.021
+        ],
+        [
+          "F",
+          0.021
+        ],
+        [
+          "D",
+          0.006
+        ],
+        [
+          "E",
+          0.004
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.96
+        },
+        {
+          "tonic": "F",
+          "fit": 0.96
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "medium",
+      "tonic_margin": 0.224,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "A",
+        "tool key & chords*": "A (key) / E (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: B (0.95), G (0.96), C (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 121.5,
+      "present_pcs": [
+        [
+          "B",
+          0.422
+        ],
+        [
+          "A",
+          0.302
+        ],
+        [
+          "C",
+          0.121
+        ],
+        [
+          "G",
+          0.109
+        ],
+        [
+          "D",
+          0.023
+        ],
+        [
+          "E",
+          0.012
+        ],
+        [
+          "F",
+          0.01
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.95
+        },
+        {
+          "tonic": "G",
+          "fit": 0.96
+        },
+        {
+          "tonic": "C",
+          "fit": 0.96
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Am",
+    "tempo": 85.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.204,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "G",
+        "tool key & chords*": "A",
+        "other voice": "E"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "mixolydian",
+      "scale_western": "Mixolydian",
+      "fit": 0.94,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.94), B (0.92), C (0.94)  -> relative-mode ambiguity",
+        "only 4 pitch classes in use: too few to identify a scale; the shape is under-determined"
+      ],
+      "ghammaz": null,
+      "total_dur": 242.0,
+      "present_pcs": [
+        [
+          "A",
+          0.388
+        ],
+        [
+          "B",
+          0.351
+        ],
+        [
+          "G",
+          0.151
+        ],
+        [
+          "C",
+          0.071
+        ],
+        [
+          "F",
+          0.015
+        ],
+        [
+          "D",
+          0.014
+        ],
+        [
+          "E",
+          0.008
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.94
+        },
+        {
+          "tonic": "B",
+          "fit": 0.925
+        },
+        {
+          "tonic": "C",
+          "fit": 0.94
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-15-the-best-of-al-rawae3-2010-03-allah-we-allam/report.md",
+  "evidence_sha256": "28a62254c65759a63e609ac95a51b23d35e138a8886a2ca73017a0f7d68b4901"
+}

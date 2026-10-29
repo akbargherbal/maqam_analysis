@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2008-ayami-beek-10-sahar-einy",
+  "track_id": "Elissa/Elissa - 2008 Ayami Beek/10. Sahar Einy.mp3",
+  "abc_sha256": "973925dab7a5f60fda1f1aae6f23aaa4e9071b19d44b95da8a0842d4fe0f6a85",
+  "analyzed_at": "2026-10-29T07:53:33Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Dm",
+    "tempo": 84.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.313,
+    "cues": {
+      "most-used note": "A",
+      "phrase endings": "A",
+      "tool key & chords*": "D (key) / D (commonest chord root)",
+      "other voice": "E"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: D (1.00), C (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "E",
+      "interval_cents": 700,
+      "final_share": 0.2,
+      "dur_share": 0.139
+    },
+    "total_dur": 198.0,
+    "present_pcs": [
+      [
+        "A",
+        0.192
+      ],
+      [
+        "C",
+        0.159
+      ],
+      [
+        "G",
+        0.154
+      ],
+      [
+        "E",
+        0.139
+      ],
+      [
+        "F",
+        0.126
+      ],
+      [
+        "D",
+        0.122
+      ],
+      [
+        "Bb",
+        0.107
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "D",
+        "fit": 1.0
+      },
+      {
+        "tonic": "C",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.283,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "A",
+        "tool key & chords*": "D (key) / A (commonest chord root)"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 700,
+        "final_share": 0.286,
+        "dur_share": 0.192
+      },
+      "total_dur": 101.8,
+      "present_pcs": [
+        [
+          "C",
+          0.246
+        ],
+        [
+          "D",
+          0.194
+        ],
+        [
+          "E",
+          0.192
+        ],
+        [
+          "A",
+          0.128
+        ],
+        [
+          "Bb",
+          0.108
+        ],
+        [
+          "F",
+          0.084
+        ],
+        [
+          "G",
+          0.049
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.444,
+      "cues": {
+        "most-used note": "G",
+        "phrase endings": "A",
+        "tool key & chords*": "D (key) / D (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (1.00), Bb (1.00), G (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 96.2,
+      "present_pcs": [
+        [
+          "G",
+          0.265
+        ],
+        [
+          "A",
+          0.26
+        ],
+        [
+          "F",
+          0.171
+        ],
+        [
+          "Bb",
+          0.106
+        ],
+        [
+          "E",
+          0.083
+        ],
+        [
+          "C",
+          0.068
+        ],
+        [
+          "D",
+          0.047
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Bb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "G",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Dm",
+    "tempo": 84.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.397,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "D",
+        "other voice": "E"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 700,
+        "final_share": 0.2,
+        "dur_share": 0.139
+      },
+      "total_dur": 198.0,
+      "present_pcs": [
+        [
+          "A",
+          0.192
+        ],
+        [
+          "C",
+          0.159
+        ],
+        [
+          "G",
+          0.154
+        ],
+        [
+          "E",
+          0.139
+        ],
+        [
+          "F",
+          0.126
+        ],
+        [
+          "D",
+          0.122
+        ],
+        [
+          "Bb",
+          0.107
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2008-ayami-beek-10-sahar-einy/report.md",
+  "evidence_sha256": "76af51bc11dfc7726c5e41a1bad0d6dbabf237fa854f8246f603ae8641d3965b"
+}

@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-03-el-hob-el-qadeem-2000-07-men-gher-sabab",
+  "track_id": "Fadl Shaker/03.El Hob El Qadeem.2000/07.Men Gher Sabab.mp3",
+  "abc_sha256": "1059754ee12ad65918a828679d32c2c99ecd5c556a181d901def154f54d8af48",
+  "analyzed_at": "2026-10-29T07:53:54Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "C#m",
+    "tempo": 85.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.149,
+    "cues": {
+      "most-used note": "A",
+      "phrase endings": "A",
+      "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+      "other voice": "Ab"
+    },
+    "scale_shape": "Ajam",
+    "scale_id": "ajam",
+    "scale_western": "major / Ionian",
+    "fit": 0.862,
+    "shape_confidence": "low",
+    "name_allowed": false,
+    "shadow_of": [
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Rast",
+      "Ajam",
+      "(no standard maqam)"
+    ],
+    "flags": [
+      "same notes also fit other tonics: C# (0.86), B (0.86), Ab (0.86)  -> relative-mode ambiguity",
+      "no single scale explains this material (best fit 0.86); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+    ],
+    "ghammaz": {
+      "note": "E",
+      "interval_cents": 700,
+      "final_share": 0.136,
+      "dur_share": 0.062
+    },
+    "total_dur": 121.8,
+    "present_pcs": [
+      [
+        "A",
+        0.335
+      ],
+      [
+        "B",
+        0.238
+      ],
+      [
+        "C#",
+        0.105
+      ],
+      [
+        "F#",
+        0.103
+      ],
+      [
+        "Ab",
+        0.09
+      ],
+      [
+        "E",
+        0.062
+      ],
+      [
+        "C",
+        0.051
+      ],
+      [
+        "G",
+        0.016
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "C#",
+        "fit": 0.862
+      },
+      {
+        "tonic": "B",
+        "fit": 0.862
+      },
+      {
+        "tonic": "Ab",
+        "fit": 0.862
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.152,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "A",
+        "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+        "other voice": "Ab"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "dorian",
+      "scale_western": "Dorian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C# (0.98), Ab (0.98), A (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "A",
+        "interval_cents": 1000,
+        "final_share": 0.214,
+        "dur_share": 0.215
+      },
+      "total_dur": 62.8,
+      "present_pcs": [
+        [
+          "B",
+          0.446
+        ],
+        [
+          "A",
+          0.215
+        ],
+        [
+          "C#",
+          0.139
+        ],
+        [
+          "Ab",
+          0.096
+        ],
+        [
+          "F#",
+          0.072
+        ],
+        [
+          "E",
+          0.032
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.98
+        },
+        {
+          "tonic": "A",
+          "fit": 0.98
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.269,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Rast",
+      "scale_id": "rast",
+      "scale_western": "",
+      "fit": 0.76,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C# (0.88), Ab (0.88)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.76); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 700,
+        "final_share": 0.143,
+        "dur_share": 0.095
+      },
+      "total_dur": 57.8,
+      "present_pcs": [
+        [
+          "A",
+          0.472
+        ],
+        [
+          "F#",
+          0.121
+        ],
+        [
+          "C",
+          0.108
+        ],
+        [
+          "E",
+          0.095
+        ],
+        [
+          "Ab",
+          0.087
+        ],
+        [
+          "C#",
+          0.065
+        ],
+        [
+          "G",
+          0.035
+        ],
+        [
+          "B",
+          0.017
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 0.878
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.878
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "C#m",
+    "tempo": 85.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.172,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "A",
+        "tool key & chords*": "C#",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 0.862,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C# (0.86), B (0.86), F# (0.86)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.86); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 700,
+        "final_share": 0.136,
+        "dur_share": 0.062
+      },
+      "total_dur": 121.8,
+      "present_pcs": [
+        [
+          "A",
+          0.335
+        ],
+        [
+          "B",
+          0.238
+        ],
+        [
+          "C#",
+          0.105
+        ],
+        [
+          "F#",
+          0.103
+        ],
+        [
+          "Ab",
+          0.09
+        ],
+        [
+          "E",
+          0.062
+        ],
+        [
+          "C",
+          0.051
+        ],
+        [
+          "G",
+          0.016
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 0.862
+        },
+        {
+          "tonic": "B",
+          "fit": 0.862
+        },
+        {
+          "tonic": "F#",
+          "fit": 0.862
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-03-el-hob-el-qadeem-2000-07-men-gher-sabab/report.md",
+  "evidence_sha256": "63e5eeb2b3fee4adcefc607472970bf7beab749824fd2e625a7f86cf9de338da"
+}

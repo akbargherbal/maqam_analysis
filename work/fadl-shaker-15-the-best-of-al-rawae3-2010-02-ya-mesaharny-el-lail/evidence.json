@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-15-the-best-of-al-rawae3-2010-02-ya-mesaharny-el-lail",
+  "track_id": "Fadl Shaker/15.The Best Of (Al Rawae3).2010/02.Ya Mesaharny El Lail.mp3",
+  "abc_sha256": "5012490d0b8fcf0587458bec354abb3be9bca16d432f2efd3f90445eac638842",
+  "analyzed_at": "2026-10-29T07:54:20Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "G#m",
+    "tempo": 89.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "Ab",
+    "tonic_confidence": "high",
+    "tonic_margin": 0.304,
+    "cues": {
+      "most-used note": "Ab",
+      "phrase endings": "Bb",
+      "tool key & chords*": "Ab (key) / Ab (commonest chord root)",
+      "other voice": "Ab"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 0.911,
+    "shape_confidence": "low",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "same notes also fit other tonics: B (0.91), E (0.91)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "E",
+      "interval_cents": 800,
+      "final_share": 0.125,
+      "dur_share": 0.052
+    },
+    "total_dur": 213.2,
+    "present_pcs": [
+      [
+        "Ab",
+        0.266
+      ],
+      [
+        "B",
+        0.222
+      ],
+      [
+        "Bb",
+        0.19
+      ],
+      [
+        "C#",
+        0.144
+      ],
+      [
+        "F#",
+        0.062
+      ],
+      [
+        "E",
+        0.052
+      ],
+      [
+        "G",
+        0.039
+      ],
+      [
+        "Eb",
+        0.026
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "B",
+        "fit": 0.911
+      },
+      {
+        "tonic": "E",
+        "fit": 0.911
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.099,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "G",
+        "tool key & chords*": "Ab (key) / C# (commonest chord root)",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 0.839,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (0.86), E (0.84)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.84); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "G",
+        "interval_cents": 800,
+        "final_share": 0.6,
+        "dur_share": 0.091
+      },
+      "total_dur": 91.0,
+      "present_pcs": [
+        [
+          "B",
+          0.305
+        ],
+        [
+          "Ab",
+          0.258
+        ],
+        [
+          "Bb",
+          0.209
+        ],
+        [
+          "G",
+          0.091
+        ],
+        [
+          "F#",
+          0.071
+        ],
+        [
+          "C#",
+          0.033
+        ],
+        [
+          "E",
+          0.033
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 0.859
+        },
+        {
+          "tonic": "E",
+          "fit": 0.839
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.104,
+      "cues": {
+        "most-used note": "Ab",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Ab (key) / Ab (commonest chord root)",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C# (1.00), B (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 121.2,
+      "present_pcs": [
+        [
+          "Ab",
+          0.266
+        ],
+        [
+          "C#",
+          0.229
+        ],
+        [
+          "Bb",
+          0.177
+        ],
+        [
+          "B",
+          0.161
+        ],
+        [
+          "E",
+          0.066
+        ],
+        [
+          "F#",
+          0.056
+        ],
+        [
+          "Eb",
+          0.045
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 1.0
+        },
+        {
+          "tonic": "B",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "G#m",
+    "tempo": 89.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.3,
+      "cues": {
+        "most-used note": "Ab",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Ab",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.911,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: B (0.91)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 800,
+        "final_share": 0.125,
+        "dur_share": 0.052
+      },
+      "total_dur": 213.2,
+      "present_pcs": [
+        [
+          "Ab",
+          0.266
+        ],
+        [
+          "B",
+          0.222
+        ],
+        [
+          "Bb",
+          0.19
+        ],
+        [
+          "C#",
+          0.144
+        ],
+        [
+          "F#",
+          0.062
+        ],
+        [
+          "E",
+          0.052
+        ],
+        [
+          "G",
+          0.039
+        ],
+        [
+          "Eb",
+          0.026
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.911
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-15-the-best-of-al-rawae3-2010-02-ya-mesaharny-el-lail/report.md",
+  "evidence_sha256": "fb6ea1bbb822aff82c9673362b87aefbd22c22df9b9f330c1431bcb28105a15d"
+}

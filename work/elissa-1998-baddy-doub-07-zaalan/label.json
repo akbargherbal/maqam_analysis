@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-1998-baddy-doub-07-zaalan",
+  "track_id": "Elissa/Elissa - 1998 Baddy Doub/07. Zaalan.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 1998 Baddy Doub",
+  "file": "07. Zaalan.mp3",
+  "lyric_title": "زعلان",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 1998 Baddy Doub.json",
+    "transcript_track_id": "ELISSA/Elissa - 1998 Baddy Doub/07-zaalan",
+    "transcript_sha256": "f450bc731b91c28a8de6eb1d4b0987976cdab315eee29edf853cd7df52f45965",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 1998 Baddy Doub/07. Zaalan.mp3",
+    "audio_sha256": "646d1d3abfad1cf7ba83da7143081f913d8823f6da480bddb5098e420dfdf710",
+    "abc_sha256": "78ecc90df7f18a6653796bfb5210a9ae326a900bff76ec92267b64ae65a49d65",
+    "abc_melody_sha256": "33d1218a69b0c80ee4a3dd14d4d921b3c43d5bc2145a69d1123b46985bfb8acc",
+    "duration_s": 198.217,
+    "declared_key": "Em",
+    "tempo_bpm": 94.0
+  },
+  "evidence": {
+    "evidence_sha256": "02f448337a925272be57586944f0b5423dcd7fe3d3eb0c4fdf5f0086a34e1cf9",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.008,
+      "cues": {
+        "most-used note": "F#",
+        "phrase endings": "B",
+        "tool key & chords*": "E (key) / E (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: E and A (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: A (1.00), B (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "A",
+        "interval_cents": 500,
+        "final_share": 0.375,
+        "dur_share": 0.125
+      },
+      "total_dur": 182.2,
+      "present_pcs": [
+        [
+          "F#",
+          0.226
+        ],
+        [
+          "G",
+          0.215
+        ],
+        [
+          "E",
+          0.166
+        ],
+        [
+          "D",
+          0.141
+        ],
+        [
+          "A",
+          0.125
+        ],
+        [
+          "B",
+          0.071
+        ],
+        [
+          "C",
+          0.055
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "B",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.06,
+        "cues": {
+          "most-used note": "G",
+          "phrase endings": "C",
+          "tool key & chords*": "E (key) / C (commonest chord root)"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "dorian",
+        "scale_western": "Dorian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (1.00), E (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 300,
+          "final_share": 0.5,
+          "dur_share": 0.043
+        },
+        "total_dur": 105.2,
+        "present_pcs": [
+          [
+            "G",
+            0.259
+          ],
+          [
+            "F#",
+            0.257
+          ],
+          [
+            "A",
+            0.192
+          ],
+          [
+            "E",
+            0.124
+          ],
+          [
+            "B",
+            0.071
+          ],
+          [
+            "D",
+            0.055
+          ],
+          [
+            "C",
+            0.043
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 1.0
+          },
+          {
+            "tonic": "E",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "B",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.018,
+        "cues": {
+          "most-used note": "D",
+          "phrase endings": "B",
+          "tool key & chords*": "E (key) / E (commonest chord root)",
+          "other voice": "C"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "tonic/dominant split: B and E (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: E (1.00), D (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F#",
+          "interval_cents": 700,
+          "final_share": 0.5,
+          "dur_share": 0.188
+        },
+        "total_dur": 76.0,
+        "present_pcs": [
+          [
+            "D",
+            0.263
+          ],
+          [
+            "E",
+            0.227
+          ],
+          [
+            "F#",
+            0.188
+          ],
+          [
+            "G",
+            0.158
+          ],
+          [
+            "C",
+            0.072
+          ],
+          [
+            "B",
+            0.059
+          ],
+          [
+            "A",
+            0.033
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 1.0
+          },
+          {
+            "tonic": "D",
+            "fit": 1.0
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Em",
+      "tempo": 94.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.062,
+        "cues": {
+          "most-used note": "F#",
+          "phrase endings": "B",
+          "tool key & chords*": "E",
+          "other voice": "A"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "dorian",
+        "scale_western": "Dorian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: B (1.00), E (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 300,
+          "final_share": 0.375,
+          "dur_share": 0.055
+        },
+        "total_dur": 182.2,
+        "present_pcs": [
+          [
+            "F#",
+            0.226
+          ],
+          [
+            "G",
+            0.215
+          ],
+          [
+            "E",
+            0.166
+          ],
+          [
+            "D",
+            0.141
+          ],
+          [
+            "A",
+            0.125
+          ],
+          [
+            "B",
+            0.071
+          ],
+          [
+            "C",
+            0.055
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "B",
+            "fit": 1.0
+          },
+          {
+            "tonic": "E",
+            "fit": 1.0
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-1998-baddy-doub-07-zaalan/report.md"
+  },
+  "label": {
+    "song_id": "elissa-1998-baddy-doub-07-zaalan",
+    "maqam": "Nahawand",
+    "maqam_status": "possible",
+    "tonic": "E",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "A",
+      "B"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Kurd"
+    ],
+    "ghammaz_candidate": "A",
+    "withheld_reason": null,
+    "rationale": "The whole piece fits a natural-minor set at 1.00 and the declared key is Em, but the tonic margin is 0.01: the most-used note and the phrase endings point elsewhere and the melody-only analysis reads A as a non-maqam Dorian shape. The verse is read as A and the chorus as B/Kurd, so the sections disagree about the tonic and a different tonic would change the name. The 6th degree is thin, which leaves Nahawand, Dorian and B-Kurd indistinguishable, so the name is only possible at low confidence.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-001"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:01:22Z",
+    "batch_id": "batch-001",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:01:22Z",
+    "updated_at": "2026-10-29T08:01:22Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}

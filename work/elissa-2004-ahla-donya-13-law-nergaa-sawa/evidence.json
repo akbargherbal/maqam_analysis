@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2004-ahla-donya-13-law-nergaa-sawa",
+  "track_id": "Elissa/Elissa - 2004 Ahla Donya/13.Law Nergaa Sawa.mp3",
+  "abc_sha256": "342a70e2949e30e3b3dae6e62a420b26193e41b894749d69e9f1334e9b6321cb",
+  "analyzed_at": "2026-10-29T07:53:22Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Em",
+    "tempo": 125.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "E",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.03,
+    "cues": {
+      "most-used note": "E",
+      "phrase endings": "B",
+      "tool key & chords*": "E (key) / E (commonest chord root)",
+      "other voice": "B"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 0.996,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "tonic/dominant split: E and B (a 4th/5th apart) score almost equally; the true tonic could be either",
+      "same notes also fit other tonics: B (1.00), C (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "B",
+      "interval_cents": 700,
+      "final_share": 0.316,
+      "dur_share": 0.09
+    },
+    "total_dur": 284.8,
+    "present_pcs": [
+      [
+        "E",
+        0.267
+      ],
+      [
+        "F#",
+        0.246
+      ],
+      [
+        "G",
+        0.187
+      ],
+      [
+        "B",
+        0.09
+      ],
+      [
+        "D",
+        0.073
+      ],
+      [
+        "C",
+        0.068
+      ],
+      [
+        "A",
+        0.067
+      ],
+      [
+        "Eb",
+        0.004
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "B",
+        "fit": 0.996
+      },
+      {
+        "tonic": "C",
+        "fit": 0.996
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.097,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "B",
+        "tool key & chords*": "E (key) / C (commonest chord root)",
+        "other voice": "B"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.99,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: B (0.99), C (0.99), D (0.99)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 700,
+        "final_share": 0.3,
+        "dur_share": 0.075
+      },
+      "total_dur": 99.5,
+      "present_pcs": [
+        [
+          "E",
+          0.259
+        ],
+        [
+          "G",
+          0.231
+        ],
+        [
+          "F#",
+          0.201
+        ],
+        [
+          "C",
+          0.085
+        ],
+        [
+          "A",
+          0.08
+        ],
+        [
+          "B",
+          0.075
+        ],
+        [
+          "D",
+          0.058
+        ],
+        [
+          "Eb",
+          0.01
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.99
+        },
+        {
+          "tonic": "C",
+          "fit": 0.99
+        },
+        {
+          "tonic": "D",
+          "fit": 0.99
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.101,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "B",
+        "tool key & chords*": "E (key) / E (commonest chord root)",
+        "other voice": "F#"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: E (1.00), G (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F#",
+        "interval_cents": 700,
+        "final_share": 0.5,
+        "dur_share": 0.257
+      },
+      "total_dur": 167.5,
+      "present_pcs": [
+        [
+          "E",
+          0.273
+        ],
+        [
+          "F#",
+          0.257
+        ],
+        [
+          "G",
+          0.169
+        ],
+        [
+          "B",
+          0.107
+        ],
+        [
+          "D",
+          0.075
+        ],
+        [
+          "A",
+          0.066
+        ],
+        [
+          "C",
+          0.054
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "G",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Em",
+    "tempo": 125.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.022,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "B",
+        "tool key & chords*": "E",
+        "other voice": "B"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.996,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: E and B (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: B (1.00), G (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 700,
+        "final_share": 0.316,
+        "dur_share": 0.09
+      },
+      "total_dur": 284.8,
+      "present_pcs": [
+        [
+          "E",
+          0.267
+        ],
+        [
+          "F#",
+          0.246
+        ],
+        [
+          "G",
+          0.187
+        ],
+        [
+          "B",
+          0.09
+        ],
+        [
+          "D",
+          0.073
+        ],
+        [
+          "C",
+          0.068
+        ],
+        [
+          "A",
+          0.067
+        ],
+        [
+          "Eb",
+          0.004
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.996
+        },
+        {
+          "tonic": "G",
+          "fit": 0.996
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2004-ahla-donya-13-law-nergaa-sawa/report.md",
+  "evidence_sha256": "9700c90ee424a215ed5e7e4c52bf5f00fe2ba345f9adba8dc826083f1801de69"
+}

@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2009-tesada-a-bemeen-12-aisha-welsalam",
+  "track_id": "Elissa/Elissa - 2009 Tesada'a Bemeen/12.Aisha Welsalam.mp3",
+  "abc_sha256": "dc67ab2644b730fd74d72ed01563b50fdf78eff24aece901b7f68f9541473196",
+  "analyzed_at": "2026-10-29T07:53:40Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Dm",
+    "tempo": 121.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.001,
+    "cues": {
+      "most-used note": "F",
+      "phrase endings": "E",
+      "tool key & chords*": "D (key) / A (commonest chord root)",
+      "other voice": "E"
+    },
+    "scale_shape": "(no standard maqam)",
+    "scale_id": "dorian",
+    "scale_western": "Dorian",
+    "fit": 0.999,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Rast",
+      "(no standard maqam)"
+    ],
+    "flags": [
+      "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+      "same notes also fit other tonics: D (1.00), F (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "E",
+      "interval_cents": 900,
+      "final_share": 0.15,
+      "dur_share": 0.146
+    },
+    "total_dur": 346.0,
+    "present_pcs": [
+      [
+        "F",
+        0.233
+      ],
+      [
+        "G",
+        0.161
+      ],
+      [
+        "E",
+        0.146
+      ],
+      [
+        "D",
+        0.138
+      ],
+      [
+        "C",
+        0.127
+      ],
+      [
+        "A",
+        0.109
+      ],
+      [
+        "Bb",
+        0.085
+      ],
+      [
+        "B",
+        0.001
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "D",
+        "fit": 0.999
+      },
+      {
+        "tonic": "F",
+        "fit": 0.999
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.028,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "G",
+        "tool key & chords*": "D (key) / G (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 0.997,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (1.00), D (1.00), A (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "A",
+        "interval_cents": 400,
+        "final_share": 0.273,
+        "dur_share": 0.107
+      },
+      "total_dur": 192.0,
+      "present_pcs": [
+        [
+          "F",
+          0.268
+        ],
+        [
+          "G",
+          0.146
+        ],
+        [
+          "C",
+          0.146
+        ],
+        [
+          "E",
+          0.13
+        ],
+        [
+          "A",
+          0.107
+        ],
+        [
+          "D",
+          0.107
+        ],
+        [
+          "Bb",
+          0.094
+        ],
+        [
+          "B",
+          0.003
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.997
+        },
+        {
+          "tonic": "D",
+          "fit": 0.997
+        },
+        {
+          "tonic": "A",
+          "fit": 0.997
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.075,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "E",
+        "tool key & chords*": "D (key) / A (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.857,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C (1.00), D (1.00), Bb (1.00)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.86); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 800,
+        "final_share": 0.333,
+        "dur_share": 0.104
+      },
+      "total_dur": 154.0,
+      "present_pcs": [
+        [
+          "F",
+          0.188
+        ],
+        [
+          "G",
+          0.18
+        ],
+        [
+          "D",
+          0.177
+        ],
+        [
+          "E",
+          0.166
+        ],
+        [
+          "A",
+          0.112
+        ],
+        [
+          "C",
+          0.104
+        ],
+        [
+          "Bb",
+          0.073
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Bb",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Dm",
+    "tempo": 121.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.022,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "E",
+        "tool key & chords*": "D",
+        "other voice": "E"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 0.999,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 700,
+        "final_share": 0.15,
+        "dur_share": 0.127
+      },
+      "total_dur": 346.0,
+      "present_pcs": [
+        [
+          "F",
+          0.233
+        ],
+        [
+          "G",
+          0.161
+        ],
+        [
+          "E",
+          0.146
+        ],
+        [
+          "D",
+          0.138
+        ],
+        [
+          "C",
+          0.127
+        ],
+        [
+          "A",
+          0.109
+        ],
+        [
+          "Bb",
+          0.085
+        ],
+        [
+          "B",
+          0.001
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.999
+        },
+        {
+          "tonic": "D",
+          "fit": 0.999
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2009-tesada-a-bemeen-12-aisha-welsalam/report.md",
+  "evidence_sha256": "f1c239d9dab4c2b26679099b9ca21216a72ec46790684ebdb598e2041704be46"
+}

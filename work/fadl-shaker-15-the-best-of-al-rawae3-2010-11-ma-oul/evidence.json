@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-15-the-best-of-al-rawae3-2010-11-ma-oul",
+  "track_id": "Fadl Shaker/15.The Best Of (Al Rawae3).2010/11.Ma'oul.mp3",
+  "abc_sha256": "72222b0f1cff44cf4786a124df005becd32b75395ad949de0d24f11771cf9a35",
+  "analyzed_at": "2026-10-29T07:54:23Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "G#m",
+    "tempo": 104.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "F#",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.177,
+    "cues": {
+      "most-used note": "Ab",
+      "phrase endings": "F#",
+      "tool key & chords*": "Ab (key) / Ab (commonest chord root)",
+      "other voice": "Ab"
+    },
+    "scale_shape": "(no standard maqam)",
+    "scale_id": "mixolydian",
+    "scale_western": "Mixolydian",
+    "fit": 0.987,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Rast",
+      "(no standard maqam)"
+    ],
+    "flags": [
+      "same notes also fit other tonics: Ab (0.99), Eb (0.99)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "Bb",
+      "interval_cents": 400,
+      "final_share": 0.25,
+      "dur_share": 0.265
+    },
+    "total_dur": 228.5,
+    "present_pcs": [
+      [
+        "Ab",
+        0.279
+      ],
+      [
+        "Bb",
+        0.265
+      ],
+      [
+        "F#",
+        0.159
+      ],
+      [
+        "B",
+        0.142
+      ],
+      [
+        "C#",
+        0.05
+      ],
+      [
+        "E",
+        0.047
+      ],
+      [
+        "Eb",
+        0.045
+      ],
+      [
+        "G",
+        0.013
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "Ab",
+        "fit": 0.987
+      },
+      {
+        "tonic": "Eb",
+        "fit": 0.987
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.011,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Bb",
+        "tool key & chords*": "Ab (key) / Ab (commonest chord root)",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.984,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: F# (0.98), Eb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F#",
+        "interval_cents": 1000,
+        "final_share": 0.333,
+        "dur_share": 0.142
+      },
+      "total_dur": 182.5,
+      "present_pcs": [
+        [
+          "Bb",
+          0.277
+        ],
+        [
+          "Ab",
+          0.275
+        ],
+        [
+          "B",
+          0.149
+        ],
+        [
+          "F#",
+          0.142
+        ],
+        [
+          "C#",
+          0.052
+        ],
+        [
+          "Eb",
+          0.051
+        ],
+        [
+          "E",
+          0.037
+        ],
+        [
+          "G",
+          0.016
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F#",
+          "fit": 0.984
+        },
+        {
+          "tonic": "Eb",
+          "fit": 0.984
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "F#",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.432,
+      "cues": {
+        "most-used note": "Ab",
+        "phrase endings": "F#",
+        "tool key & chords*": "Ab (key) / F# (commonest chord root)",
+        "other voice": "Ab"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "mixolydian",
+      "scale_western": "Mixolydian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (1.00), E (1.00), B (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 45.5,
+      "present_pcs": [
+        [
+          "Ab",
+          0.297
+        ],
+        [
+          "Bb",
+          0.22
+        ],
+        [
+          "F#",
+          0.214
+        ],
+        [
+          "B",
+          0.115
+        ],
+        [
+          "E",
+          0.088
+        ],
+        [
+          "C#",
+          0.044
+        ],
+        [
+          "Eb",
+          0.022
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        },
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "B",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "G#m",
+    "tempo": 104.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "F#",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.212,
+      "cues": {
+        "most-used note": "Ab",
+        "phrase endings": "F#",
+        "tool key & chords*": "Ab",
+        "other voice": "Ab"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "mixolydian",
+      "scale_western": "Mixolydian",
+      "fit": 0.987,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (0.99), Eb (0.99)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Bb",
+        "interval_cents": 400,
+        "final_share": 0.25,
+        "dur_share": 0.265
+      },
+      "total_dur": 228.5,
+      "present_pcs": [
+        [
+          "Ab",
+          0.279
+        ],
+        [
+          "Bb",
+          0.265
+        ],
+        [
+          "F#",
+          0.159
+        ],
+        [
+          "B",
+          0.142
+        ],
+        [
+          "C#",
+          0.05
+        ],
+        [
+          "E",
+          0.047
+        ],
+        [
+          "Eb",
+          0.045
+        ],
+        [
+          "G",
+          0.013
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 0.987
+        },
+        {
+          "tonic": "Eb",
+          "fit": 0.987
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-15-the-best-of-al-rawae3-2010-11-ma-oul/report.md",
+  "evidence_sha256": "eea3a93bc0bbbf5e732292cb04740627d2dc0870a0ec1205b4cb8cc0b4bc14a5"
+}

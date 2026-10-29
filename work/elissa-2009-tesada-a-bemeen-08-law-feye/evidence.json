@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2009-tesada-a-bemeen-08-law-feye",
+  "track_id": "Elissa/Elissa - 2009 Tesada'a Bemeen/08.Law Feye.mp3",
+  "abc_sha256": "6d551459ac661bcbab8b0e5698a1b25abeaf8f6f7b6d449827da701711bf4344",
+  "analyzed_at": "2026-10-29T07:53:38Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "C#m",
+    "tempo": 124.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "Ab",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.135,
+    "cues": {
+      "most-used note": "E",
+      "phrase endings": "Ab",
+      "tool key & chords*": "C# (key) / C# (commonest chord root)",
+      "other voice": "Ab"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 0.997,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: C# (1.00), E (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "E",
+      "interval_cents": 800,
+      "final_share": 0.2,
+      "dur_share": 0.236
+    },
+    "total_dur": 341.8,
+    "present_pcs": [
+      [
+        "E",
+        0.236
+      ],
+      [
+        "Ab",
+        0.209
+      ],
+      [
+        "F#",
+        0.182
+      ],
+      [
+        "C#",
+        0.132
+      ],
+      [
+        "Eb",
+        0.119
+      ],
+      [
+        "B",
+        0.061
+      ],
+      [
+        "A",
+        0.058
+      ],
+      [
+        "F",
+        0.003
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "C#",
+        "fit": 0.997
+      },
+      {
+        "tonic": "E",
+        "fit": 0.997
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.203,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "Ab",
+        "tool key & chords*": "C# (key) / F# (commonest chord root)",
+        "other voice": "F#"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.996,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: E (1.00), C# (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 800,
+        "final_share": 0.333,
+        "dur_share": 0.235
+      },
+      "total_dur": 232.5,
+      "present_pcs": [
+        [
+          "E",
+          0.235
+        ],
+        [
+          "F#",
+          0.182
+        ],
+        [
+          "Ab",
+          0.176
+        ],
+        [
+          "C#",
+          0.133
+        ],
+        [
+          "Eb",
+          0.133
+        ],
+        [
+          "B",
+          0.072
+        ],
+        [
+          "A",
+          0.063
+        ],
+        [
+          "F",
+          0.004
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 0.996
+        },
+        {
+          "tonic": "C#",
+          "fit": 0.996
+        }
+      ]
+    },
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.042,
+      "cues": {
+        "most-used note": "Ab",
+        "phrase endings": "Ab",
+        "tool key & chords*": "C# (key) / Ab (commonest chord root)"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: Ab and Eb (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C# (1.00), A (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Eb",
+        "interval_cents": 700,
+        "final_share": 0.5,
+        "dur_share": 0.092
+      },
+      "total_dur": 105.8,
+      "present_pcs": [
+        [
+          "Ab",
+          0.27
+        ],
+        [
+          "E",
+          0.246
+        ],
+        [
+          "F#",
+          0.184
+        ],
+        [
+          "C#",
+          0.123
+        ],
+        [
+          "Eb",
+          0.092
+        ],
+        [
+          "A",
+          0.047
+        ],
+        [
+          "B",
+          0.038
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 1.0
+        },
+        {
+          "tonic": "A",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "C#m",
+    "tempo": 124.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "Ab",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.164,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "Ab",
+        "tool key & chords*": "C#",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.997,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: C# (1.00), E (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 800,
+        "final_share": 0.2,
+        "dur_share": 0.236
+      },
+      "total_dur": 341.8,
+      "present_pcs": [
+        [
+          "E",
+          0.236
+        ],
+        [
+          "Ab",
+          0.209
+        ],
+        [
+          "F#",
+          0.182
+        ],
+        [
+          "C#",
+          0.132
+        ],
+        [
+          "Eb",
+          0.119
+        ],
+        [
+          "B",
+          0.061
+        ],
+        [
+          "A",
+          0.058
+        ],
+        [
+          "F",
+          0.003
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C#",
+          "fit": 0.997
+        },
+        {
+          "tonic": "E",
+          "fit": 0.997
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2009-tesada-a-bemeen-08-law-feye/report.md",
+  "evidence_sha256": "876c92fbce7450c797b56d0de608ab96d266ddf627bca2a99733541b7c9e329d"
+}

@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2004-ahla-donya-01-ergaa-lil-shou",
+  "track_id": "Elissa/Elissa - 2004 Ahla Donya/01.Ergaa Lil Shou'.mp3",
+  "abc_sha256": "147089c912235eae3e6c807bf9b1c822cb2fbdb3747c30fe126aec35c0b141e7",
+  "analyzed_at": "2026-10-29T07:53:14Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Fm",
+    "tempo": 132.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "F",
+    "tonic_confidence": "high",
+    "tonic_margin": 0.328,
+    "cues": {
+      "most-used note": "F",
+      "phrase endings": "F",
+      "tool key & chords*": "F (key) / F (commonest chord root)",
+      "other voice": "F"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: Ab (1.00), Bb (1.00), Eb (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "Ab",
+      "interval_cents": 300,
+      "final_share": 0.333,
+      "dur_share": 0.136
+    },
+    "total_dur": 406.2,
+    "present_pcs": [
+      [
+        "F",
+        0.191
+      ],
+      [
+        "F#",
+        0.171
+      ],
+      [
+        "Eb",
+        0.169
+      ],
+      [
+        "C#",
+        0.144
+      ],
+      [
+        "Ab",
+        0.136
+      ],
+      [
+        "Bb",
+        0.095
+      ],
+      [
+        "C",
+        0.095
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "Ab",
+        "fit": 1.0
+      },
+      {
+        "tonic": "Bb",
+        "fit": 1.0
+      },
+      {
+        "tonic": "Eb",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.24,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "Ab",
+        "tool key & chords*": "F (key) / F (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (1.00), C# (1.00), Eb (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Ab",
+        "interval_cents": 300,
+        "final_share": 0.5,
+        "dur_share": 0.182
+      },
+      "total_dur": 200.0,
+      "present_pcs": [
+        [
+          "F",
+          0.245
+        ],
+        [
+          "Ab",
+          0.182
+        ],
+        [
+          "F#",
+          0.175
+        ],
+        [
+          "C#",
+          0.155
+        ],
+        [
+          "Eb",
+          0.138
+        ],
+        [
+          "Bb",
+          0.072
+        ],
+        [
+          "C",
+          0.033
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C#",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Eb",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: bridge",
+      "section": "bridge",
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.073,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Bb",
+        "tool key & chords*": "F (key) / Eb (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: Bb and F (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F (1.00), Eb (1.00), Ab (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 27.5,
+      "present_pcs": [
+        [
+          "Bb",
+          0.173
+        ],
+        [
+          "C",
+          0.164
+        ],
+        [
+          "F#",
+          0.145
+        ],
+        [
+          "C#",
+          0.145
+        ],
+        [
+          "Ab",
+          0.136
+        ],
+        [
+          "Eb",
+          0.127
+        ],
+        [
+          "F",
+          0.109
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Eb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "Bb",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.034,
+      "cues": {
+        "most-used note": "Eb",
+        "phrase endings": "Ab",
+        "tool key & chords*": "F (key) / Eb (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: Bb and F (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F (1.00), Eb (1.00), F# (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 174.8,
+      "present_pcs": [
+        [
+          "Eb",
+          0.215
+        ],
+        [
+          "F#",
+          0.172
+        ],
+        [
+          "C",
+          0.157
+        ],
+        [
+          "C#",
+          0.134
+        ],
+        [
+          "F",
+          0.126
+        ],
+        [
+          "Bb",
+          0.11
+        ],
+        [
+          "Ab",
+          0.086
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Eb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F#",
+          "fit": 1.0
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Fm",
+    "tempo": 132.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.304,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "F",
+        "tool key & chords*": "F",
+        "other voice": "F"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (1.00), Bb (1.00), F# (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Ab",
+        "interval_cents": 300,
+        "final_share": 0.333,
+        "dur_share": 0.136
+      },
+      "total_dur": 406.2,
+      "present_pcs": [
+        [
+          "F",
+          0.191
+        ],
+        [
+          "F#",
+          0.171
+        ],
+        [
+          "Eb",
+          0.169
+        ],
+        [
+          "C#",
+          0.144
+        ],
+        [
+          "Ab",
+          0.136
+        ],
+        [
+          "Bb",
+          0.095
+        ],
+        [
+          "C",
+          0.095
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Bb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F#",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2004-ahla-donya-01-ergaa-lil-shou/report.md",
+  "evidence_sha256": "3eee8cbe096e00508c026def30199215aa1ffcac286736884e0240b969bd55af"
+}

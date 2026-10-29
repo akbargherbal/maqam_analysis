@@ -1,0 +1,1979 @@
+{
+  "file": "fadl-shaker-06-sidi-rohi-2003-05-ma-khalas.abc",
+  "source": "abc",
+  "declared_key": "Cm",
+  "tempo": 169.0,
+  "voices": {
+    "Vocal": "Vocal Melody",
+    "Ins": "Ins Melody"
+  },
+  "voice_analysed": "Vocal",
+  "phrase_gap_quarters": 1.69,
+  "bar_match_ratio": 1.0,
+  "key_changes": [],
+  "warnings": [],
+  "groups": [
+    {
+      "label": "Whole piece",
+      "microtonal_input": false,
+      "present_pcs": [
+        [
+          "Bb",
+          0.213
+        ],
+        [
+          "Ab",
+          0.199
+        ],
+        [
+          "C",
+          0.192
+        ],
+        [
+          "D",
+          0.185
+        ],
+        [
+          "G",
+          0.156
+        ],
+        [
+          "Eb",
+          0.043
+        ],
+        [
+          "F",
+          0.012
+        ]
+      ],
+      "tonics": [
+        {
+          "pc": 700,
+          "name": "G",
+          "score": 0.21951363936102924,
+          "melodic": 0.21951363936102924,
+          "tool": 0.0,
+          "fifth_support": 0.185,
+          "factor": 1.0,
+          "dur": 0.15648592999313657,
+          "final": 0.4117647058823529,
+          "initial": 0.23529411764705882,
+          "last": 0.3333333333333333,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.31023692707142064
+        },
+        {
+          "pc": 0,
+          "name": "C",
+          "score": 0.16503738992737338,
+          "melodic": 0.06503738992737337,
+          "tool": 0.1,
+          "fifth_support": 0.156,
+          "factor": 1.0,
+          "dur": 0.19217570350034316,
+          "final": 0.0,
+          "initial": 0.058823529411764705,
+          "last": 0.1111111111111111,
+          "chord": 0,
+          "declared": 1.0,
+          "share": 0.23324606549275734
+        },
+        {
+          "pc": 800,
+          "name": "Ab",
+          "score": 0.13726995038569306,
+          "melodic": 0.13726995038569306,
+          "tool": 0.0,
+          "fifth_support": 0.043,
+          "factor": 0.71,
+          "dur": 0.19903912148249828,
+          "final": 0.29411764705882354,
+          "initial": 0.0,
+          "last": 0.5555555555555556,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.1940025581593278
+        },
+        {
+          "pc": 1000,
+          "name": "Bb",
+          "score": 0.0818931465750628,
+          "melodic": 0.0818931465750628,
+          "tool": 0.0,
+          "fifth_support": 0.03,
+          "factor": 0.5,
+          "dur": 0.2127659574468085,
+          "final": 0.23529411764705882,
+          "initial": 0.4117647058823529,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.1157389500516265
+        },
+        {
+          "pc": 200,
+          "name": "D",
+          "score": 0.06380354475352254,
+          "melodic": 0.06380354475352254,
+          "tool": 0.0,
+          "fifth_support": 0.11,
+          "factor": 1.0,
+          "dur": 0.18462594371997254,
+          "final": 0.058823529411764705,
+          "initial": 0.0,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.09017305584388578
+        }
+      ],
+      "hypotheses": [
+        {
+          "tonic": "G",
+          "tonic_pc": 700,
+          "tonic_row": {
+            "pc": 700,
+            "name": "G",
+            "score": 0.21951363936102924,
+            "melodic": 0.21951363936102924,
+            "tool": 0.0,
+            "fifth_support": 0.185,
+            "factor": 1.0,
+            "dur": 0.15648592999313657,
+            "final": 0.4117647058823529,
+            "initial": 0.23529411764705882,
+            "last": 0.3333333333333333,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.31023692707142064
+          },
+          "fits": [
+            {
+              "id": "bayati",
+              "label": "Bayati",
+              "west": "",
+              "fit": 0.9799999999999999,
+              "covered": 0.9999999999999999,
+              "has_quarter_tone": true,
+              "missing_degrees": [],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "kurd",
+              "label": "Kurd",
+              "west": "Phrygian",
+              "fit": 0.9799999999999999,
+              "covered": 0.9999999999999999,
+              "has_quarter_tone": false,
+              "missing_degrees": [],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "saba",
+              "label": "Saba",
+              "west": "",
+              "fit": 0.7178242964996567,
+              "covered": 0.8078242964996568,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                400,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "C": 0.1922
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "nahawand",
+              "label": "Nahawand",
+              "west": "natural minor / Aeolian",
+              "fit": 0.7109608785175016,
+              "covered": 0.8009608785175016,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.199
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "C",
+          "tonic_pc": 0,
+          "tonic_row": {
+            "pc": 0,
+            "name": "C",
+            "score": 0.16503738992737338,
+            "melodic": 0.06503738992737337,
+            "tool": 0.1,
+            "fifth_support": 0.156,
+            "factor": 1.0,
+            "dur": 0.19217570350034316,
+            "final": 0.0,
+            "initial": 0.058823529411764705,
+            "last": 0.1111111111111111,
+            "chord": 0,
+            "declared": 1.0,
+            "share": 0.23324606549275734
+          },
+          "fits": [
+            {
+              "id": "bayati",
+              "label": "Bayati",
+              "west": "",
+              "fit": 0.9799999999999999,
+              "covered": 0.9999999999999999,
+              "has_quarter_tone": true,
+              "missing_degrees": [],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "nahawand",
+              "label": "Nahawand",
+              "west": "natural minor / Aeolian",
+              "fit": 0.9799999999999999,
+              "covered": 0.9999999999999999,
+              "has_quarter_tone": false,
+              "missing_degrees": [],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "saba",
+              "label": "Saba",
+              "west": "",
+              "fit": 0.9676458476321207,
+              "covered": 0.9876458476321207,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                400,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "F": 0.0124
+              },
+              "extra": 0,
+              "tied_with_best": false
+            },
+            {
+              "id": "kurd",
+              "label": "Kurd",
+              "west": "Phrygian",
+              "fit": 0.7253740562800274,
+              "covered": 0.8153740562800275,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "D": 0.1846
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "Ab",
+          "tonic_pc": 800,
+          "tonic_row": {
+            "pc": 800,
+            "name": "Ab",
+            "score": 0.13726995038569306,
+            "melodic": 0.13726995038569306,
+            "tool": 0.0,
+            "fifth_support": 0.043,
+            "factor": 0.71,
+            "dur": 0.19903912148249828,
+            "final": 0.29411764705882354,
+            "initial": 0.0,
+            "last": 0.5555555555555556,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.1940025581593278
+          },
+          "fits": [
+            {
+              "id": "lydian",
+              "label": "(no standard maqam)",
+              "west": "Lydian",
+              "fit": 0.9799999999999999,
+              "covered": 0.9999999999999999,
+              "has_quarter_tone": false,
+              "missing_degrees": [],
+              "degrees": [
+                0,
+                200,
+                400,
+                600,
+                700,
+                900,
+                1100
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "rast",
+              "label": "Rast",
+              "west": "",
+              "fit": 0.7253740562800274,
+              "covered": 0.8153740562800275,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1100
+              ],
+              "outside": {
+                "D": 0.1846
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "ajam",
+              "label": "Ajam",
+              "west": "major / Ionian",
+              "fit": 0.7253740562800274,
+              "covered": 0.8153740562800275,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                3
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1100
+              ],
+              "outside": {
+                "D": 0.1846
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "nawa_athar",
+              "label": "Nawa Athar",
+              "west": "",
+              "fit": 0.7054701441317776,
+              "covered": 0.7954701441317776,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                2,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                600,
+                700,
+                800,
+                1100
+              ],
+              "outside": {
+                "C": 0.1922,
+                "F": 0.0124
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "Bb",
+          "tonic_pc": 1000,
+          "tonic_row": {
+            "pc": 1000,
+            "name": "Bb",
+            "score": 0.0818931465750628,
+            "melodic": 0.0818931465750628,
+            "tool": 0.0,
+            "fifth_support": 0.03,
+            "factor": 0.5,
+            "dur": 0.2127659574468085,
+            "final": 0.23529411764705882,
+            "initial": 0.4117647058823529,
+            "last": 0.0,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.1157389500516265
+          },
+          "fits": [
+            {
+              "id": "rast",
+              "label": "Rast",
+              "west": "",
+              "fit": 0.9799999999999999,
+              "covered": 0.9999999999999999,
+              "has_quarter_tone": true,
+              "missing_degrees": [],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "mixolydian",
+              "label": "(no standard maqam)",
+              "west": "Mixolydian",
+              "fit": 0.9799999999999999,
+              "covered": 0.9999999999999999,
+              "has_quarter_tone": false,
+              "missing_degrees": [],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "dorian",
+              "label": "(no standard maqam)",
+              "west": "Dorian",
+              "fit": 0.7253740562800274,
+              "covered": 0.8153740562800275,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                2
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {
+                "D": 0.1846
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "hijaz_r",
+              "label": "Hijaz (Rast upper)",
+              "west": "",
+              "fit": 0.7178242964996567,
+              "covered": 0.8078242964996568,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1
+              ],
+              "degrees": [
+                0,
+                100,
+                400,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {
+                "C": 0.1922
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        }
+      ],
+      "tonic_margin": 0.077,
+      "best_fit": 0.98,
+      "relative_mode_ambiguity": true,
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        }
+      ],
+      "cues": {
+        "most-used note": {
+          "agrees": false,
+          "points_to": "Bb"
+        },
+        "phrase endings": {
+          "agrees": true,
+          "points_to": "G"
+        },
+        "tool key & chords*": {
+          "agrees": false,
+          "points_to": "C"
+        },
+        "other voice": {
+          "agrees": true,
+          "points_to": "G"
+        }
+      },
+      "tonic_confidence": "low",
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "flags": [
+        "tonic/dominant split: G and C (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C (0.98), Ab (0.98), Bb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Bb",
+        "interval_cents": 300,
+        "final_share": 0.235,
+        "dur_share": 0.213
+      },
+      "semitone_pairs": [
+        {
+          "pair": "D/Eb",
+          "share_a": 0.185,
+          "share_b": 0.043
+        },
+        {
+          "pair": "G/Ab",
+          "share_a": 0.156,
+          "share_b": 0.199
+        }
+      ],
+      "total_dur": 364.25,
+      "section": null
+    },
+    {
+      "label": "Section: verse",
+      "microtonal_input": false,
+      "present_pcs": [
+        [
+          "Bb",
+          0.239
+        ],
+        [
+          "Ab",
+          0.236
+        ],
+        [
+          "C",
+          0.158
+        ],
+        [
+          "G",
+          0.153
+        ],
+        [
+          "D",
+          0.116
+        ],
+        [
+          "Eb",
+          0.098
+        ]
+      ],
+      "tonics": [
+        {
+          "pc": 1000,
+          "name": "Bb",
+          "score": 0.21429940885125418,
+          "melodic": 0.21429940885125418,
+          "tool": 0.0,
+          "fifth_support": 0.069,
+          "factor": 1.0,
+          "dur": 0.2390158172231986,
+          "final": 0.3333333333333333,
+          "initial": 0.5454545454545454,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.2521169515897108
+        },
+        {
+          "pc": 700,
+          "name": "G",
+          "score": 0.20489162272993555,
+          "melodic": 0.20489162272993555,
+          "tool": 0.0,
+          "fifth_support": 0.116,
+          "factor": 1.0,
+          "dur": 0.15289982425307558,
+          "final": 0.3333333333333333,
+          "initial": 0.0,
+          "last": 0.6666666666666666,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.24104896791757124
+        },
+        {
+          "pc": 800,
+          "name": "Ab",
+          "score": 0.19220855301698886,
+          "melodic": 0.19220855301698886,
+          "tool": 0.0,
+          "fifth_support": 0.098,
+          "factor": 1.0,
+          "dur": 0.23550087873462214,
+          "final": 0.3333333333333333,
+          "initial": 0.0,
+          "last": 0.3333333333333333,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.22612770943175162
+        },
+        {
+          "pc": 0,
+          "name": "C",
+          "score": 0.14863396708739415,
+          "melodic": 0.048633967087394155,
+          "tool": 0.1,
+          "fifth_support": 0.153,
+          "factor": 1.0,
+          "dur": 0.15817223198594024,
+          "final": 0.0,
+          "initial": 0.09090909090909091,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 1.0,
+          "share": 0.17486349069105195
+        },
+        {
+          "pc": 300,
+          "name": "Eb",
+          "score": 0.060968205783671514,
+          "melodic": 0.060968205783671514,
+          "tool": 0.0,
+          "fifth_support": 0.239,
+          "factor": 1.0,
+          "dur": 0.0984182776801406,
+          "final": 0.0,
+          "initial": 0.36363636363636365,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.07172730092196648
+        }
+      ],
+      "hypotheses": [
+        {
+          "tonic": "Bb",
+          "tonic_pc": 1000,
+          "tonic_row": {
+            "pc": 1000,
+            "name": "Bb",
+            "score": 0.21429940885125418,
+            "melodic": 0.21429940885125418,
+            "tool": 0.0,
+            "fifth_support": 0.069,
+            "factor": 1.0,
+            "dur": 0.2390158172231986,
+            "final": 0.3333333333333333,
+            "initial": 0.5454545454545454,
+            "last": 0.0,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.2521169515897108
+          },
+          "fits": [
+            {
+              "id": "rast",
+              "label": "Rast",
+              "west": "",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                4
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "mixolydian",
+              "label": "(no standard maqam)",
+              "west": "Mixolydian",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                4
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "dorian",
+              "label": "(no standard maqam)",
+              "west": "Dorian",
+              "fit": 0.794007029876977,
+              "covered": 0.8840070298769771,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                2,
+                4
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {
+                "D": 0.116
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "hijaz_r",
+              "label": "Hijaz (Rast upper)",
+              "west": "",
+              "fit": 0.7518277680140597,
+              "covered": 0.8418277680140598,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1,
+                4
+              ],
+              "degrees": [
+                0,
+                100,
+                400,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {
+                "C": 0.1582
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "G",
+          "tonic_pc": 700,
+          "tonic_row": {
+            "pc": 700,
+            "name": "G",
+            "score": 0.20489162272993555,
+            "melodic": 0.20489162272993555,
+            "tool": 0.0,
+            "fifth_support": 0.116,
+            "factor": 1.0,
+            "dur": 0.15289982425307558,
+            "final": 0.3333333333333333,
+            "initial": 0.0,
+            "last": 0.6666666666666666,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.24104896791757124
+          },
+          "fits": [
+            {
+              "id": "bayati",
+              "label": "Bayati",
+              "west": "",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                6
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "kurd",
+              "label": "Kurd",
+              "west": "Phrygian",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                6
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "saba",
+              "label": "Saba",
+              "west": "",
+              "fit": 0.7518277680140597,
+              "covered": 0.8418277680140598,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3,
+                6
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                400,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "C": 0.1582
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "nahawand",
+              "label": "Nahawand",
+              "west": "natural minor / Aeolian",
+              "fit": 0.6744991212653778,
+              "covered": 0.7644991212653779,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1,
+                6
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.2355
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "Ab",
+          "tonic_pc": 800,
+          "tonic_row": {
+            "pc": 800,
+            "name": "Ab",
+            "score": 0.19220855301698886,
+            "melodic": 0.19220855301698886,
+            "tool": 0.0,
+            "fifth_support": 0.098,
+            "factor": 1.0,
+            "dur": 0.23550087873462214,
+            "final": 0.3333333333333333,
+            "initial": 0.0,
+            "last": 0.3333333333333333,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.22612770943175162
+          },
+          "fits": [
+            {
+              "id": "lydian",
+              "label": "(no standard maqam)",
+              "west": "Lydian",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                600,
+                700,
+                900,
+                1100
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "rast",
+              "label": "Rast",
+              "west": "",
+              "fit": 0.794007029876977,
+              "covered": 0.8840070298769771,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1100
+              ],
+              "outside": {
+                "D": 0.116
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "ajam",
+              "label": "Ajam",
+              "west": "major / Ionian",
+              "fit": 0.794007029876977,
+              "covered": 0.8840070298769771,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                3,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1100
+              ],
+              "outside": {
+                "D": 0.116
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "nawa_athar",
+              "label": "Nawa Athar",
+              "west": "",
+              "fit": 0.7518277680140597,
+              "covered": 0.8418277680140598,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                2,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                600,
+                700,
+                800,
+                1100
+              ],
+              "outside": {
+                "C": 0.1582
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "C",
+          "tonic_pc": 0,
+          "tonic_row": {
+            "pc": 0,
+            "name": "C",
+            "score": 0.14863396708739415,
+            "melodic": 0.048633967087394155,
+            "tool": 0.1,
+            "fifth_support": 0.153,
+            "factor": 1.0,
+            "dur": 0.15817223198594024,
+            "final": 0.0,
+            "initial": 0.09090909090909091,
+            "last": 0.0,
+            "chord": 0,
+            "declared": 1.0,
+            "share": 0.17486349069105195
+          },
+          "fits": [
+            {
+              "id": "bayati",
+              "label": "Bayati",
+              "west": "",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "nahawand",
+              "label": "Nahawand",
+              "west": "natural minor / Aeolian",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                3
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "saba",
+              "label": "Saba",
+              "west": "",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                400,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "kurd",
+              "label": "Kurd",
+              "west": "Phrygian",
+              "fit": 0.794007029876977,
+              "covered": 0.8840070298769771,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1,
+                3
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "D": 0.116
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        }
+      ],
+      "tonic_margin": 0.011,
+      "best_fit": 0.98,
+      "relative_mode_ambiguity": true,
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.98
+        },
+        {
+          "tonic": "C",
+          "fit": 0.98
+        }
+      ],
+      "cues": {
+        "most-used note": {
+          "agrees": true,
+          "points_to": "Bb"
+        },
+        "phrase endings": {
+          "agrees": false,
+          "points_to": "G"
+        },
+        "tool key & chords*": {
+          "agrees": false,
+          "points_to": "C"
+        },
+        "other voice": {
+          "agrees": true,
+          "points_to": "Bb"
+        }
+      },
+      "tonic_confidence": "low",
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "flags": [
+        "same notes also fit other tonics: G (0.98), Ab (0.98), C (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Ab",
+        "interval_cents": 1000,
+        "final_share": 0.333,
+        "dur_share": 0.236
+      },
+      "semitone_pairs": [
+        {
+          "pair": "D/Eb",
+          "share_a": 0.116,
+          "share_b": 0.098
+        },
+        {
+          "pair": "G/Ab",
+          "share_a": 0.153,
+          "share_b": 0.236
+        }
+      ],
+      "total_dur": 142.25,
+      "section": "verse"
+    },
+    {
+      "label": "Section: chorus",
+      "microtonal_input": false,
+      "present_pcs": [
+        [
+          "D",
+          0.227
+        ],
+        [
+          "C",
+          0.214
+        ],
+        [
+          "Bb",
+          0.198
+        ],
+        [
+          "Ab",
+          0.178
+        ],
+        [
+          "G",
+          0.161
+        ],
+        [
+          "F",
+          0.021
+        ],
+        [
+          "Eb",
+          0.002
+        ]
+      ],
+      "tonics": [
+        {
+          "pc": 700,
+          "name": "G",
+          "score": 0.30348139711465455,
+          "melodic": 0.30348139711465455,
+          "tool": 0.0,
+          "fifth_support": 0.227,
+          "factor": 1.0,
+          "dur": 0.16059225512528474,
+          "final": 0.5,
+          "initial": 0.8,
+          "last": 0.3333333333333333,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.4605908246852874
+        },
+        {
+          "pc": 0,
+          "name": "C",
+          "score": 0.15353075170842825,
+          "melodic": 0.05353075170842825,
+          "tool": 0.1,
+          "fifth_support": 0.161,
+          "factor": 1.0,
+          "dur": 0.214123006833713,
+          "final": 0.0,
+          "initial": 0.0,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 1.0,
+          "share": 0.2330121589535887
+        },
+        {
+          "pc": 200,
+          "name": "D",
+          "score": 0.0941628701594533,
+          "melodic": 0.0941628701594533,
+          "tool": 0.0,
+          "fifth_support": 0.112,
+          "factor": 1.0,
+          "dur": 0.2266514806378132,
+          "final": 0.125,
+          "initial": 0.0,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.1429100908122251
+        },
+        {
+          "pc": 800,
+          "name": "Ab",
+          "score": 0.06513003037205771,
+          "melodic": 0.06513003037205771,
+          "tool": 0.0,
+          "fifth_support": 0.002,
+          "factor": 0.35,
+          "dur": 0.1776765375854214,
+          "final": 0.25,
+          "initial": 0.0,
+          "last": 0.6666666666666666,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.09884722650565166
+        },
+        {
+          "pc": 1000,
+          "name": "Bb",
+          "score": 0.03746554669703872,
+          "melodic": 0.03746554669703872,
+          "tool": 0.0,
+          "fifth_support": 0.021,
+          "factor": 0.35,
+          "dur": 0.19817767653758542,
+          "final": 0.125,
+          "initial": 0.2,
+          "last": 0.0,
+          "chord": 0,
+          "declared": 0,
+          "share": 0.05686110323248191
+        }
+      ],
+      "hypotheses": [
+        {
+          "tonic": "G",
+          "tonic_pc": 700,
+          "tonic_row": {
+            "pc": 700,
+            "name": "G",
+            "score": 0.30348139711465455,
+            "melodic": 0.30348139711465455,
+            "tool": 0.0,
+            "fifth_support": 0.227,
+            "factor": 1.0,
+            "dur": 0.16059225512528474,
+            "final": 0.5,
+            "initial": 0.8,
+            "last": 0.3333333333333333,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.4605908246852874
+          },
+          "fits": [
+            {
+              "id": "bayati",
+              "label": "Bayati",
+              "west": "",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                5
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "kurd",
+              "label": "Kurd",
+              "west": "Phrygian",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                5
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "nahawand",
+              "label": "Nahawand",
+              "west": "natural minor / Aeolian",
+              "fit": 0.7323234624145785,
+              "covered": 0.8223234624145785,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.1777
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "rast",
+              "label": "Rast",
+              "west": "",
+              "fit": 0.7300455580865602,
+              "covered": 0.8200455580865603,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                1,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.1777,
+                "Eb": 0.0023
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "C",
+          "tonic_pc": 0,
+          "tonic_row": {
+            "pc": 0,
+            "name": "C",
+            "score": 0.15353075170842825,
+            "melodic": 0.05353075170842825,
+            "tool": 0.1,
+            "fifth_support": 0.161,
+            "factor": 1.0,
+            "dur": 0.214123006833713,
+            "final": 0.0,
+            "initial": 0.0,
+            "last": 0.0,
+            "chord": 0,
+            "declared": 1.0,
+            "share": 0.2330121589535887
+          },
+          "fits": [
+            {
+              "id": "bayati",
+              "label": "Bayati",
+              "west": "",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                2
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "nahawand",
+              "label": "Nahawand",
+              "west": "natural minor / Aeolian",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                2
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "saba",
+              "label": "Saba",
+              "west": "",
+              "fit": 0.8894988610478359,
+              "covered": 0.979498861047836,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                2,
+                3
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                400,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "F": 0.0205
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "rast",
+              "label": "Rast",
+              "west": "",
+              "fit": 0.7323234624145785,
+              "covered": 0.8223234624145785,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                2,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                900,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.1777
+              },
+              "extra": 1,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "D",
+          "tonic_pc": 200,
+          "tonic_row": {
+            "pc": 200,
+            "name": "D",
+            "score": 0.0941628701594533,
+            "melodic": 0.0941628701594533,
+            "tool": 0.0,
+            "fifth_support": 0.112,
+            "factor": 1.0,
+            "dur": 0.2266514806378132,
+            "final": 0.125,
+            "initial": 0.0,
+            "last": 0.0,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.1429100908122251
+          },
+          "fits": [
+            {
+              "id": "bayati",
+              "label": "Bayati",
+              "west": "",
+              "fit": 0.7323234624145785,
+              "covered": 0.8223234624145785,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                1,
+                4
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.1777
+              },
+              "extra": 1,
+              "tied_with_best": true
+            },
+            {
+              "id": "kurd",
+              "label": "Kurd",
+              "west": "Phrygian",
+              "fit": 0.7323234624145785,
+              "covered": 0.8223234624145785,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1,
+                4
+              ],
+              "degrees": [
+                0,
+                100,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.1777
+              },
+              "extra": 1,
+              "tied_with_best": true
+            },
+            {
+              "id": "nahawand",
+              "label": "Nahawand",
+              "west": "natural minor / Aeolian",
+              "fit": 0.7300455580865602,
+              "covered": 0.8200455580865603,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1,
+                4
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.1777,
+                "Eb": 0.0023
+              },
+              "extra": 1,
+              "tied_with_best": true
+            },
+            {
+              "id": "hijaz",
+              "label": "Hijaz",
+              "west": "",
+              "fit": 0.6418223234624146,
+              "covered": 0.8018223234624146,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                1,
+                2,
+                4
+              ],
+              "degrees": [
+                0,
+                100,
+                400,
+                500,
+                700,
+                800,
+                1000
+              ],
+              "outside": {
+                "Ab": 0.1777,
+                "F": 0.0205
+              },
+              "extra": 2,
+              "tied_with_best": false
+            }
+          ]
+        },
+        {
+          "tonic": "Ab",
+          "tonic_pc": 800,
+          "tonic_row": {
+            "pc": 800,
+            "name": "Ab",
+            "score": 0.06513003037205771,
+            "melodic": 0.06513003037205771,
+            "tool": 0.0,
+            "fifth_support": 0.002,
+            "factor": 0.35,
+            "dur": 0.1776765375854214,
+            "final": 0.25,
+            "initial": 0.0,
+            "last": 0.6666666666666666,
+            "chord": 0,
+            "declared": 0,
+            "share": 0.09884722650565166
+          },
+          "fits": [
+            {
+              "id": "lydian",
+              "label": "(no standard maqam)",
+              "west": "Lydian",
+              "fit": 0.98,
+              "covered": 1.0,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                4
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                600,
+                700,
+                900,
+                1100
+              ],
+              "outside": {},
+              "extra": 0,
+              "tied_with_best": true
+            },
+            {
+              "id": "rast",
+              "label": "Rast",
+              "west": "",
+              "fit": 0.6833485193621867,
+              "covered": 0.7733485193621867,
+              "has_quarter_tone": true,
+              "missing_degrees": [
+                3,
+                4
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1100
+              ],
+              "outside": {
+                "D": 0.2267
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "ajam",
+              "label": "Ajam",
+              "west": "major / Ionian",
+              "fit": 0.6833485193621867,
+              "covered": 0.7733485193621867,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                3,
+                4
+              ],
+              "degrees": [
+                0,
+                200,
+                400,
+                500,
+                700,
+                900,
+                1100
+              ],
+              "outside": {
+                "D": 0.2267
+              },
+              "extra": 1,
+              "tied_with_best": false
+            },
+            {
+              "id": "nawa_athar",
+              "label": "Nawa Athar",
+              "west": "",
+              "fit": 0.6053758542141231,
+              "covered": 0.765375854214123,
+              "has_quarter_tone": false,
+              "missing_degrees": [
+                2,
+                4,
+                5
+              ],
+              "degrees": [
+                0,
+                200,
+                300,
+                600,
+                700,
+                800,
+                1100
+              ],
+              "outside": {
+                "C": 0.2141,
+                "F": 0.0205
+              },
+              "extra": 2,
+              "tied_with_best": false
+            }
+          ]
+        }
+      ],
+      "tonic_margin": 0.228,
+      "best_fit": 0.98,
+      "relative_mode_ambiguity": true,
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.98
+        }
+      ],
+      "cues": {
+        "most-used note": {
+          "agrees": false,
+          "points_to": "D"
+        },
+        "phrase endings": {
+          "agrees": true,
+          "points_to": "G"
+        },
+        "tool key & chords*": {
+          "agrees": false,
+          "points_to": "C"
+        },
+        "other voice": {
+          "agrees": true,
+          "points_to": "G"
+        }
+      },
+      "tonic_confidence": "low",
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "flags": [
+        "same notes also fit other tonics: C (0.98), Ab (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 700,
+        "final_share": 0.125,
+        "dur_share": 0.227
+      },
+      "semitone_pairs": [
+        {
+          "pair": "G/Ab",
+          "share_a": 0.161,
+          "share_b": 0.178
+        }
+      ],
+      "total_dur": 219.5,
+      "section": "chorus"
+    }
+  ]
+}

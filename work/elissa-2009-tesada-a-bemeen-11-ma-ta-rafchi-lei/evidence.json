@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2009-tesada-a-bemeen-11-ma-ta-rafchi-lei",
+  "track_id": "Elissa/Elissa - 2009 Tesada'a Bemeen/11.Ma Ta'rafchi Lei.mp3",
+  "abc_sha256": "dedd5f71098a4c10d112fbc476c5da418a44cd26d8f91baaa0c7e09eb57cf13b",
+  "analyzed_at": "2026-10-29T07:53:40Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Am",
+    "tempo": 67.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "E",
+    "tonic_confidence": "high",
+    "tonic_margin": 0.129,
+    "cues": {
+      "most-used note": "E",
+      "phrase endings": "E",
+      "tool key & chords*": "A (key) / A (commonest chord root)",
+      "other voice": "E"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: A (1.00), D (1.00), G (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "G",
+      "interval_cents": 300,
+      "final_share": 0.304,
+      "dur_share": 0.167
+    },
+    "total_dur": 188.8,
+    "present_pcs": [
+      [
+        "E",
+        0.261
+      ],
+      [
+        "F",
+        0.24
+      ],
+      [
+        "G",
+        0.167
+      ],
+      [
+        "D",
+        0.114
+      ],
+      [
+        "A",
+        0.11
+      ],
+      [
+        "B",
+        0.073
+      ],
+      [
+        "C",
+        0.036
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 1.0
+      },
+      {
+        "tonic": "D",
+        "fit": 1.0
+      },
+      {
+        "tonic": "G",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.133,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "D",
+        "tool key & chords*": "A (key) / A (commonest chord root)"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "dorian",
+      "scale_western": "Dorian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (1.00), E (1.00), G (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "G",
+        "interval_cents": 500,
+        "final_share": 0.375,
+        "dur_share": 0.112
+      },
+      "total_dur": 100.5,
+      "present_pcs": [
+        [
+          "F",
+          0.276
+        ],
+        [
+          "E",
+          0.261
+        ],
+        [
+          "D",
+          0.147
+        ],
+        [
+          "G",
+          0.112
+        ],
+        [
+          "B",
+          0.1
+        ],
+        [
+          "C",
+          0.06
+        ],
+        [
+          "A",
+          0.045
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "G",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "medium",
+      "tonic_margin": 0.156,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "E",
+        "tool key & chords*": "A (key) / A (commonest chord root)"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.98), G (0.98), D (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "G",
+        "interval_cents": 300,
+        "final_share": 0.364,
+        "dur_share": 0.256
+      },
+      "total_dur": 59.5,
+      "present_pcs": [
+        [
+          "E",
+          0.273
+        ],
+        [
+          "G",
+          0.256
+        ],
+        [
+          "F",
+          0.185
+        ],
+        [
+          "A",
+          0.147
+        ],
+        [
+          "D",
+          0.084
+        ],
+        [
+          "B",
+          0.055
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.98
+        },
+        {
+          "tonic": "G",
+          "fit": 0.98
+        },
+        {
+          "tonic": "D",
+          "fit": 0.98
+        }
+      ]
+    },
+    {
+      "label": "Section: bridge",
+      "section": "bridge",
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.249,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "E",
+        "tool key & chords*": "A (key) / D (commonest chord root)"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.98), F (0.98), D (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 28.8,
+      "present_pcs": [
+        [
+          "A",
+          0.261
+        ],
+        [
+          "E",
+          0.235
+        ],
+        [
+          "F",
+          0.226
+        ],
+        [
+          "G",
+          0.174
+        ],
+        [
+          "D",
+          0.061
+        ],
+        [
+          "C",
+          0.026
+        ],
+        [
+          "B",
+          0.017
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.98
+        },
+        {
+          "tonic": "F",
+          "fit": 0.98
+        },
+        {
+          "tonic": "D",
+          "fit": 0.98
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Am",
+    "tempo": 67.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.185,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "E",
+        "tool key & chords*": "A",
+        "other voice": "E"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (1.00), G (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "G",
+        "interval_cents": 300,
+        "final_share": 0.304,
+        "dur_share": 0.167
+      },
+      "total_dur": 188.8,
+      "present_pcs": [
+        [
+          "E",
+          0.261
+        ],
+        [
+          "F",
+          0.24
+        ],
+        [
+          "G",
+          0.167
+        ],
+        [
+          "D",
+          0.114
+        ],
+        [
+          "A",
+          0.11
+        ],
+        [
+          "B",
+          0.073
+        ],
+        [
+          "C",
+          0.036
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "G",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2009-tesada-a-bemeen-11-ma-ta-rafchi-lei/report.md",
+  "evidence_sha256": "94cc4bd9b20fc58223a788f513d23b90d692808f626789d5b28739d8f64d1d8c"
+}

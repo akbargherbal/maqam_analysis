@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-02-bayya-a-el-qeloub-1999-05-ewa-a-tesada-ny",
+  "track_id": "Fadl Shaker/02.Bayya'a El Qeloub.1999/05.Ewa'a Tesada'ny.mp3",
+  "abc_sha256": "673c6104e23c48937bf175ceec976b4cef6847118a1c7c42b65e3f25fe27e7a7",
+  "analyzed_at": "2026-10-29T07:53:48Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "C#m",
+    "tempo": 90.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "C#",
+    "tonic_confidence": "high",
+    "tonic_margin": 0.156,
+    "cues": {
+      "most-used note": "C#",
+      "phrase endings": "C#",
+      "tool key & chords*": "C# (key) / C# (commonest chord root)",
+      "other voice": "Ab"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 0.955,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "same notes also fit other tonics: Ab (0.96), F# (0.96), A (0.96)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "E",
+      "interval_cents": 300,
+      "final_share": 0.278,
+      "dur_share": 0.11
+    },
+    "total_dur": 283.0,
+    "present_pcs": [
+      [
+        "C#",
+        0.204
+      ],
+      [
+        "A",
+        0.197
+      ],
+      [
+        "F#",
+        0.174
+      ],
+      [
+        "B",
+        0.161
+      ],
+      [
+        "Ab",
+        0.117
+      ],
+      [
+        "E",
+        0.11
+      ],
+      [
+        "Bb",
+        0.014
+      ],
+      [
+        "Eb",
+        0.012
+      ],
+      [
+        "C",
+        0.011
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "Ab",
+        "fit": 0.955
+      },
+      {
+        "tonic": "F#",
+        "fit": 0.955
+      },
+      {
+        "tonic": "A",
+        "fit": 0.955
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "C#",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.028,
+      "cues": {
+        "most-used note": "F#",
+        "phrase endings": "Ab",
+        "tool key & chords*": "C# (key) / C# (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.97,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: C# and F# (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: F# (0.97), A (0.97), Ab (0.97)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "A",
+        "interval_cents": 800,
+        "final_share": 0.286,
+        "dur_share": 0.177
+      },
+      "total_dur": 103.0,
+      "present_pcs": [
+        [
+          "F#",
+          0.204
+        ],
+        [
+          "B",
+          0.194
+        ],
+        [
+          "C#",
+          0.189
+        ],
+        [
+          "A",
+          0.177
+        ],
+        [
+          "Ab",
+          0.126
+        ],
+        [
+          "E",
+          0.095
+        ],
+        [
+          "Bb",
+          0.01
+        ],
+        [
+          "Eb",
+          0.005
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F#",
+          "fit": 0.97
+        },
+        {
+          "tonic": "A",
+          "fit": 0.97
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.97
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "C#",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.21,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "C#",
+        "tool key & chords*": "C# (key) / Ab (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.946,
+      "shape_confidence": "low",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (0.95), A (0.95), E (0.95)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 300,
+        "final_share": 0.3,
+        "dur_share": 0.118
+      },
+      "total_dur": 178.0,
+      "present_pcs": [
+        [
+          "C#",
+          0.212
+        ],
+        [
+          "A",
+          0.211
+        ],
+        [
+          "F#",
+          0.156
+        ],
+        [
+          "B",
+          0.143
+        ],
+        [
+          "E",
+          0.118
+        ],
+        [
+          "Ab",
+          0.11
+        ],
+        [
+          "Eb",
+          0.017
+        ],
+        [
+          "C",
+          0.017
+        ],
+        [
+          "Bb",
+          0.017
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 0.946
+        },
+        {
+          "tonic": "A",
+          "fit": 0.946
+        },
+        {
+          "tonic": "E",
+          "fit": 0.946
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "C#m",
+    "tempo": 90.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "C#",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.172,
+      "cues": {
+        "most-used note": "C#",
+        "phrase endings": "C#",
+        "tool key & chords*": "C#",
+        "other voice": "Ab"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.955,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Ab (0.96), E (0.96), F# (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 300,
+        "final_share": 0.278,
+        "dur_share": 0.11
+      },
+      "total_dur": 283.0,
+      "present_pcs": [
+        [
+          "C#",
+          0.204
+        ],
+        [
+          "A",
+          0.197
+        ],
+        [
+          "F#",
+          0.174
+        ],
+        [
+          "B",
+          0.161
+        ],
+        [
+          "Ab",
+          0.117
+        ],
+        [
+          "E",
+          0.11
+        ],
+        [
+          "Bb",
+          0.014
+        ],
+        [
+          "Eb",
+          0.012
+        ],
+        [
+          "C",
+          0.011
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Ab",
+          "fit": 0.955
+        },
+        {
+          "tonic": "E",
+          "fit": 0.955
+        },
+        {
+          "tonic": "F#",
+          "fit": 0.955
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-02-bayya-a-el-qeloub-1999-05-ewa-a-tesada-ny/report.md",
+  "evidence_sha256": "5efee8e1396f9f99a641cad7a2088dd7b6d4bf51cbaa5f80c1530859a5872f52"
+}

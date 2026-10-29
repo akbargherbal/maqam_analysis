@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-12-allah-alam-2006-04-ana-bahhebbak",
+  "track_id": "Fadl Shaker/12.Allah Alam.2006/04.Ana Bahhebbak.mp3",
+  "abc_sha256": "862845cf20ad40655f5791c495bbbf267a9a850a335bd9c94b45937bf7da60c6",
+  "analyzed_at": "2026-10-29T07:54:09Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Cm",
+    "tempo": 125.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "C",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.207,
+    "cues": {
+      "most-used note": "D",
+      "phrase endings": "C",
+      "tool key & chords*": "C (key) / C (commonest chord root)",
+      "other voice": "G"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand"
+    ],
+    "flags": [
+      "same notes also fit other tonics: G (1.00), Ab (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "Ab",
+      "interval_cents": 800,
+      "final_share": 0.2,
+      "dur_share": 0.118
+    },
+    "total_dur": 336.2,
+    "present_pcs": [
+      [
+        "D",
+        0.23
+      ],
+      [
+        "C",
+        0.193
+      ],
+      [
+        "Bb",
+        0.175
+      ],
+      [
+        "Eb",
+        0.132
+      ],
+      [
+        "Ab",
+        0.118
+      ],
+      [
+        "G",
+        0.083
+      ],
+      [
+        "F",
+        0.07
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "G",
+        "fit": 1.0
+      },
+      {
+        "tonic": "Ab",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: intro",
+      "section": "intro",
+      "microtonal_input": false,
+      "tonic": "C",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.034,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Ab",
+        "tool key & chords*": "C (key) / C (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: C and G (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: G (0.98), Ab (0.98), F (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Ab",
+        "interval_cents": 800,
+        "final_share": 0.5,
+        "dur_share": 0.206
+      },
+      "total_dur": 38.8,
+      "present_pcs": [
+        [
+          "Bb",
+          0.239
+        ],
+        [
+          "C",
+          0.226
+        ],
+        [
+          "G",
+          0.213
+        ],
+        [
+          "Ab",
+          0.206
+        ],
+        [
+          "D",
+          0.09
+        ],
+        [
+          "F",
+          0.026
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Ab",
+          "fit": 0.98
+        },
+        {
+          "tonic": "F",
+          "fit": 0.98
+        }
+      ]
+    },
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "C",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.167,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "C",
+        "tool key & chords*": "C (key) / F (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Eb (1.00), F (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 127.2,
+      "present_pcs": [
+        [
+          "D",
+          0.204
+        ],
+        [
+          "F",
+          0.165
+        ],
+        [
+          "Eb",
+          0.157
+        ],
+        [
+          "Ab",
+          0.149
+        ],
+        [
+          "C",
+          0.114
+        ],
+        [
+          "Bb",
+          0.106
+        ],
+        [
+          "G",
+          0.104
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 1.0
+        },
+        {
+          "tonic": "F",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.038,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "C",
+        "tool key & chords*": "C (key) / G (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: G and C (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: C (0.98), Bb (0.98), Eb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "C",
+        "interval_cents": 500,
+        "final_share": 0.5,
+        "dur_share": 0.244
+      },
+      "total_dur": 170.2,
+      "present_pcs": [
+        [
+          "D",
+          0.28
+        ],
+        [
+          "C",
+          0.244
+        ],
+        [
+          "Bb",
+          0.211
+        ],
+        [
+          "Eb",
+          0.144
+        ],
+        [
+          "Ab",
+          0.075
+        ],
+        [
+          "G",
+          0.037
+        ],
+        [
+          "F",
+          0.009
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Eb",
+          "fit": 0.98
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Cm",
+    "tempo": 125.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "C",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.23,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "C",
+        "tool key & chords*": "C",
+        "other voice": "G"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (1.00), Ab (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Ab",
+        "interval_cents": 800,
+        "final_share": 0.2,
+        "dur_share": 0.118
+      },
+      "total_dur": 336.2,
+      "present_pcs": [
+        [
+          "D",
+          0.23
+        ],
+        [
+          "C",
+          0.193
+        ],
+        [
+          "Bb",
+          0.175
+        ],
+        [
+          "Eb",
+          0.132
+        ],
+        [
+          "Ab",
+          0.118
+        ],
+        [
+          "G",
+          0.083
+        ],
+        [
+          "F",
+          0.07
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 1.0
+        },
+        {
+          "tonic": "Ab",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-12-allah-alam-2006-04-ana-bahhebbak/report.md",
+  "evidence_sha256": "6eaef2a05a6fcc8db6af5a9996d4d17e4f4436765273a0950bece86b9bd31f04"
+}

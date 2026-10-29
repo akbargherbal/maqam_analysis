@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-10-saharni-el-shoq-2005-11-el-hal",
+  "track_id": "Fadl Shaker/10.Saharni El Shoq.2005/11.El-Hal.mp3",
+  "abc_sha256": "ba59a8dc037fa546f60147cf150d8861140531a4161f90e8dc81e306cff53121",
+  "analyzed_at": "2026-10-29T07:54:05Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Gm",
+    "tempo": 90.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "D",
+    "tonic_confidence": "high",
+    "tonic_margin": 0.66,
+    "cues": {
+      "most-used note": "D",
+      "phrase endings": "D",
+      "tool key & chords*": "G (key) / G (commonest chord root)",
+      "other voice": "D"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 0.96,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: A (0.94), Bb (0.96), F (0.96)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": null,
+    "total_dur": 183.2,
+    "present_pcs": [
+      [
+        "D",
+        0.33
+      ],
+      [
+        "A",
+        0.22
+      ],
+      [
+        "C",
+        0.196
+      ],
+      [
+        "Bb",
+        0.187
+      ],
+      [
+        "F",
+        0.034
+      ],
+      [
+        "Eb",
+        0.018
+      ],
+      [
+        "G",
+        0.015
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 0.942
+      },
+      {
+        "tonic": "Bb",
+        "fit": 0.96
+      },
+      {
+        "tonic": "F",
+        "fit": 0.96
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.667,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "D",
+        "tool key & chords*": "G (key) / G (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.95), Bb (0.96), F (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 105.2,
+      "present_pcs": [
+        [
+          "D",
+          0.349
+        ],
+        [
+          "A",
+          0.214
+        ],
+        [
+          "Bb",
+          0.19
+        ],
+        [
+          "C",
+          0.188
+        ],
+        [
+          "F",
+          0.033
+        ],
+        [
+          "Eb",
+          0.014
+        ],
+        [
+          "G",
+          0.012
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.946
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.96
+        },
+        {
+          "tonic": "F",
+          "fit": 0.96
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.525,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "D",
+        "tool key & chords*": "G (key) / G (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Bb (0.98), F (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 75.8,
+      "present_pcs": [
+        [
+          "D",
+          0.294
+        ],
+        [
+          "A",
+          0.234
+        ],
+        [
+          "C",
+          0.205
+        ],
+        [
+          "Bb",
+          0.188
+        ],
+        [
+          "F",
+          0.036
+        ],
+        [
+          "Eb",
+          0.023
+        ],
+        [
+          "G",
+          0.02
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        },
+        {
+          "tonic": "F",
+          "fit": 0.98
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Gm",
+    "tempo": 90.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.69,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "D",
+        "tool key & chords*": "G",
+        "other voice": "D"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.94), Bb (0.96), C (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 183.2,
+      "present_pcs": [
+        [
+          "D",
+          0.33
+        ],
+        [
+          "A",
+          0.22
+        ],
+        [
+          "C",
+          0.196
+        ],
+        [
+          "Bb",
+          0.187
+        ],
+        [
+          "F",
+          0.034
+        ],
+        [
+          "Eb",
+          0.018
+        ],
+        [
+          "G",
+          0.015
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.942
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.96
+        },
+        {
+          "tonic": "C",
+          "fit": 0.96
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-10-saharni-el-shoq-2005-11-el-hal/report.md",
+  "evidence_sha256": "b927ff0cac675d016ac6c78f95ed7ec94116797bfe29dba4b4dfd94cef2f540c"
+}

@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2004-ahla-donya-07-ad-mabashtaklak",
+  "track_id": "Elissa/Elissa - 2004 Ahla Donya/07.Ad Mabashtaklak.mp3",
+  "abc_sha256": "1a25f695d76b9728573038368984498d9ea9f48309e5ca27e3cdfd4568ef0a57",
+  "analyzed_at": "2026-10-29T07:53:19Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "F",
+    "tempo": 125.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "F",
+    "tonic_confidence": "medium",
+    "tonic_margin": 0.078,
+    "cues": {
+      "most-used note": "F",
+      "phrase endings": "D",
+      "tool key & chords*": "F (key) / F (commonest chord root)",
+      "other voice": "F"
+    },
+    "scale_shape": "Ajam",
+    "scale_id": "ajam",
+    "scale_western": "major / Ionian",
+    "fit": 0.978,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Rast",
+      "Ajam"
+    ],
+    "flags": [
+      "same notes also fit other tonics: D (0.98), E (0.97), G (0.98)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "D",
+      "interval_cents": 900,
+      "final_share": 0.556,
+      "dur_share": 0.171
+    },
+    "total_dur": 238.8,
+    "present_pcs": [
+      [
+        "F",
+        0.246
+      ],
+      [
+        "E",
+        0.242
+      ],
+      [
+        "G",
+        0.178
+      ],
+      [
+        "D",
+        0.171
+      ],
+      [
+        "A",
+        0.077
+      ],
+      [
+        "C",
+        0.071
+      ],
+      [
+        "Bb",
+        0.013
+      ],
+      [
+        "F#",
+        0.002
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "D",
+        "fit": 0.978
+      },
+      {
+        "tonic": "E",
+        "fit": 0.965
+      },
+      {
+        "tonic": "G",
+        "fit": 0.978
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "D",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.008,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "F",
+        "tool key & chords*": "F (key) / F (commonest chord root)",
+        "other voice": "C"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: F (0.98), E (0.97), G (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "F",
+        "interval_cents": 300,
+        "final_share": 0.143,
+        "dur_share": 0.331
+      },
+      "total_dur": 121.0,
+      "present_pcs": [
+        [
+          "F",
+          0.331
+        ],
+        [
+          "E",
+          0.262
+        ],
+        [
+          "G",
+          0.176
+        ],
+        [
+          "D",
+          0.136
+        ],
+        [
+          "A",
+          0.054
+        ],
+        [
+          "C",
+          0.033
+        ],
+        [
+          "Bb",
+          0.008
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "F",
+          "fit": 0.98
+        },
+        {
+          "tonic": "E",
+          "fit": 0.972
+        },
+        {
+          "tonic": "G",
+          "fit": 0.98
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.148,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "D",
+        "tool key & chords*": "F (key) / C (commonest chord root)"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 0.976,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.98), C (0.98), G (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 900,
+        "final_share": 0.5,
+        "dur_share": 0.206
+      },
+      "total_dur": 117.8,
+      "present_pcs": [
+        [
+          "E",
+          0.221
+        ],
+        [
+          "D",
+          0.206
+        ],
+        [
+          "G",
+          0.18
+        ],
+        [
+          "F",
+          0.159
+        ],
+        [
+          "C",
+          0.11
+        ],
+        [
+          "A",
+          0.102
+        ],
+        [
+          "Bb",
+          0.017
+        ],
+        [
+          "F#",
+          0.004
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.976
+        },
+        {
+          "tonic": "C",
+          "fit": 0.976
+        },
+        {
+          "tonic": "G",
+          "fit": 0.976
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "F",
+    "tempo": 125.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "medium",
+      "tonic_margin": 0.036,
+      "cues": {
+        "most-used note": "F",
+        "phrase endings": "D",
+        "tool key & chords*": "F",
+        "other voice": "F"
+      },
+      "scale_shape": "Ajam",
+      "scale_id": "ajam",
+      "scale_western": "major / Ionian",
+      "fit": 0.978,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Ajam"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.98), E (0.97), G (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "D",
+        "interval_cents": 900,
+        "final_share": 0.556,
+        "dur_share": 0.171
+      },
+      "total_dur": 238.8,
+      "present_pcs": [
+        [
+          "F",
+          0.246
+        ],
+        [
+          "E",
+          0.242
+        ],
+        [
+          "G",
+          0.178
+        ],
+        [
+          "D",
+          0.171
+        ],
+        [
+          "A",
+          0.077
+        ],
+        [
+          "C",
+          0.071
+        ],
+        [
+          "Bb",
+          0.013
+        ],
+        [
+          "F#",
+          0.002
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.978
+        },
+        {
+          "tonic": "E",
+          "fit": 0.965
+        },
+        {
+          "tonic": "G",
+          "fit": 0.978
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2004-ahla-donya-07-ad-mabashtaklak/report.md",
+  "evidence_sha256": "d46d608e7ee3b866472a13dc49c0decfa830dce490e0a9c6bb56f207c321e288"
+}

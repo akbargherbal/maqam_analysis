@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-2002-aayshalak-10-shou-el-hal",
+  "track_id": "Elissa/Elissa - 2002 Aayshalak/10. Shou El hal.mp3",
+  "abc_sha256": "3a45e33a3a3b5b2b841bc7a3efdd965cc4c2c2ba30f0951c2c1fe035d957cd65",
+  "analyzed_at": "2026-10-29T07:53:13Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Am",
+    "tempo": 95.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "E",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.073,
+    "cues": {
+      "most-used note": "E",
+      "phrase endings": "E",
+      "tool key & chords*": "A (key) / A (commonest chord root)",
+      "other voice": "D"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "tonic/dominant split: E and A (a 4th/5th apart) score almost equally; the true tonic could be either",
+      "same notes also fit other tonics: A (1.00), D (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "B",
+      "interval_cents": 700,
+      "final_share": 0.4,
+      "dur_share": 0.145
+    },
+    "total_dur": 160.0,
+    "present_pcs": [
+      [
+        "E",
+        0.228
+      ],
+      [
+        "D",
+        0.195
+      ],
+      [
+        "C",
+        0.163
+      ],
+      [
+        "F",
+        0.152
+      ],
+      [
+        "B",
+        0.145
+      ],
+      [
+        "A",
+        0.08
+      ],
+      [
+        "G",
+        0.037
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 1.0
+      },
+      {
+        "tonic": "D",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.051,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "B",
+        "tool key & chords*": "A (key) / A (commonest chord root)"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: E and A (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: A (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 700,
+        "final_share": 0.25,
+        "dur_share": 0.203
+      },
+      "total_dur": 49.2,
+      "present_pcs": [
+        [
+          "E",
+          0.279
+        ],
+        [
+          "B",
+          0.203
+        ],
+        [
+          "F",
+          0.132
+        ],
+        [
+          "A",
+          0.117
+        ],
+        [
+          "C",
+          0.112
+        ],
+        [
+          "G",
+          0.091
+        ],
+        [
+          "D",
+          0.066
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.077,
+      "cues": {
+        "most-used note": "D",
+        "phrase endings": "B",
+        "tool key & chords*": "A (key) / A (commonest chord root)"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 0.751,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: B and E (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: E (0.98), A (0.98), D (0.98)  -> relative-mode ambiguity",
+        "no single scale explains this material (best fit 0.75); expect modulation, chromatic writing or quarter tones; do not name one maqam"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 500,
+        "final_share": 0.111,
+        "dur_share": 0.199
+      },
+      "total_dur": 106.8,
+      "present_pcs": [
+        [
+          "D",
+          0.253
+        ],
+        [
+          "E",
+          0.199
+        ],
+        [
+          "C",
+          0.19
+        ],
+        [
+          "F",
+          0.159
+        ],
+        [
+          "B",
+          0.124
+        ],
+        [
+          "A",
+          0.066
+        ],
+        [
+          "G",
+          0.009
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 0.98
+        },
+        {
+          "tonic": "A",
+          "fit": 0.98
+        },
+        {
+          "tonic": "D",
+          "fit": 0.98
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Am",
+    "tempo": 95.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.087,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "E",
+        "tool key & chords*": "A",
+        "other voice": "D"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "tonic/dominant split: E and B (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: A (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 700,
+        "final_share": 0.4,
+        "dur_share": 0.145
+      },
+      "total_dur": 160.0,
+      "present_pcs": [
+        [
+          "E",
+          0.228
+        ],
+        [
+          "D",
+          0.195
+        ],
+        [
+          "C",
+          0.163
+        ],
+        [
+          "F",
+          0.152
+        ],
+        [
+          "B",
+          0.145
+        ],
+        [
+          "A",
+          0.08
+        ],
+        [
+          "G",
+          0.037
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-2002-aayshalak-10-shou-el-hal/report.md",
+  "evidence_sha256": "ef7a8f1e15f9329d72957df281116dda7e3d379a2222daea4712fbe099201934"
+}

@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-06-sidi-rohi-2003-11-sidi-rohi",
+  "track_id": "Fadl Shaker/06.Sidi Rohi.2003/11.Sidi Rohi.mp3",
+  "abc_sha256": "e220182589b37d64349b9ddd986c7aab20060d5ae1d117d8a6194d9745e2dd92",
+  "analyzed_at": "2026-10-29T07:53:59Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Fm",
+    "tempo": 101.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "F",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.152,
+    "cues": {
+      "most-used note": "Bb",
+      "phrase endings": "Eb",
+      "tool key & chords*": "F (key) / F (commonest chord root)",
+      "other voice": "F"
+    },
+    "scale_shape": "Nahawand",
+    "scale_id": "nahawand",
+    "scale_western": "natural minor / Aeolian",
+    "fit": 0.98,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati",
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Nahawand",
+      "Rast",
+      "(no standard maqam)"
+    ],
+    "flags": [
+      "same notes also fit other tonics: Eb (0.98), C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "Eb",
+      "interval_cents": 1000,
+      "final_share": 0.462,
+      "dur_share": 0.026
+    },
+    "total_dur": 244.5,
+    "present_pcs": [
+      [
+        "Bb",
+        0.291
+      ],
+      [
+        "C",
+        0.24
+      ],
+      [
+        "Ab",
+        0.18
+      ],
+      [
+        "F",
+        0.133
+      ],
+      [
+        "G",
+        0.127
+      ],
+      [
+        "Eb",
+        0.026
+      ],
+      [
+        "C#",
+        0.003
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "Eb",
+        "fit": 0.98
+      },
+      {
+        "tonic": "C",
+        "fit": 0.98
+      },
+      {
+        "tonic": "Bb",
+        "fit": 0.98
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.616,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "F",
+        "tool key & chords*": "F (key) / Eb (commonest chord root)",
+        "other voice": "Bb"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast",
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Bayati",
+        "Nahawand",
+        "Nahawand (raised 7th)",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.96), Bb (0.96), C (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 58.5,
+      "present_pcs": [
+        [
+          "Bb",
+          0.286
+        ],
+        [
+          "C",
+          0.231
+        ],
+        [
+          "G",
+          0.175
+        ],
+        [
+          "F",
+          0.154
+        ],
+        [
+          "Ab",
+          0.154
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.96
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.96
+        },
+        {
+          "tonic": "C",
+          "fit": 0.96
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.015,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Eb",
+        "tool key & chords*": "F (key) / F (commonest chord root)",
+        "other voice": "F"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati",
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand",
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Eb (0.98), C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Eb",
+        "interval_cents": 1000,
+        "final_share": 0.545,
+        "dur_share": 0.034
+      },
+      "total_dur": 186.0,
+      "present_pcs": [
+        [
+          "Bb",
+          0.293
+        ],
+        [
+          "C",
+          0.243
+        ],
+        [
+          "Ab",
+          0.188
+        ],
+        [
+          "F",
+          0.126
+        ],
+        [
+          "G",
+          0.112
+        ],
+        [
+          "Eb",
+          0.034
+        ],
+        [
+          "C#",
+          0.004
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 0.98
+        },
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Fm",
+    "tempo": 101.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "F",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.16,
+      "cues": {
+        "most-used note": "Bb",
+        "phrase endings": "Eb",
+        "tool key & chords*": "F",
+        "other voice": "F"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.98,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati",
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand",
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: Eb (0.98), C (0.98), Bb (0.98)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Eb",
+        "interval_cents": 1000,
+        "final_share": 0.462,
+        "dur_share": 0.026
+      },
+      "total_dur": 244.5,
+      "present_pcs": [
+        [
+          "Bb",
+          0.291
+        ],
+        [
+          "C",
+          0.24
+        ],
+        [
+          "Ab",
+          0.18
+        ],
+        [
+          "F",
+          0.133
+        ],
+        [
+          "G",
+          0.127
+        ],
+        [
+          "Eb",
+          0.026
+        ],
+        [
+          "C#",
+          0.003
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "Eb",
+          "fit": 0.98
+        },
+        {
+          "tonic": "C",
+          "fit": 0.98
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.98
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-06-sidi-rohi-2003-11-sidi-rohi/report.md",
+  "evidence_sha256": "eaec7a6b40028edd7d4f531cff6ef54d81d44d0a110b57121f03857b775e79bd"
+}

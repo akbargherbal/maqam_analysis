@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "song_id": "elissa-1998-baddy-doub-06-sho-ma-sar",
+  "track_id": "Elissa/Elissa - 1998 Baddy Doub/06. Sho Ma Sar.mp3",
+  "abc_sha256": "e2eefd7f4fb9a3b2073566a4933f2a3aff75db3cc3a51ea906d45402d373340c",
+  "analyzed_at": "2026-10-29T07:53:00Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Bm",
+    "tempo": 124.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "B",
+    "tonic_confidence": "high",
+    "tonic_margin": 0.352,
+    "cues": {
+      "most-used note": "E",
+      "phrase endings": "B",
+      "tool key & chords*": "B (key) / B (commonest chord root)",
+      "other voice": "B"
+    },
+    "scale_shape": "Kurd",
+    "scale_id": "kurd",
+    "scale_western": "Phrygian",
+    "fit": 1.0,
+    "shape_confidence": "medium",
+    "name_allowed": true,
+    "shadow_of": [
+      "Bayati"
+    ],
+    "tied_shapes": [
+      "Bayati",
+      "Kurd"
+    ],
+    "flags": [
+      "same notes also fit other tonics: E (1.00), C (1.00)  -> relative-mode ambiguity"
+    ],
+    "ghammaz": {
+      "note": "E",
+      "interval_cents": 500,
+      "final_share": 0.083,
+      "dur_share": 0.301
+    },
+    "total_dur": 266.8,
+    "present_pcs": [
+      [
+        "E",
+        0.301
+      ],
+      [
+        "B",
+        0.191
+      ],
+      [
+        "D",
+        0.15
+      ],
+      [
+        "F#",
+        0.129
+      ],
+      [
+        "C",
+        0.124
+      ],
+      [
+        "G",
+        0.067
+      ],
+      [
+        "A",
+        0.037
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "E",
+        "fit": 1.0
+      },
+      {
+        "tonic": "C",
+        "fit": 1.0
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.664,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "B",
+        "tool key & chords*": "B (key) / B (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: E (1.00), C (1.00), D (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 174.0,
+      "present_pcs": [
+        [
+          "B",
+          0.256
+        ],
+        [
+          "E",
+          0.152
+        ],
+        [
+          "C",
+          0.149
+        ],
+        [
+          "D",
+          0.147
+        ],
+        [
+          "F#",
+          0.135
+        ],
+        [
+          "G",
+          0.103
+        ],
+        [
+          "A",
+          0.057
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        },
+        {
+          "tonic": "D",
+          "fit": 1.0
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.035,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "B",
+        "tool key & chords*": "B (key) / E (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati",
+        "Saba"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand",
+        "Saba"
+      ],
+      "flags": [
+        "tonic/dominant split: E and B (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: B (0.96), D (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "B",
+        "interval_cents": 700,
+        "final_share": 0.8,
+        "dur_share": 0.07
+      },
+      "total_dur": 92.8,
+      "present_pcs": [
+        [
+          "E",
+          0.58
+        ],
+        [
+          "D",
+          0.156
+        ],
+        [
+          "F#",
+          0.119
+        ],
+        [
+          "C",
+          0.075
+        ],
+        [
+          "B",
+          0.07
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.96
+        },
+        {
+          "tonic": "D",
+          "fit": 0.96
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Bm",
+    "tempo": 124.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "B",
+      "tonic_confidence": "high",
+      "tonic_margin": 0.403,
+      "cues": {
+        "most-used note": "E",
+        "phrase endings": "B",
+        "tool key & chords*": "B",
+        "other voice": "B"
+      },
+      "scale_shape": "Kurd",
+      "scale_id": "kurd",
+      "scale_western": "Phrygian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Kurd"
+      ],
+      "flags": [
+        "same notes also fit other tonics: E (1.00), C (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 500,
+        "final_share": 0.083,
+        "dur_share": 0.301
+      },
+      "total_dur": 266.8,
+      "present_pcs": [
+        [
+          "E",
+          0.301
+        ],
+        [
+          "B",
+          0.191
+        ],
+        [
+          "D",
+          0.15
+        ],
+        [
+          "F#",
+          0.129
+        ],
+        [
+          "C",
+          0.124
+        ],
+        [
+          "G",
+          0.067
+        ],
+        [
+          "A",
+          0.037
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "C",
+          "fit": 1.0
+        }
+      ]
+    }
+  },
+  "report_path": "work/elissa-1998-baddy-doub-06-sho-ma-sar/report.md",
+  "evidence_sha256": "c1db136001b110a90fc8f0b525b985d20d24689a1a4218009b0b95a239af0bb8"
+}

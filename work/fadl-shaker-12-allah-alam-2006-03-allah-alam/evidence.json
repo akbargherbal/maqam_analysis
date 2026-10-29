@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "song_id": "fadl-shaker-12-allah-alam-2006-03-allah-alam",
+  "track_id": "Fadl Shaker/12.Allah Alam.2006/03.Allah Alam.mp3",
+  "abc_sha256": "d40542647fdd7b85457fe97a0417d53f3be63b8daf543147415575c911d20f5e",
+  "analyzed_at": "2026-10-29T07:54:08Z",
+  "analyzer": {
+    "skill": "maqam-analysis",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "script": "skills/maqam-analysis/scripts/analyze_abc.py",
+    "voice_requested": "Vocal",
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0
+  },
+  "report": {
+    "declared_key": "Am",
+    "tempo": 84.0,
+    "voices": {
+      "Vocal": "Vocal Melody",
+      "Ins": "Ins Melody"
+    },
+    "warnings": [],
+    "key_changes": [],
+    "source": "abc"
+  },
+  "primary": {
+    "label": "Whole piece",
+    "section": null,
+    "microtonal_input": false,
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_margin": 0.128,
+    "cues": {
+      "most-used note": "A",
+      "phrase endings": "G",
+      "tool key & chords*": "A (key) / F (commonest chord root)",
+      "other voice": "F"
+    },
+    "scale_shape": "(no standard maqam)",
+    "scale_id": "mixolydian",
+    "scale_western": "Mixolydian",
+    "fit": 0.94,
+    "shape_confidence": "low",
+    "name_allowed": false,
+    "shadow_of": [
+      "Rast"
+    ],
+    "tied_shapes": [
+      "Rast",
+      "(no standard maqam)"
+    ],
+    "flags": [
+      "same notes also fit other tonics: A (0.94), B (0.93), C (0.94)  -> relative-mode ambiguity",
+      "only 4 pitch classes in use: too few to identify a scale; the shape is under-determined"
+    ],
+    "ghammaz": null,
+    "total_dur": 236.2,
+    "present_pcs": [
+      [
+        "A",
+        0.402
+      ],
+      [
+        "B",
+        0.343
+      ],
+      [
+        "G",
+        0.144
+      ],
+      [
+        "C",
+        0.075
+      ],
+      [
+        "D",
+        0.015
+      ],
+      [
+        "F",
+        0.014
+      ],
+      [
+        "E",
+        0.007
+      ]
+    ],
+    "alt_tonics": [
+      {
+        "tonic": "A",
+        "fit": 0.94
+      },
+      {
+        "tonic": "B",
+        "fit": 0.926
+      },
+      {
+        "tonic": "C",
+        "fit": 0.94
+      }
+    ]
+  },
+  "sections": [
+    {
+      "label": "Section: verse",
+      "section": "verse",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.158,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "G",
+        "tool key & chords*": "A (key) / F (commonest chord root)",
+        "other voice": "E"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.94,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: G (0.94), F (0.94)  -> relative-mode ambiguity",
+        "only 4 pitch classes in use: too few to identify a scale; the shape is under-determined"
+      ],
+      "ghammaz": {
+        "note": "G",
+        "interval_cents": 1000,
+        "final_share": 0.5,
+        "dur_share": 0.18
+      },
+      "total_dur": 117.8,
+      "present_pcs": [
+        [
+          "A",
+          0.497
+        ],
+        [
+          "B",
+          0.272
+        ],
+        [
+          "G",
+          0.18
+        ],
+        [
+          "F",
+          0.021
+        ],
+        [
+          "C",
+          0.019
+        ],
+        [
+          "D",
+          0.006
+        ],
+        [
+          "E",
+          0.004
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "G",
+          "fit": 0.94
+        },
+        {
+          "tonic": "F",
+          "fit": 0.94
+        }
+      ]
+    },
+    {
+      "label": "Section: chorus",
+      "section": "chorus",
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "medium",
+      "tonic_margin": 0.421,
+      "cues": {
+        "most-used note": "B",
+        "phrase endings": "A",
+        "tool key & chords*": "A (key) / E (commonest chord root)"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "same notes also fit other tonics: B (0.95), G (0.96), C (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": null,
+      "total_dur": 118.5,
+      "present_pcs": [
+        [
+          "B",
+          0.414
+        ],
+        [
+          "A",
+          0.308
+        ],
+        [
+          "C",
+          0.131
+        ],
+        [
+          "G",
+          0.108
+        ],
+        [
+          "D",
+          0.023
+        ],
+        [
+          "E",
+          0.011
+        ],
+        [
+          "F",
+          0.006
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "B",
+          "fit": 0.954
+        },
+        {
+          "tonic": "G",
+          "fit": 0.96
+        },
+        {
+          "tonic": "C",
+          "fit": 0.96
+        }
+      ]
+    }
+  ],
+  "melody_variant": {
+    "declared_key": "Am",
+    "tempo": 84.0,
+    "voice_analysed": "Vocal",
+    "bar_match_ratio": 1.0,
+    "warnings": [],
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.14,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "G",
+        "tool key & chords*": "A",
+        "other voice": "F"
+      },
+      "scale_shape": "(no standard maqam)",
+      "scale_id": "mixolydian",
+      "scale_western": "Mixolydian",
+      "fit": 0.94,
+      "shape_confidence": "low",
+      "name_allowed": false,
+      "shadow_of": [
+        "Rast"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: A (0.94), B (0.93), C (0.94)  -> relative-mode ambiguity",
+        "only 4 pitch classes in use: too few to identify a scale; the shape is under-determined"
+      ],
+      "ghammaz": null,
+      "total_dur": 236.2,
+      "present_pcs": [
+        [
+          "A",
+          0.402
+        ],
+        [
+          "B",
+          0.343
+        ],
+        [
+          "G",
+          0.144
+        ],
+        [
+          "C",
+          0.075
+        ],
+        [
+          "D",
+          0.015
+        ],
+        [
+          "F",
+          0.014
+        ],
+        [
+          "E",
+          0.007
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "A",
+          "fit": 0.94
+        },
+        {
+          "tonic": "B",
+          "fit": 0.926
+        },
+        {
+          "tonic": "C",
+          "fit": 0.94
+        }
+      ]
+    }
+  },
+  "report_path": "work/fadl-shaker-12-allah-alam-2006-03-allah-alam/report.md",
+  "evidence_sha256": "16fc483cc1b906728983ac8a444102f8a611b884d142b367636cdd697cbb69f0"
+}
