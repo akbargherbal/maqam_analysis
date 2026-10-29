@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "run_id": "maqam-167-v1",
+
+  "corpus": "data/corpus.json",
+  "manifest": "data/manifest.jsonl",
+  "transcripts_index": "data/transcripts_index.json",
+
+  "transcripts": {
+    "gcs_prefix": "gs://akbar-december-2024-backup/TRANSCRIPTS",
+    "artists": {
+      "Elissa": "ELISSA",
+      "Fadl Shaker": "FADL_SHAKER"
+    },
+    "cache_dir": "cache/transcripts",
+    "abc_dir": "data/abc",
+    "abc_melody_dir": "data/abc_melody",
+    "refresh": false
+  },
+
+  "audio": {
+    "root": "/content/DISCOGRAPHY",
+    "gcs_prefix": "gs://akbar-december-2024-backup/DISCOGRAPHY",
+    "required": false,
+    "note": "Audio is not used by this run. It is recorded for provenance and future f0 cross-checks."
+  },
+
+  "analysis": {
+    "skill_dir": "skills/maqam-analysis",
+    "voice": "Vocal",
+    "min_dur": 24,
+    "run_melody_variant": true,
+    "timeout_seconds": 120
+  },
+
+  "labeling": {
+    "batch_size": 8,
+    "human_review_below": ["low"],
+    "max_batch_label_age_hours": 24
+  },
+
+  "backup": {
+    "gcs_prefix": "gs://akbar-december-2024-backup/MAQAM_ANALYSIS/maqam-167-v1",
+    "auto_upload_labels": true,
+    "require_private_github": true,
+    "git": {
+      "enabled": true,
+      "remote": "origin",
+      "branch": "main",
+      "commit_every_batch": true,
+      "push": true
+    }
+  },
+
+  "export": {
+    "dir": "exports"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_instructions": "Set maqam_status to consistent|possible|withheld. Use null maqam + a withheld_reason when withholding. Keep rationale to 2-4 sentences. Do not edit song_id.",
+  "batch_id": "batch-001",
+  "labels": [
+    {
+      "song_id": "elissa-1998-baddy-doub-01-baddy-doub",
+      "maqam": "Nahawand",
+      "maqam_status": "consistent",
+      "tonic": "E",
+      "tonic_confidence": "low",
+      "tonic_alternatives": [
+        "F#",
+        "B"
+      ],
+      "scale_family": "natural minor / Aeolian",
+      "overall_confidence": "low",
+      "alternatives": [
+        "Bayati",
+        "Kurd"
+      ],
+      "ghammaz_candidate": "B",
+      "withheld_reason": null,
+      "rationale": "The vocal line uses the natural-minor set with phrases starting on E and resting on B; the tool key and chords agree on E. Consistent with Nahawand, but 12-TET cannot separate it from Bayati. Revised after a second read of the section evidence.",
+      "needs_human_review": true,
+      "override_reason": null
+    },
+    {
+      "song_id": "elissa-1998-baddy-doub-02-da-lolak",
+      "maqam": "Kurd",
+      "maqam_status": "consistent",
+      "tonic": "C",
+      "tonic_confidence": "low",
+      "tonic_alternatives": [
+        "F"
+      ],
+      "scale_family": "Phrygian",
+      "overall_confidence": "low",
+      "alternatives": [
+        "Bayati"
+      ],
+      "ghammaz_candidate": "G",
+      "withheld_reason": null,
+      "rationale": "The pitch-class set is Phrygian-shaped on C with phrase endings on C, while the tool key points at F. Consistent with Kurd, with a tonic/dominant ambiguity that the file cannot resolve. Revised after a second read of the section evidence.",
+      "needs_human_review": true,
+      "override_reason": null
+    }
+  ]
+}

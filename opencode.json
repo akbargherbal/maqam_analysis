@@ -1,0 +1,43 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "skills": [
+    "./skills"
+  ],
+  "instructions": [
+    "AGENTS.md"
+  ],
+  "model": "deepseek/deepseek-flash",
+  "permissions": [
+    {
+      "action": "external_directory",
+      "resource": "*",
+      "effect": "allow"
+    },
+    {
+      "action": "read",
+      "resource": "*.env",
+      "effect": "allow"
+    },
+    {
+      "action": "read",
+      "resource": "*.env.*",
+      "effect": "allow"
+    }
+  ],
+  "agents": {
+    "build": {
+      "model": {
+        "providerID": "deepseek",
+        "model": "deepseek-flash",
+        "variant": "high"
+      }
+    },
+    "plan": {
+      "model": {
+        "providerID": "deepseek",
+        "model": "deepseek-flash",
+        "variant": "high"
+      }
+    }
+  }
+}
