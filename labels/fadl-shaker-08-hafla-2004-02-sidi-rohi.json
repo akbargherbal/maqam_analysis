@@ -1,0 +1,403 @@
+{
+  "schema_version": "1.0",
+  "song_id": "fadl-shaker-08-hafla-2004-02-sidi-rohi",
+  "track_id": "Fadl Shaker/08.Hafla 2004/02.Sidi Rohi.mp3",
+  "artist": "Fadl Shaker",
+  "album": "08.Hafla 2004",
+  "file": "02.Sidi Rohi.mp3",
+  "lyric_title": "سيدي روحي",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/FADL_SHAKER/abc/08.Hafla 2004.json",
+    "transcript_track_id": "FADL_SHAKER/08.Hafla 2004/02-sidi-rohi",
+    "transcript_sha256": "a9929ca0c70dcbdad70b9800bba6ab38145e6e8b9f2ea3217ada181e19e6536b",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/FADL_SHAKER/08.Hafla 2004/02.Sidi Rohi.mp3",
+    "audio_sha256": "6135c179c6f466a455c22d492a11bc75b9a2e2f53fded22c649ac4b7ffedb874",
+    "abc_sha256": "6b824b0ecab4ec7f3e424114789805e6c4af7c9a2c09f3e2d3006c4ca8ff3d94",
+    "abc_melody_sha256": "8cbccce01c0c52a6925fc751e65d9964df0e8a7621a0aa0305e6397369fa4bcb",
+    "duration_s": 217.104,
+    "declared_key": "Gm",
+    "tempo_bpm": 104.0
+  },
+  "evidence": {
+    "evidence_sha256": "29e8d3f2fbf530c2107345011c75c55aafdc7d31c21d5fbbf9ebae85d608e1cc",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "G",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.161,
+      "cues": {
+        "most-used note": "C",
+        "phrase endings": "Bb",
+        "tool key & chords*": "G (key) / G (commonest chord root)",
+        "other voice": "G"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 0.96,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Rast",
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Rast",
+        "Bayati",
+        "Nahawand",
+        "(no standard maqam)"
+      ],
+      "flags": [
+        "same notes also fit other tonics: D (0.96), C (0.96), Bb (0.96)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "Bb",
+        "interval_cents": 300,
+        "final_share": 0.538,
+        "dur_share": 0.185
+      },
+      "total_dur": 173.2,
+      "present_pcs": [
+        [
+          "C",
+          0.316
+        ],
+        [
+          "D",
+          0.229
+        ],
+        [
+          "Bb",
+          0.185
+        ],
+        [
+          "G",
+          0.147
+        ],
+        [
+          "A",
+          0.104
+        ],
+        [
+          "F",
+          0.019
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "D",
+          "fit": 0.96
+        },
+        {
+          "tonic": "C",
+          "fit": 0.96
+        },
+        {
+          "tonic": "Bb",
+          "fit": 0.96
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.224,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "Bb",
+          "tool key & chords*": "G (key) / G (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast",
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Bayati",
+          "Nahawand",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "same notes also fit other tonics: C (0.96), D (0.96), A (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "F",
+          "interval_cents": 1000,
+          "final_share": 0.667,
+          "dur_share": 0.019
+        },
+        "total_dur": 117.5,
+        "present_pcs": [
+          [
+            "C",
+            0.306
+          ],
+          [
+            "D",
+            0.249
+          ],
+          [
+            "Bb",
+            0.168
+          ],
+          [
+            "G",
+            0.145
+          ],
+          [
+            "A",
+            0.113
+          ],
+          [
+            "F",
+            0.019
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "C",
+            "fit": 0.96
+          },
+          {
+            "tonic": "D",
+            "fit": 0.96
+          },
+          {
+            "tonic": "A",
+            "fit": 0.96
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "C",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.049,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "Bb",
+          "tool key & chords*": "G (key) / C (commonest chord root)",
+          "other voice": "G"
+        },
+        "scale_shape": "(no standard maqam)",
+        "scale_id": "dorian",
+        "scale_western": "Dorian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "(no standard maqam)",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "tonic/dominant split: C and G (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: G (0.96), D (0.96), Bb (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 1000,
+          "final_share": 0.714,
+          "dur_share": 0.22
+        },
+        "total_dur": 55.8,
+        "present_pcs": [
+          [
+            "C",
+            0.336
+          ],
+          [
+            "Bb",
+            0.22
+          ],
+          [
+            "D",
+            0.188
+          ],
+          [
+            "G",
+            0.152
+          ],
+          [
+            "A",
+            0.085
+          ],
+          [
+            "F",
+            0.018
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "G",
+            "fit": 0.96
+          },
+          {
+            "tonic": "D",
+            "fit": 0.96
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.96
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Gm",
+      "tempo": 104.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "G",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.05,
+        "cues": {
+          "most-used note": "C",
+          "phrase endings": "Bb",
+          "tool key & chords*": "G",
+          "other voice": "G"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 0.96,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Rast",
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Rast",
+          "Bayati",
+          "Nahawand",
+          "(no standard maqam)"
+        ],
+        "flags": [
+          "tonic/dominant split: G and D (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: D (0.96), C (0.96), Bb (0.96)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "Bb",
+          "interval_cents": 300,
+          "final_share": 0.538,
+          "dur_share": 0.185
+        },
+        "total_dur": 173.2,
+        "present_pcs": [
+          [
+            "C",
+            0.316
+          ],
+          [
+            "D",
+            0.229
+          ],
+          [
+            "Bb",
+            0.185
+          ],
+          [
+            "G",
+            0.147
+          ],
+          [
+            "A",
+            0.104
+          ],
+          [
+            "F",
+            0.019
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "D",
+            "fit": 0.96
+          },
+          {
+            "tonic": "C",
+            "fit": 0.96
+          },
+          {
+            "tonic": "Bb",
+            "fit": 0.96
+          }
+        ]
+      }
+    },
+    "report_path": "work/fadl-shaker-08-hafla-2004-02-sidi-rohi/report.md"
+  },
+  "label": {
+    "song_id": "fadl-shaker-08-hafla-2004-02-sidi-rohi",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "G",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "Bb",
+      "C",
+      "D"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Rast"
+    ],
+    "ghammaz_candidate": "Bb",
+    "withheld_reason": null,
+    "rationale": "The natural-minor set fits at 0.96 in the whole piece, the verse and the melody-only analysis, and the declared Gm key, the commonest chord root and the other voice read G with a margin of 0.161. The most-used note is C and the phrase endings rest on Bb (54%), the chorus is read on C with no standard maqam and flags a C/G split, so C, D and Bb are carried as alternative tonics. Both sections fit only moderately and they disagree on the centre, keeping the name consistent at low confidence; Bayati and Rast also tie on these notes in the analyzer's list.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-015"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:18:31Z",
+    "batch_id": "batch-015",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:18:31Z",
+    "updated_at": "2026-10-29T08:18:31Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
