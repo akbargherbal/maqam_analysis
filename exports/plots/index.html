@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maqam labels — interactive analysis</title>
+<style>
+  :root { --ink:#22313F; --muted:#667; --line:#E3E8EE; --bg:#F7F9FB; --accent:#2E86AB; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Inter, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+  header { padding:42px 7vw 20px; background:white; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 8px; font-size:30px; letter-spacing:-0.02em; }
+  .sub { color:var(--muted); max-width:900px; line-height:1.55; }
+  main { padding:26px 7vw 60px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin:18px 0 30px; }
+  .stat { background:white; border:1px solid var(--line); border-radius:14px; padding:18px 20px; }
+  .stat .n { font-size:30px; font-weight:700; color:var(--accent); }
+  .stat .l { color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.06em; }
+  .two { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; }
+  .panel { background:white; border:1px solid var(--line); border-radius:14px; padding:18px 22px; }
+  .panel h2 { font-size:16px; margin:0 0 10px; }
+  .panel ul { margin:0; padding-left:18px; line-height:1.8; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin-top:18px; }
+  .card { display:block; background:white; border:1px solid var(--line); border-radius:14px; padding:16px 18px; text-decoration:none; color:inherit; transition:.15s; }
+  .card:hover { border-color:var(--accent); transform:translateY(-1px); box-shadow:0 8px 24px rgba(34,49,63,.07); }
+  .card h3 { margin:0 0 6px; font-size:15px; }
+  .card p { margin:0; color:var(--muted); font-size:13px; line-height:1.5; }
+  .caveat { margin-top:26px; padding:16px 20px; border-left:4px solid #F18F01; background:#FFF8EC; border-radius:8px; color:#5a4a2a; line-height:1.55; }
+  footer { color:var(--muted); font-size:12px; margin-top:28px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Maqam labels — interactive analysis</h1>
+  <p class="sub">163 labeled songs from Elissa and Fadl Shaker, derived from SheetSage2 ABC transcriptions.
+  These are <b>weak labels</b> with no ground truth. Quarter-tone maqamat are marked <i>possible</i>, never stated as fact.
+  The plots describe label distribution and evidence, not accuracy.</p>
+</header>
+<main>
+  <div class="grid">
+    <div class="stat"><div class="n">163</div><div class="l">labeled songs</div></div>
+    <div class="stat"><div class="n">25</div><div class="l">withheld</div></div>
+    <div class="stat"><div class="n">134</div><div class="l">low overall confidence</div></div>
+    <div class="stat"><div class="n">29</div><div class="l">medium overall confidence</div></div>
+    <div class="stat"><div class="n">4</div><div class="l">distinct evidence flags</div></div>
+  </div>
+  <div class="two">
+    <div class="panel"><h2>Top labels</h2><ul><li>Kurd: <b>66</b></li><li>Nahawand: <b>61</b></li><li>Withheld: <b>25</b></li><li>Ajam: <b>4</b></li><li>Rast: <b>4</b></li><li>Hijaz: <b>2</b></li><li>Nahawand (raised 7th): <b>1</b></li></ul></div>
+    <div class="panel"><h2>Evidence flags</h2><ul><li>Relative-mode ambiguity: <b>162</b></li><li>Tonic / dominant split: <b>48</b></li><li>No single scale: <b>17</b></li><li>Too few pitch classes: <b>2</b></li></ul></div>
+  </div>
+  <h2 style="margin:34px 0 4px;font-size:20px">Views</h2>
+  <div class="cards"><a class="card" href="01_overview.html"><h3>Overview</h3><p>Label distribution, status, confidence, flags, fit</p></a><a class="card" href="02_artists.html"><h3>Artists</h3><p>Maqam share and fit by artist</p></a><a class="card" href="02_albums_sunburst.html"><h3>Albums sunburst</h3><p>Artist → album → maqam</p></a><a class="card" href="02_albums_heatmap.html"><h3>Albums heatmap</h3><p>Album × maqam counts</p></a><a class="card" href="03_fit_margin.html"><h3>Fit vs tonic margin</h3><p>The central evidence scatter</p></a><a class="card" href="03_margin_histogram.html"><h3>Tonic margin</h3><p>How often the cues agree</p></a><a class="card" href="03_section_drift.html"><h3>Section drift</h3><p>Songs whose sections disagree</p></a><a class="card" href="03_fit_by_maqam.html"><h3>Fit by maqam</h3><p>Named labels only</p></a><a class="card" href="04_tonic_maqam_heatmap.html"><h3>Tonic × maqam</h3><p>Where each maqam sits</p></a><a class="card" href="04_tonic_distribution.html"><h3>Tonic distribution</h3><p>By artist</p></a><a class="card" href="04_tonic_polar.html"><h3>Tonic polar</h3><p>Circular view</p></a><a class="card" href="05_confidence_flow.html"><h3>Confidence flow</h3><p>Label → status → confidences</p></a><a class="card" href="05_confidence_heatmap.html"><h3>Confidence heatmap</h3><p>Tonic vs overall</p></a><a class="card" href="05_status_confidence.html"><h3>Status × confidence</h3><p>Distribution</p></a><a class="card" href="06_duplicates.html"><h3>Duplicates</h3><p>Duplicate-title agreement</p></a></div>
+  <div class="caveat"><b>Reading this correctly:</b> a label is a hypothesis about a 12-TET transcription, not a claim about the recording.
+  Nahawand can be a rounded Bayati; Kurd can be a rounded Bayati; Ajam can be a rounded Rast. The 25 withheld labels are cases where the
+  analyzer declined a scale or the evidence was contradictory. The 4 corpus tracks with no ABC are not in these plots.</div>
+  <footer>Generated 2026-10-29T08:38:57Z · run maqam-167-v1 · pipeline exports/plots</footer>
+</main>
+</body>
+</html>

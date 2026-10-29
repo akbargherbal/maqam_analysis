@@ -1,3 +1,7 @@
 # The maqam-analysis skill is stdlib-only. No torch, librosa, demucs, or
 # SheetSage2 environment is needed: the ABC transcripts already exist.
 pytest>=8.0
+
+# Only needed for scripts/plot_labels.py and the analysis notebook.
+pandas>=2.0
+plotly>=5.20

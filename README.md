@@ -22,6 +22,24 @@ Labels are **weak labels**, not ground truth. The 12-TET ABC cannot prove
 quarter tones, so maqamat such as Bayati, Rast, Saba and Sikah are marked
 `possible`, never stated as fact. `withheld` is a valid label.
 
+## Current run
+
+The checked-in run is complete: **163 labels**, 25 withheld, 134 low and 29
+medium overall confidence. Four corpus tracks have no ABC upstream. See
+`exports/ANALYSIS.md` for the written findings.
+
+## Plotly analysis
+
+```bash
+python3 scripts/plot_labels.py
+# open exports/plots/index.html
+```
+
+The dashboard contains the label distribution, artist/album breakdowns,
+tonic × maqam heatmap, fit-vs-margin evidence scatter, section drift,
+confidence flow and duplicate-title consistency. `notebooks/02_label_analysis.ipynb`
+has the main charts inline. The plots are descriptive, not an accuracy report.
+
 ## Quick start (Google Colab)
 
 ```bash

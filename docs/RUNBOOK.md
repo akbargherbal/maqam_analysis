@@ -127,11 +127,17 @@ python3 scripts/qc.py compare
 `exports/qc_report.md` reports exact maqam agreement, tonic agreement and
 coarse named-vs-withheld agreement. This is **not accuracy**.
 
-## 6. Export
+## 6. Export and Plotly analysis
 
 ```bash
 bash scripts/ops.sh export
+python3 scripts/plot_labels.py
+# open exports/plots/index.html
 ```
+
+`plot_labels.py` writes the interactive dashboard plus individual HTML views
+under `exports/plots/` and a tidy `label_data.csv`. `notebooks/02_label_analysis.ipynb`
+shows the main charts inline.
 
 Outputs:
 
