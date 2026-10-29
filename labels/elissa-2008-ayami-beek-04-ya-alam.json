@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0",
+  "song_id": "elissa-2008-ayami-beek-04-ya-alam",
+  "track_id": "Elissa/Elissa - 2008 Ayami Beek/04. Ya Alam.mp3",
+  "artist": "Elissa",
+  "album": "Elissa - 2008 Ayami Beek",
+  "file": "04. Ya Alam.mp3",
+  "lyric_title": "يا عالم",
+  "source": {
+    "kind": "sheetsage2_abc",
+    "transcript_json": "gs://akbar-december-2024-backup/TRANSCRIPTS/ELISSA/abc/Elissa - 2008 Ayami Beek.json",
+    "transcript_track_id": "ELISSA/Elissa - 2008 Ayami Beek/04-ya-alam",
+    "transcript_sha256": "932e4c6f9553ec7043b5da5f2eb51de0ccc9d13d6872686303b32aefb48e5159",
+    "model": "m-a-p/SheetSage2",
+    "model_revision": "b83c3d79a6d98bcffaf8f9ed112c90aa887887bc",
+    "mode": "full",
+    "audio_uri": "gs://akbar-december-2024-backup/DISCOGRAPHY/ELISSA/Elissa - 2008 Ayami Beek/04. Ya Alam.mp3",
+    "audio_sha256": "7bc45829ca1815df49d880110746c14136a0ad9fd7a125339cac2c19a78df29e",
+    "abc_sha256": "5c9bb3b8ce07bba3d38101d84850ad863418cdb55e716d8028438ac169768b85",
+    "abc_melody_sha256": "b171ad57997474a662be46ab3cd38131b36e10b021c60d7cca4ecc180b5d5d36",
+    "duration_s": 313.36,
+    "declared_key": "Am",
+    "tempo_bpm": 107.0
+  },
+  "evidence": {
+    "evidence_sha256": "c06cd3e04b74b193a9c3e93f5d6d1125b3481aecb16721ab1907110d7602feb1",
+    "parse_check": 1.0,
+    "parser_warnings": [],
+    "voice": "Vocal",
+    "primary": {
+      "label": "Whole piece",
+      "section": null,
+      "microtonal_input": false,
+      "tonic": "A",
+      "tonic_confidence": "low",
+      "tonic_margin": 0.054,
+      "cues": {
+        "most-used note": "A",
+        "phrase endings": "E",
+        "tool key & chords*": "A (key) / A (commonest chord root)",
+        "other voice": "A"
+      },
+      "scale_shape": "Nahawand",
+      "scale_id": "nahawand",
+      "scale_western": "natural minor / Aeolian",
+      "fit": 1.0,
+      "shape_confidence": "medium",
+      "name_allowed": true,
+      "shadow_of": [
+        "Bayati"
+      ],
+      "tied_shapes": [
+        "Bayati",
+        "Nahawand"
+      ],
+      "flags": [
+        "tonic/dominant split: A and E (a 4th/5th apart) score almost equally; the true tonic could be either",
+        "same notes also fit other tonics: E (1.00), G (1.00)  -> relative-mode ambiguity"
+      ],
+      "ghammaz": {
+        "note": "E",
+        "interval_cents": 700,
+        "final_share": 0.4,
+        "dur_share": 0.175
+      },
+      "total_dur": 350.5,
+      "present_pcs": [
+        [
+          "A",
+          0.279
+        ],
+        [
+          "E",
+          0.175
+        ],
+        [
+          "G",
+          0.173
+        ],
+        [
+          "B",
+          0.168
+        ],
+        [
+          "F",
+          0.102
+        ],
+        [
+          "D",
+          0.057
+        ],
+        [
+          "C",
+          0.046
+        ]
+      ],
+      "alt_tonics": [
+        {
+          "tonic": "E",
+          "fit": 1.0
+        },
+        {
+          "tonic": "G",
+          "fit": 1.0
+        }
+      ]
+    },
+    "sections": [
+      {
+        "label": "Section: verse",
+        "section": "verse",
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.07,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "B",
+          "tool key & chords*": "A (key) / A (commonest chord root)",
+          "other voice": "E"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "same notes also fit other tonics: E (1.00), G (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 700,
+          "final_share": 0.375,
+          "dur_share": 0.156
+        },
+        "total_dur": 206.8,
+        "present_pcs": [
+          [
+            "A",
+            0.282
+          ],
+          [
+            "B",
+            0.227
+          ],
+          [
+            "E",
+            0.156
+          ],
+          [
+            "G",
+            0.108
+          ],
+          [
+            "F",
+            0.097
+          ],
+          [
+            "D",
+            0.07
+          ],
+          [
+            "C",
+            0.06
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 1.0
+          },
+          {
+            "tonic": "G",
+            "fit": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Section: chorus",
+        "section": "chorus",
+        "microtonal_input": false,
+        "tonic": "E",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.093,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "E",
+          "tool key & chords*": "A (key) / D (commonest chord root)",
+          "other voice": "A"
+        },
+        "scale_shape": "Kurd",
+        "scale_id": "kurd",
+        "scale_western": "Phrygian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Kurd"
+        ],
+        "flags": [
+          "tonic/dominant split: E and A (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: A (1.00), G (1.00), C (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "C",
+          "interval_cents": 800,
+          "final_share": 0.143,
+          "dur_share": 0.024
+        },
+        "total_dur": 143.2,
+        "present_pcs": [
+          [
+            "A",
+            0.272
+          ],
+          [
+            "G",
+            0.269
+          ],
+          [
+            "E",
+            0.202
+          ],
+          [
+            "F",
+            0.11
+          ],
+          [
+            "B",
+            0.084
+          ],
+          [
+            "D",
+            0.038
+          ],
+          [
+            "C",
+            0.024
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "A",
+            "fit": 1.0
+          },
+          {
+            "tonic": "G",
+            "fit": 1.0
+          },
+          {
+            "tonic": "C",
+            "fit": 1.0
+          }
+        ]
+      }
+    ],
+    "melody_variant": {
+      "declared_key": "Am",
+      "tempo": 107.0,
+      "voice_analysed": "Vocal",
+      "bar_match_ratio": 1.0,
+      "warnings": [],
+      "primary": {
+        "label": "Whole piece",
+        "section": null,
+        "microtonal_input": false,
+        "tonic": "A",
+        "tonic_confidence": "low",
+        "tonic_margin": 0.044,
+        "cues": {
+          "most-used note": "A",
+          "phrase endings": "E",
+          "tool key & chords*": "A",
+          "other voice": "A"
+        },
+        "scale_shape": "Nahawand",
+        "scale_id": "nahawand",
+        "scale_western": "natural minor / Aeolian",
+        "fit": 1.0,
+        "shape_confidence": "medium",
+        "name_allowed": true,
+        "shadow_of": [
+          "Bayati"
+        ],
+        "tied_shapes": [
+          "Bayati",
+          "Nahawand"
+        ],
+        "flags": [
+          "tonic/dominant split: A and E (a 4th/5th apart) score almost equally; the true tonic could be either",
+          "same notes also fit other tonics: E (1.00), G (1.00)  -> relative-mode ambiguity"
+        ],
+        "ghammaz": {
+          "note": "E",
+          "interval_cents": 700,
+          "final_share": 0.4,
+          "dur_share": 0.175
+        },
+        "total_dur": 350.5,
+        "present_pcs": [
+          [
+            "A",
+            0.279
+          ],
+          [
+            "E",
+            0.175
+          ],
+          [
+            "G",
+            0.173
+          ],
+          [
+            "B",
+            0.168
+          ],
+          [
+            "F",
+            0.102
+          ],
+          [
+            "D",
+            0.057
+          ],
+          [
+            "C",
+            0.046
+          ]
+        ],
+        "alt_tonics": [
+          {
+            "tonic": "E",
+            "fit": 1.0
+          },
+          {
+            "tonic": "G",
+            "fit": 1.0
+          }
+        ]
+      }
+    },
+    "report_path": "work/elissa-2008-ayami-beek-04-ya-alam/report.md"
+  },
+  "label": {
+    "song_id": "elissa-2008-ayami-beek-04-ya-alam",
+    "maqam": "Nahawand",
+    "maqam_status": "consistent",
+    "tonic": "A",
+    "tonic_confidence": "low",
+    "tonic_alternatives": [
+      "E",
+      "G"
+    ],
+    "scale_family": "natural minor / Aeolian",
+    "overall_confidence": "low",
+    "alternatives": [
+      "Bayati",
+      "Kurd"
+    ],
+    "ghammaz_candidate": "E",
+    "withheld_reason": null,
+    "rationale": "The natural-minor set fits at 1.00 in the whole piece, in the verse and in the melody-only analysis, and the most-used note, the declared Am key, the commonest chord root and the other voice all read A. The phrase endings rest on E, the chorus is read on E as a Kurd shape at 1.00, and the analyzer flags an A/E split with a margin of 0.054, so E and G are carried as alternative tonics. The shape itself is stable, but the centre is nearly tied and Bayati rounds to the same set, so the name is consistent at low confidence.",
+    "needs_human_review": true,
+    "override_reason": null,
+    "batch_id": "batch-008"
+  },
+  "review": {
+    "reviewed_by": "ai-agent",
+    "reviewed_at": "2026-10-29T08:12:24Z",
+    "batch_id": "batch-008",
+    "skill_version": "maqam-analysis@be4327428139",
+    "skill_sha256": "be4327428139939a7d601f9a2338bae3dc1d2be316d140f48b0e9b3459da723f",
+    "needs_human_review": true,
+    "qc_status": "not_reviewed"
+  },
+  "provenance": {
+    "run_id": "maqam-167-v1",
+    "pipeline_version": "1.0.0",
+    "created_at": "2026-10-29T08:12:24Z",
+    "updated_at": "2026-10-29T08:12:24Z",
+    "revision": 1,
+    "revision_reason": null,
+    "previous_revision": null
+  }
+}
